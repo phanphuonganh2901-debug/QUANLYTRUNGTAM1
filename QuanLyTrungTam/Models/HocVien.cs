@@ -18,5 +18,6 @@ namespace QuanLyTrungTam.Models
         public ICollection<BienLaiHocPhi>? BienLaiHocPhis { get; set; }
 
         public ICollection<KetQuaThi>? KetQuaThis { get; set; }
+        public ICollection<DanhGiaHocVien>? DanhGiaHocViens { get; set; }
     }
 }

@@ -16,6 +16,9 @@
     <Compile Update="FORM\FrmKhoaHoc.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FORM\FrmLichHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FORM\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -23,6 +26,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FORM\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FORM\FrmQuanLyTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

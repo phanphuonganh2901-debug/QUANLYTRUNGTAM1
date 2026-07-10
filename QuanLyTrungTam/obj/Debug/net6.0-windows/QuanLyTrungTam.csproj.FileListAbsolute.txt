@@ -56,3 +56,7 @@ D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windo
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.pdb
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.genruntimeconfig.cache
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\ref\QuanLyTrungTam.dll
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmLichHoc.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmLogin.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmQuanLyTaiKhoan.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.sourcelink.json

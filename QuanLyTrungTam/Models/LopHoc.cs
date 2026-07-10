@@ -24,6 +24,8 @@ namespace QuanLyTrungTam.Models
         public KhoaHoc? KhoaHoc { get; set; }
 
         public ICollection<BienLaiHocPhi>? BienLaiHocPhis { get; set; }
+        public ICollection<LichHoc>? LichHocs { get; set; }
+        
 
     }
 }

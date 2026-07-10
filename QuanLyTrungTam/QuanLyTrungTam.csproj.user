@@ -16,13 +16,22 @@
     <Compile Update="FORM\FrmKhoaHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FORM\FrmLogin.cs">
+    <Compile Update="FORM\FrmLoginChoose.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FORM\FrmLopHoc.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FORM\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FORM\LoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FORM\LoginStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FORM\LoginTeacher.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

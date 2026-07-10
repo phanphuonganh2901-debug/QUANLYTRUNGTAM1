@@ -28,164 +28,133 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pnlTop = new Panel();
-            pnlMenu = new Panel();
-            pnlMain = new Panel();
-            label1 = new Label();
-            btnGiaoVien = new Button();
-            btnHocVien = new Button();
-            btnKhoaHoc = new Button();
-            btnLopHoc = new Button();
-            btnHocPhi = new Button();
-            btnKetQuaThi = new Button();
-            btnThoat = new Button();
-            pnlTop.SuspendLayout();
-            pnlMenu.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
+            pictureBox1 = new PictureBox();
+            panel1 = new Panel();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // pnlTop
+            // pictureBox1
             // 
-            pnlTop.Controls.Add(label1);
-            pnlTop.Dock = DockStyle.Top;
-            pnlTop.Location = new Point(0, 0);
-            pnlTop.Name = "pnlTop";
-            pnlTop.Size = new Size(800, 70);
-            pnlTop.TabIndex = 0;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(1, -137);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1047, 370);
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // pnlMenu
+            // panel1
             // 
-            pnlMenu.Controls.Add(btnGiaoVien);
-            pnlMenu.Controls.Add(btnThoat);
-            pnlMenu.Controls.Add(btnHocVien);
-            pnlMenu.Controls.Add(btnKetQuaThi);
-            pnlMenu.Controls.Add(btnHocPhi);
-            pnlMenu.Controls.Add(btnLopHoc);
-            pnlMenu.Controls.Add(btnKhoaHoc);
-            pnlMenu.Dock = DockStyle.Left;
-            pnlMenu.Location = new Point(0, 70);
-            pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(200, 380);
-            pnlMenu.TabIndex = 1;
+            panel1.Controls.Add(button7);
+            panel1.Controls.Add(button6);
+            panel1.Controls.Add(button5);
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Location = new Point(1, 233);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(124, 361);
+            panel1.TabIndex = 2;
             // 
-            // pnlMain
+            // button1
             // 
-            pnlMain.Dock = DockStyle.Fill;
-            pnlMain.Location = new Point(200, 70);
-            pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(600, 380);
-            pnlMain.TabIndex = 2;
+            button1.Location = new Point(0, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(124, 47);
+            button1.TabIndex = 0;
+            button1.Text = "Trang chủ";
+            button1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // button2
             // 
-            label1.AutoSize = true;
-            label1.ForeColor = SystemColors.InfoText;
-            label1.Location = new Point(139, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(391, 20);
-            label1.TabIndex = 0;
-            label1.Text = "PHẦN MỀM QUẢN LÝ TRUNG TÂM ĐÀO TẠO TIẾNG ANH ";
-            label1.TextAlign = ContentAlignment.TopCenter;
-            label1.Click += label1_Click;
+            button2.Location = new Point(0, 44);
+            button2.Name = "button2";
+            button2.Size = new Size(124, 47);
+            button2.TabIndex = 1;
+            button2.Text = "Giáo viên";
+            button2.UseVisualStyleBackColor = true;
             // 
-            // btnGiaoVien
+            // button3
             // 
-            btnGiaoVien.FlatStyle = FlatStyle.Flat;
-            btnGiaoVien.Location = new Point(12, 21);
-            btnGiaoVien.Name = "btnGiaoVien";
-            btnGiaoVien.Size = new Size(180, 45);
-            btnGiaoVien.TabIndex = 0;
-            btnGiaoVien.Text = "Giáo Viên";
-            btnGiaoVien.UseVisualStyleBackColor = true;
+            button3.Location = new Point(0, 87);
+            button3.Name = "button3";
+            button3.Size = new Size(124, 47);
+            button3.TabIndex = 2;
+            button3.Text = "Học viên";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
-            // btnHocVien
+            // button4
             // 
-            btnHocVien.FlatStyle = FlatStyle.Flat;
-            btnHocVien.Location = new Point(12, 72);
-            btnHocVien.Name = "btnHocVien";
-            btnHocVien.Size = new Size(180, 45);
-            btnHocVien.TabIndex = 1;
-            btnHocVien.Text = "Học Viên";
-            btnHocVien.UseVisualStyleBackColor = true;
-            btnHocVien.Click += button2_Click;
+            button4.Location = new Point(0, 129);
+            button4.Name = "button4";
+            button4.Size = new Size(124, 47);
+            button4.TabIndex = 3;
+            button4.Text = "Lớp học";
+            button4.UseVisualStyleBackColor = true;
             // 
-            // btnKhoaHoc
+            // button5
             // 
-            btnKhoaHoc.FlatStyle = FlatStyle.Flat;
-            btnKhoaHoc.Location = new Point(12, 123);
-            btnKhoaHoc.Name = "btnKhoaHoc";
-            btnKhoaHoc.Size = new Size(180, 45);
-            btnKhoaHoc.TabIndex = 2;
-            btnKhoaHoc.Text = "Khóa Học";
-            btnKhoaHoc.UseVisualStyleBackColor = true;
+            button5.Location = new Point(0, 173);
+            button5.Name = "button5";
+            button5.Size = new Size(124, 47);
+            button5.TabIndex = 4;
+            button5.Text = "Học phí";
+            button5.UseVisualStyleBackColor = true;
             // 
-            // btnLopHoc
+            // button6
             // 
-            btnLopHoc.FlatStyle = FlatStyle.Flat;
-            btnLopHoc.Location = new Point(12, 174);
-            btnLopHoc.Name = "btnLopHoc";
-            btnLopHoc.Size = new Size(180, 45);
-            btnLopHoc.TabIndex = 3;
-            btnLopHoc.Text = "Lớp Học";
-            btnLopHoc.UseVisualStyleBackColor = true;
+            button6.Location = new Point(0, 216);
+            button6.Name = "button6";
+            button6.Size = new Size(124, 47);
+            button6.TabIndex = 5;
+            button6.Text = "Kết quả";
+            button6.UseVisualStyleBackColor = true;
             // 
-            // btnHocPhi
+            // button7
             // 
-            btnHocPhi.FlatStyle = FlatStyle.Flat;
-            btnHocPhi.Location = new Point(12, 225);
-            btnHocPhi.Name = "btnHocPhi";
-            btnHocPhi.Size = new Size(180, 45);
-            btnHocPhi.TabIndex = 4;
-            btnHocPhi.Text = "Học Phí";
-            btnHocPhi.UseVisualStyleBackColor = true;
-            // 
-            // btnKetQuaThi
-            // 
-            btnKetQuaThi.FlatStyle = FlatStyle.Flat;
-            btnKetQuaThi.Location = new Point(12, 276);
-            btnKetQuaThi.Name = "btnKetQuaThi";
-            btnKetQuaThi.Size = new Size(180, 45);
-            btnKetQuaThi.TabIndex = 5;
-            btnKetQuaThi.Text = "Kết Quả Thi";
-            btnKetQuaThi.UseVisualStyleBackColor = true;
-            // 
-            // btnThoat
-            // 
-            btnThoat.FlatStyle = FlatStyle.Flat;
-            btnThoat.Location = new Point(12, 327);
-            btnThoat.Name = "btnThoat";
-            btnThoat.Size = new Size(180, 45);
-            btnThoat.TabIndex = 6;
-            btnThoat.Text = "Thoát";
-            btnThoat.UseVisualStyleBackColor = true;
+            button7.Location = new Point(0, 260);
+            button7.Name = "button7";
+            button7.Size = new Size(124, 47);
+            button7.TabIndex = 6;
+            button7.Text = "Tài khoản";
+            button7.UseVisualStyleBackColor = true;
             // 
             // FrmMain
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(pnlMain);
-            Controls.Add(pnlMenu);
-            Controls.Add(pnlTop);
+            ClientSize = new Size(962, 592);
+            Controls.Add(panel1);
+            Controls.Add(pictureBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmMain";
             Text = "FrmMain";
-            pnlTop.ResumeLayout(false);
-            pnlTop.PerformLayout();
-            pnlMenu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel pnlTop;
-        private Label label1;
-        private Panel pnlMenu;
-        private Panel pnlMain;
-        private Button btnKetQuaThi;
-        private Button btnHocPhi;
-        private Button btnLopHoc;
-        private Button btnKhoaHoc;
-        private Button btnHocVien;
-        private Button btnGiaoVien;
-        private Button btnThoat;
+        private PictureBox pictureBox1;
+        private Panel panel1;
+        private Button button3;
+        private Button button2;
+        private Button button1;
+        private Button button6;
+        private Button button5;
+        private Button button4;
+        private Button button7;
     }
 }

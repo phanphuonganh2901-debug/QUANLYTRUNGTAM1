@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\frmloginchoose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmloginchoose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\form\\loginteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\loginteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\frmloginchoose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmloginchoose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\form\\frmloginchoose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\loginstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -53,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\quanlytrungtam\\quanlytrungtam1\\quanlytrungtam\\form\\loginadmin.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginadmin.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6309D49-2BCF-4F5C-B30E-F2713D498866}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -149,19 +153,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginTeacher.cs",
-              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs*",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMain.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAADgv0cAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T10:15:05.041Z",
+              "WhenOpened": "2026-07-11T02:39:52.287Z",
               "EditorCaption": ""
             },
             {
@@ -170,40 +178,53 @@
               "Title": "FrmLoginChoose.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs [Design]*",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs [Design]*",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs [Design]",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-10T04:57:53.7Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginTeacher.cs [Design]",
-              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs [Design]",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginTeacher.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs [Design]*",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMain.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T09:21:34.01Z",
+              "WhenOpened": "2026-07-10T08:04:13.448Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmLoginChoose.cs",
-              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs*",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LoginTeacher.cs",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T07:56:49.549Z",
+              "WhenOpened": "2026-07-10T10:15:05.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Program.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\Program.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Program.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T08:50:39.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginAdmin.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginAdmin.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginAdmin.cs",
@@ -216,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "LoginAdmin.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginAdmin.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginAdmin.cs",
@@ -229,6 +250,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "FrmLoginChoose.cs",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T07:56:49.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginTeacher.cs [Design]",
+              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginTeacher.cs",
+              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginTeacher.cs [Design]",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginTeacher.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-10T09:21:34.01Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FrmLoginChoose.Designer.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLoginChoose.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLoginChoose.Designer.cs",
@@ -241,54 +287,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LoginAdmin.Designer.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAASwIMAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-10T09:04:17.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Program.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\Program.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Program.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T08:50:39.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LoginStudent.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginStudent.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginStudent.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginStudent.cs [Design]",
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\LoginStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T09:25:34.509Z"
+              "WhenOpened": "2026-07-10T09:25:34.509Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "FrmLopHoc.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLopHoc.cs [Design]",
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLopHoc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T09:16:48.103Z"
+              "WhenOpened": "2026-07-10T09:16:48.103Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "FrmLopHoc.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
@@ -299,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "LoginAdmin.resx",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\LoginAdmin.resx",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginAdmin.resx",
@@ -311,18 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmMain.cs [Design]",
-              "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
-              "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs [Design]",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T08:04:13.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmMain.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
@@ -333,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "KhoaHocBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\KhoaHocBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\KhoaHocBUS.cs",
@@ -341,11 +366,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\KhoaHocBUS.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:02:22.015Z"
+              "WhenOpened": "2026-07-09T09:02:22.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LopHocBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\LopHocBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
@@ -353,23 +379,25 @@
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:02:09.303Z"
+              "WhenOpened": "2026-07-09T09:02:09.303Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "KetQuaThiBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:02:48.553Z"
+              "WhenOpened": "2026-07-09T09:02:48.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HocVienBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\HocVienBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\HocVienBUS.cs",
@@ -377,23 +405,25 @@
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\HocVienBUS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:01:50.928Z"
+              "WhenOpened": "2026-07-09T09:01:50.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GiaoVienBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\GiaoVienBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\GiaoVienBUS.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\GiaoVienBUS.cs",
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\GiaoVienBUS.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAzwAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:02:35.315Z"
+              "WhenOpened": "2026-07-09T09:02:35.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BienLaiHocPhiBUS.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
@@ -401,11 +431,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T09:03:04.012Z"
+              "WhenOpened": "2026-07-09T09:03:04.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "DBContext.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\DAL\\DBContext.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\DAL\\DBContext.cs",
@@ -413,11 +444,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\DAL\\DBContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAwAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T08:33:13.761Z"
+              "WhenOpened": "2026-07-09T08:33:13.761Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "HocVien.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\HocVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\HocVien.cs",
@@ -425,21 +457,21 @@
               "RelativeToolTip": "QuanLyTrungTam\\Models\\HocVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:28:10.345Z"
+              "WhenOpened": "2026-07-09T07:28:10.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Microsoft.NET.EolTargetFrameworks.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2026-07-09T09:18:54.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "FrmBienLaiHocPhi.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
@@ -450,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "LopHoc.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\LopHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\LopHoc.cs",
@@ -458,11 +490,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\Models\\LopHoc.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAswBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:28:23.129Z"
+              "WhenOpened": "2026-07-09T07:28:23.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "FrmKetQuaThi.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmKetQuaThi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmKetQuaThi.cs",
@@ -473,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FrmKhoaHoc.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmKhoaHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmKhoaHoc.cs",
@@ -484,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "FrmGiaoVien.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
@@ -495,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "FrmHocVien.cs [Design]",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\FORM\\FrmHocVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmHocVien.cs",
@@ -506,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "KetQuaThi.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\KetQuaThi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\KetQuaThi.cs",
@@ -514,23 +547,25 @@
               "RelativeToolTip": "QuanLyTrungTam\\Models\\KetQuaThi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:29:20.006Z"
+              "WhenOpened": "2026-07-09T07:29:20.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "BienLaiHocPhi.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\BienLaiHocPhi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\BienLaiHocPhi.cs",
               "ToolTip": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\BienLaiHocPhi.cs",
               "RelativeToolTip": "QuanLyTrungTam\\Models\\BienLaiHocPhi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:28:36.577Z"
+              "WhenOpened": "2026-07-09T07:28:36.577Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "KhoaHoc.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\KhoaHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\KhoaHoc.cs",
@@ -538,11 +573,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\Models\\KhoaHoc.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:28:51.221Z"
+              "WhenOpened": "2026-07-09T07:28:51.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "GiaoVien.cs",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\Models\\GiaoVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\GiaoVien.cs",
@@ -550,11 +586,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\Models\\GiaoVien.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T07:28:01.053Z"
+              "WhenOpened": "2026-07-09T07:28:01.053Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "QuanLyTrungTam.csproj",
               "DocumentMoniker": "D:\\QUANLYTRUNGTAM\\QUANLYTRUNGTAM1\\QuanLyTrungTam\\QuanLyTrungTam.csproj",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\QuanLyTrungTam.csproj",
@@ -562,7 +599,8 @@
               "RelativeToolTip": "QuanLyTrungTam\\QuanLyTrungTam.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T03:14:20.36Z"
+              "WhenOpened": "2026-07-09T03:14:20.36Z",
+              "EditorCaption": ""
             }
           ]
         }

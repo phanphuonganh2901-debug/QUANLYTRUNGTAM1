@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace QuanLyTrungTam.FORM
 {
-    public partial class FrmLogin : Form
+    public partial class LoginAdmin : Form
     {
-        public FrmLogin()
+        public LoginAdmin()
         {
             InitializeComponent();
+        }
+
+        private void btBack_MouseClick(object sender, MouseEventArgs e)
+        {
+            FrmLoginChoose l2 = new FrmLoginChoose();
+            l2.Show();
+            this.Hide();
         }
     }
 }

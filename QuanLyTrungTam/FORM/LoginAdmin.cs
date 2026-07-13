@@ -23,5 +23,10 @@ namespace QuanLyTrungTam.FORM
             l2.Show();
             this.Hide();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyTrungTam.Models
 {
+    [Table("BienLaiHocPhi")]
     public class BienLaiHocPhi
     {
         [Key]

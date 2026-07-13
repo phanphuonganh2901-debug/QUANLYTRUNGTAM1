@@ -134,3 +134,7 @@ D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windo
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.LoginStudent.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.LoginTeacher.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.Properties.Resources.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmMainGV.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmMainHV.resources

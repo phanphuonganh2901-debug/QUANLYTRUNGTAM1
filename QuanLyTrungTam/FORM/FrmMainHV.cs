@@ -10,21 +10,19 @@ using System.Windows.Forms;
 
 namespace QuanLyTrungTam.FORM
 {
-    public partial class FrmKhoaHoc : Form
+    public partial class FrmMainHV : Form
     {
-        public FrmKhoaHoc()
+        public FrmMainHV()
         {
             InitializeComponent();
         }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void FrmMain_Load(object sender, EventArgs e)
         {
+            lblXinChao.Text = "Xin chào, Học Viên";
 
-        }
+            lblNgay.Text = DateTime.Now.ToString("dddd, dd/MM/yyyy");
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }

@@ -29,6 +29,12 @@
     <Compile Update="FORM\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FORM\FrmMainGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FORM\FrmMainHV.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FORM\FrmQuanLyTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>

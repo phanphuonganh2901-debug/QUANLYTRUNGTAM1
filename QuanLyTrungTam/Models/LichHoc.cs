@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyTrungTam.Models
 {
+    [Table("LichHoc")]
     public class LichHoc
     {
         [Key]

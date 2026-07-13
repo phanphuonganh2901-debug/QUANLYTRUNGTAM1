@@ -47,9 +47,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1, -137);
+            pictureBox1.Location = new Point(0, -146);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1047, 370);
+            pictureBox1.Size = new Size(1197, 410);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -58,7 +59,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(38, 15);
+            label1.Size = new Size(50, 20);
             label1.TabIndex = 2;
             label1.Text = "label1";
             // 
@@ -66,44 +67,48 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(148, 330);
+            label2.Location = new Point(213, 424);
             label2.Name = "label2";
-            label2.Size = new Size(141, 25);
+            label2.Size = new Size(179, 32);
             label2.TabIndex = 3;
             label2.Text = "Tên đăng nhập:";
+            label2.Click += label2_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(148, 380);
+            label3.Location = new Point(213, 495);
             label3.Name = "label3";
-            label3.Size = new Size(95, 25);
+            label3.Size = new Size(120, 32);
             label3.TabIndex = 4;
             label3.Text = "Mật khẩu:";
             // 
             // txtUser
             // 
             txtUser.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txtUser.Location = new Point(295, 322);
+            txtUser.Location = new Point(427, 417);
+            txtUser.Margin = new Padding(3, 4, 3, 4);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(431, 33);
+            txtUser.Size = new Size(492, 39);
             txtUser.TabIndex = 5;
             // 
             // txtPass
             // 
             txtPass.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            txtPass.Location = new Point(295, 372);
+            txtPass.Location = new Point(427, 484);
+            txtPass.Margin = new Padding(3, 4, 3, 4);
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(431, 33);
+            txtPass.Size = new Size(492, 39);
             txtPass.TabIndex = 6;
             // 
             // btLogin
             // 
             btLogin.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            btLogin.Location = new Point(370, 433);
+            btLogin.Location = new Point(513, 565);
+            btLogin.Margin = new Padding(3, 4, 3, 4);
             btLogin.Name = "btLogin";
-            btLogin.Size = new Size(168, 60);
+            btLogin.Size = new Size(192, 80);
             btLogin.TabIndex = 7;
             btLogin.Text = "Đăng nhập";
             btLogin.UseVisualStyleBackColor = true;
@@ -112,18 +117,19 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(295, 236);
+            label4.Location = new Point(381, 303);
             label4.Name = "label4";
-            label4.Size = new Size(346, 47);
+            label4.Size = new Size(432, 60);
             label4.TabIndex = 8;
             label4.Text = "ĐĂNG NHẬP ADMIN";
             // 
             // btBack
             // 
             btBack.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btBack.Location = new Point(0, 236);
+            btBack.Location = new Point(44, 303);
+            btBack.Margin = new Padding(3, 4, 3, 4);
             btBack.Name = "btBack";
-            btBack.Size = new Size(137, 47);
+            btBack.Size = new Size(157, 63);
             btBack.TabIndex = 9;
             btBack.Text = "Quay lại chọn vai trò";
             btBack.UseVisualStyleBackColor = true;
@@ -131,9 +137,9 @@
             // 
             // LoginAdmin
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(962, 517);
+            ClientSize = new Size(1182, 653);
             Controls.Add(btBack);
             Controls.Add(label4);
             Controls.Add(btLogin);
@@ -143,6 +149,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginAdmin";
             Text = "LoginAdmin";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

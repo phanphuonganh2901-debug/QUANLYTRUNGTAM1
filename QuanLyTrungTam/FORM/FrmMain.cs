@@ -1,4 +1,5 @@
 ﻿using QuanLyTrungTam.BUS;
+using QuanLyTrungTam.DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,14 +19,32 @@ namespace QuanLyTrungTam.FORM
         HocVienBUS hvBUS = new HocVienBUS();
         LopHocBUS lopBUS = new LopHocBUS();
         BienLaiHocPhiBUS blBUS = new BienLaiHocPhiBUS();
+        KetQuaThiBUS kqBUS = new KetQuaThiBUS();
 
         public FrmMain()
         {
             InitializeComponent();
             this.Load += FrmMain_Load;
+
         }
         private Form currentForm = null;
 
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            lblXinChao.Text = "Xin chào, Admin";
+
+            lblNgay.Text = DateTime.Now.ToString("dddd, dd/MM/yyyy");
+
+            pnlHome.Dock = DockStyle.Fill;
+
+            pnlMain.Controls.Add(pnlHome);
+
+            LoadThongKe();
+
+            VeBieuDoHocVien();
+
+            VeChartKetQua();
+        }
         private void OpenChildForm(Form childForm)
         {
             if (currentForm != null)
@@ -60,41 +79,101 @@ namespace QuanLyTrungTam.FORM
 
             lblTongHocPhi.Text = tongHocPhi.ToString("N0") + " VNĐ";
         }
-        private void VeBieuDo()
+        private void VeBieuDoHocVien()
         {
-            chart1.Series.Clear();
-            chart1.ChartAreas.Clear();
+            chartHocVien.Series.Clear();
+            chartHocVien.ChartAreas.Clear();
 
             ChartArea area = new ChartArea();
-            chart1.ChartAreas.Add(area);
+            chartHocVien.ChartAreas.Add(area);
 
-            Series series = new Series("Số học viên");
+            Series s = new Series("Học viên đăng ký");
+            s.ChartType = SeriesChartType.Column;
+            s.IsValueShownAsLabel = true;
+            s["PointWidth"] = "0.5";
+            chartHocVien.Series.Add(s);
 
-            series.ChartType = SeriesChartType.Column;
+            var ds = blBUS.GetAll();
 
-            Random rd = new Random();
+            // Mỗi tháng chỉ có 1 giá trị
+            var thongKe = ds
+                .GroupBy(x => x.NgayNop.Month)
+                .Select(g => new
+                {
+                    Thang = g.Key,
+                    SoHV = g.Select(x => x.MaHV).Distinct().Count()
+                })
+                .OrderBy(x => x.Thang)
+                .ToList();
 
-            for (int i = 1; i <= 12; i++)
+            for (int thang = 1; thang <= 12; thang++)
             {
-                series.Points.AddXY("T" + i, rd.Next(20, 100));
+                var item = thongKe.FirstOrDefault(x => x.Thang == thang);
+
+                if (item == null)
+                    s.Points.AddXY("T" + thang, 0);
+                else
+                    s.Points.AddXY("T" + thang, item.SoHV);
+            }
+        }
+        private void VeChartKetQua()
+        {
+            chartKetQua.Series.Clear();
+            chartKetQua.ChartAreas.Clear();
+            chartKetQua.Legends.Clear();
+            chartKetQua.Titles.Clear();
+
+            ChartArea area = new ChartArea();
+            chartKetQua.ChartAreas.Add(area);
+
+            chartKetQua.Titles.Add("Tỷ lệ học viên theo xếp loại");
+
+            Legend legend = new Legend();
+            legend.Docking = Docking.Right;
+            chartKetQua.Legends.Add(legend);
+
+            Series s = new Series("Xếp loại");
+            s.ChartType = SeriesChartType.Pie;
+
+            s.IsValueShownAsLabel = true;
+
+            //Hiển thị:
+            //Giỏi
+            //25%
+            s.Label = "#VALX\n#PERCENT{P0}";
+
+            s["PieLabelStyle"] = "Outside";
+            s["PieLineColor"] = "Black";
+
+            var data = kqBUS.ThongKeXepLoai();
+
+            foreach (var item in data)
+            {
+                int index = s.Points.AddXY(item.Key, item.Value);
+
+                switch (item.Key)
+                {
+                    case "Gioi":
+                        s.Points[index].Color = Color.LimeGreen;
+                        break;
+
+                    case "Kha":
+                        s.Points[index].Color = Color.DeepSkyBlue;
+                        break;
+
+                    case "TrungBinh":
+                        s.Points[index].Color = Color.Gold;
+                        break;
+
+                    case "Kem":
+                        s.Points[index].Color = Color.IndianRed;
+                        break;
+                }
             }
 
-            chart1.Series.Add(series);
+            chartKetQua.Series.Add(s);
         }
-        private void FrmMain_Load(object sender, EventArgs e)
-        {
-            lblXinChao.Text = "Xin chào, Admin";
 
-            lblNgay.Text = DateTime.Now.ToString("dddd, dd/MM/yyyy");
-
-            pnlHome.Dock = DockStyle.Fill;
-
-            pnlMain.Controls.Add(pnlHome);
-
-            LoadThongKe();
-
-            VeBieuDo();
-        }
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -211,6 +290,11 @@ namespace QuanLyTrungTam.FORM
         private void btnHocPhi_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FrmBienLaiHocPhi());
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

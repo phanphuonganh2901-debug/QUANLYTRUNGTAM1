@@ -13,7 +13,6 @@ namespace QuanLyTrungTam.Models
     {
         [Key]
         public string MaLich { get; set; }
-        [ForeignKey("LopHoc")]
         public string MaLop { get; set; }
         public DateTime NgayHoc { get; set; }
         public string GioBatDau { get; set; }
@@ -21,6 +20,6 @@ namespace QuanLyTrungTam.Models
         public string PhongHoc { get; set; }
         public string NoiDungBuoi { get; set; }
         public LopHoc? LopHoc { get; set; }
-        public ICollection<KetQuaThi>? KetQuaThis { get; set; }
+       
     }
 }

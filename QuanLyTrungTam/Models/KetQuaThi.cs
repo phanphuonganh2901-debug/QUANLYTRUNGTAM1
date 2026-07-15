@@ -22,7 +22,7 @@ namespace QuanLyTrungTam.Models
         public decimal DiemThi { get; set; }
         public string XepLoai { get; set; }
         public HocVien? HocVien { get; set; }
-        public LichHoc? LichHoc { get; set; }
+        
         
 
     }

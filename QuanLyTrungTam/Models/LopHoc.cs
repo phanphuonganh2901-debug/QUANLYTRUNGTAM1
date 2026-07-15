@@ -14,6 +14,7 @@ namespace QuanLyTrungTam.Models
         [Key]
         public string MaLop { get; set; }
         public string TenLop { get; set; }
+       
         public int  SiSo { get; set; }
         public string PhongHoc { get; set; }
         [ForeignKey("GiaoVien")]
@@ -25,8 +26,9 @@ namespace QuanLyTrungTam.Models
         public KhoaHoc? KhoaHoc { get; set; }
 
         public ICollection<BienLaiHocPhi>? BienLaiHocPhis { get; set; }
+
         public ICollection<LichHoc>? LichHocs { get; set; }
-        
+
 
     }
 }

@@ -22,6 +22,22 @@ namespace QuanLyTrungTam.BUS
             return db.KetQuaThis.Find(maKQ);
         }
 
+        public Dictionary<string, int> ThongKeXepLoai()
+        {
+            var ds = db.KetQuaThis.ToList();
+
+            Dictionary<string, int> kq = new Dictionary<string, int>();
+
+            foreach (var item in ds)
+            {
+                if (kq.ContainsKey(item.XepLoai))
+                    kq[item.XepLoai]++;
+                else
+                    kq.Add(item.XepLoai, 1);
+            }
+
+            return kq;
+        }
         public bool Them(KetQuaThi kq)
         {
             db.KetQuaThis.Add(kq);

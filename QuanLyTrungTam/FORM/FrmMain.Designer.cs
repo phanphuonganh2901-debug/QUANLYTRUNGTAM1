@@ -32,6 +32,9 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             panel1 = new Panel();
             btnKhoaHoc = new Button();
             btnDangXuat = new Button();
@@ -49,10 +52,12 @@
             label1 = new Label();
             pnlMain = new Panel();
             pnlHome = new Panel();
+            label2 = new Label();
+            chartKetQua = new System.Windows.Forms.DataVisualization.Charting.Chart();
             label15 = new Label();
             label14 = new Label();
             label13 = new Label();
-            chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chartHocVien = new System.Windows.Forms.DataVisualization.Charting.Chart();
             label12 = new Label();
             label11 = new Label();
             lblTongHocPhi = new Label();
@@ -66,7 +71,8 @@
             panel1.SuspendLayout();
             pnlMain.SuspendLayout();
             pnlHome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)chartKetQua).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)chartHocVien).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -259,10 +265,12 @@
             // 
             // pnlHome
             // 
+            pnlHome.Controls.Add(label2);
+            pnlHome.Controls.Add(chartKetQua);
             pnlHome.Controls.Add(label15);
             pnlHome.Controls.Add(label14);
             pnlHome.Controls.Add(label13);
-            pnlHome.Controls.Add(chart1);
+            pnlHome.Controls.Add(chartHocVien);
             pnlHome.Controls.Add(label12);
             pnlHome.Controls.Add(label11);
             pnlHome.Controls.Add(lblTongHocPhi);
@@ -278,10 +286,38 @@
             pnlHome.Size = new Size(1077, 594);
             pnlHome.TabIndex = 0;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(593, 102);
+            label2.Name = "label2";
+            label2.Size = new Size(164, 28);
+            label2.TabIndex = 49;
+            label2.Text = "Tỷ lệ học viên đạt";
+            label2.Click += label2_Click_1;
+            // 
+            // chartKetQua
+            // 
+            chartArea1.Name = "ChartArea1";
+            chartKetQua.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartKetQua.Legends.Add(legend1);
+            chartKetQua.Location = new Point(593, 143);
+            chartKetQua.Name = "chartKetQua";
+            chartKetQua.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartKetQua.Series.Add(series1);
+            chartKetQua.Size = new Size(423, 212);
+            chartKetQua.TabIndex = 48;
+            chartKetQua.Text = "chart2";
+            // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(610, 207);
+            label15.Location = new Point(135, 497);
             label15.Name = "label15";
             label15.Size = new Size(199, 20);
             label15.TabIndex = 47;
@@ -290,7 +326,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(610, 175);
+            label14.Location = new Point(135, 465);
             label14.Name = "label14";
             label14.Size = new Size(219, 20);
             label14.TabIndex = 46;
@@ -299,39 +335,43 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(610, 148);
+            label13.Location = new Point(135, 438);
             label13.Name = "label13";
             label13.Size = new Size(185, 20);
             label13.TabIndex = 45;
             label13.Text = "Số lớp khai giảng tuần này";
             // 
-            // chart1
+            // chartHocVien
             // 
-            chartArea1.AxisX.Maximum = 12D;
-            chartArea1.AxisX.Minimum = 1D;
-            chartArea1.AxisX.Title = "Tháng";
-            chartArea1.AxisY.Title = "Số học viên";
-            chartArea1.Name = "ChartArea1";
-            chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            chart1.Legends.Add(legend1);
-            chart1.Location = new Point(135, 144);
-            chart1.Name = "chart1";
-            chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.LegendText = "Số học viên đăng ký";
-            series1.Name = "Series1";
-            chart1.Series.Add(series1);
-            chart1.Size = new Size(419, 212);
-            chart1.TabIndex = 44;
-            chart1.Text = "chart1";
+            chartArea2.AxisX.Interval = 1D;
+            chartArea2.AxisX.Maximum = 12D;
+            chartArea2.AxisX.Minimum = 1D;
+            chartArea2.AxisX.Title = "Tháng";
+            chartArea2.AxisY.Interval = 1D;
+            chartArea2.AxisY.Minimum = 0D;
+            chartArea2.AxisY.Title = "Số học viên";
+            chartArea2.Name = "ChartArea1";
+            chartHocVien.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            chartHocVien.Legends.Add(legend2);
+            chartHocVien.Location = new Point(135, 144);
+            chartHocVien.Name = "chartHocVien";
+            chartHocVien.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.LegendText = "Số học viên đăng ký";
+            series2.Name = "Series1";
+            series2.SmartLabelStyle.Enabled = false;
+            chartHocVien.Series.Add(series2);
+            chartHocVien.Size = new Size(423, 212);
+            chartHocVien.TabIndex = 44;
+            chartHocVien.Text = "chart1";
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.Location = new Point(621, 104);
+            label12.Location = new Point(135, 397);
             label12.Name = "label12";
             label12.Size = new Size(96, 28);
             label12.TabIndex = 43;
@@ -446,7 +486,8 @@
             pnlMain.ResumeLayout(false);
             pnlHome.ResumeLayout(false);
             pnlHome.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartKetQua).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartHocVien).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -471,7 +512,7 @@
         private Label label15;
         private Label label14;
         private Label label13;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartHocVien;
         private Label label12;
         private Label label11;
         private Label lblTongHocPhi;
@@ -483,5 +524,7 @@
         private Label label4;
         private Label label3;
         private Button btnKhoaHoc;
+        private Label label2;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartKetQua;
     }
 }

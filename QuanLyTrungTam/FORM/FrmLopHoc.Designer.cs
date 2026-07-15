@@ -31,14 +31,15 @@
             panel2 = new Panel();
             dataLopHoc = new DataGridView();
             panel1 = new Panel();
+            txtPhongHoc = new TextBox();
+            txtMaKH = new TextBox();
+            label8 = new Label();
             txtTimKiem = new TextBox();
             btnTimKiem = new Button();
             btnLoad = new Button();
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            this.txtMaGV = new TextBox();
-            this.txtSiSo = new TextBox();
             txtTenLop = new TextBox();
             txtMaLop = new TextBox();
             label7 = new Label();
@@ -48,9 +49,8 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            label8 = new Label();
-            txtMaKH = new TextBox();
-            txtPhongHoc = new TextBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataLopHoc).BeginInit();
             panel1.SuspendLayout();
@@ -81,6 +81,8 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(textBox2);
+            panel1.Controls.Add(textBox1);
             panel1.Controls.Add(txtPhongHoc);
             panel1.Controls.Add(txtMaKH);
             panel1.Controls.Add(label8);
@@ -90,8 +92,6 @@
             panel1.Controls.Add(btnXoa);
             panel1.Controls.Add(btnSua);
             panel1.Controls.Add(btnThem);
-            panel1.Controls.Add(this.txtMaGV);
-            panel1.Controls.Add(this.txtSiSo);
             panel1.Controls.Add(txtTenLop);
             panel1.Controls.Add(txtMaLop);
             panel1.Controls.Add(label7);
@@ -106,6 +106,29 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1082, 180);
             panel1.TabIndex = 2;
+            // 
+            // txtPhongHoc
+            // 
+            txtPhongHoc.Location = new Point(515, 78);
+            txtPhongHoc.Name = "txtPhongHoc";
+            txtPhongHoc.Size = new Size(171, 27);
+            txtPhongHoc.TabIndex = 38;
+            // 
+            // txtMaKH
+            // 
+            txtMaKH.Location = new Point(515, 107);
+            txtMaKH.Name = "txtMaKH";
+            txtMaKH.Size = new Size(171, 27);
+            txtMaKH.TabIndex = 37;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(412, 110);
+            label8.Name = "label8";
+            label8.Size = new Size(54, 20);
+            label8.TabIndex = 36;
+            label8.Text = "Mã KH";
             // 
             // txtTimKiem
             // 
@@ -161,20 +184,6 @@
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = true;
             // 
-            // txtMaGV
-            // 
-            this.txtMaGV.Location = new Point(156, 114);
-            this.txtMaGV.Name = "txtMaGV";
-            this.txtMaGV.Size = new Size(171, 27);
-            this.txtMaGV.TabIndex = 28;
-            // 
-            // txtSiSo
-            // 
-            this.txtSiSo.Location = new Point(156, 82);
-            this.txtSiSo.Name = "txtSiSo";
-            this.txtSiSo.Size = new Size(171, 27);
-            this.txtSiSo.TabIndex = 27;
-            // 
             // txtTenLop
             // 
             txtTenLop.Location = new Point(515, 45);
@@ -184,15 +193,15 @@
             // 
             // txtMaLop
             // 
-            txtMaLop.Location = new Point(156, 52);
+            txtMaLop.Location = new Point(145, 43);
             txtMaLop.Name = "txtMaLop";
-            txtMaLop.Size = new Size(171, 27);
+            txtMaLop.Size = new Size(181, 27);
             txtMaLop.TabIndex = 25;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(69, 85);
+            label7.Location = new Point(69, 81);
             label7.Name = "label7";
             label7.Size = new Size(42, 20);
             label7.TabIndex = 24;
@@ -218,7 +227,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(69, 117);
+            label4.Location = new Point(69, 114);
             label4.Name = "label4";
             label4.Size = new Size(53, 20);
             label4.TabIndex = 21;
@@ -236,7 +245,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(69, 55);
+            label2.Location = new Point(69, 48);
             label2.Name = "label2";
             label2.Size = new Size(59, 20);
             label2.TabIndex = 19;
@@ -252,28 +261,19 @@
             label1.TabIndex = 18;
             label1.Text = "QUẢN LÝ LỚP HỌC";
             // 
-            // label8
+            // textBox1
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(412, 110);
-            label8.Name = "label8";
-            label8.Size = new Size(54, 20);
-            label8.TabIndex = 36;
-            label8.Text = "Mã KH";
+            textBox1.Location = new Point(145, 78);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(181, 27);
+            textBox1.TabIndex = 39;
             // 
-            // txtMaKH
+            // textBox2
             // 
-            txtMaKH.Location = new Point(515, 107);
-            txtMaKH.Name = "txtMaKH";
-            txtMaKH.Size = new Size(171, 27);
-            txtMaKH.TabIndex = 37;
-            // 
-            // txtPhongHoc
-            // 
-            txtPhongHoc.Location = new Point(515, 78);
-            txtPhongHoc.Name = "txtPhongHoc";
-            txtPhongHoc.Size = new Size(171, 27);
-            txtPhongHoc.TabIndex = 38;
+            textBox2.Location = new Point(145, 111);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(181, 27);
+            textBox2.TabIndex = 40;
             // 
             // FrmLopHoc
             // 
@@ -317,5 +317,7 @@
         private Label label1;
         private TextBox txtPhongHoc;
         private TextBox txtMaKH;
+        private TextBox textBox2;
+        private TextBox textBox1;
     }
 }

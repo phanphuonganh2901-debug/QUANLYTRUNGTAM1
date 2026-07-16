@@ -34,5 +34,10 @@ namespace QuanLyTrungTam.FORM
                 e.Graphics.FillRectangle(brush, panelTop.ClientRectangle);
             }
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

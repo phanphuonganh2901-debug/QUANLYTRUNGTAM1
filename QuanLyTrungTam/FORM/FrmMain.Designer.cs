@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             panel1 = new Panel();
             panelHocVien = new Panel();
             button5 = new Button();
@@ -50,7 +50,6 @@
             btnDSHV = new Button();
             btnKhoaHoc = new Button();
             btnDangXuat = new Button();
-            btnReset = new Button();
             btnTaiKhoan = new Button();
             btnHocPhi = new Button();
             btnLopHoc = new Button();
@@ -98,7 +97,6 @@
             panel1.Controls.Add(panelHV);
             panel1.Controls.Add(btnKhoaHoc);
             panel1.Controls.Add(btnDangXuat);
-            panel1.Controls.Add(btnReset);
             panel1.Controls.Add(btnTaiKhoan);
             panel1.Controls.Add(btnHocPhi);
             panel1.Controls.Add(btnLopHoc);
@@ -248,25 +246,14 @@
             // 
             btnDangXuat.BackColor = Color.Orange;
             btnDangXuat.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDangXuat.Location = new Point(3, 359);
+            btnDangXuat.Location = new Point(4, 312);
             btnDangXuat.Name = "btnDangXuat";
             btnDangXuat.Size = new Size(155, 47);
             btnDangXuat.TabIndex = 8;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = ContentAlignment.MiddleLeft;
             btnDangXuat.UseVisualStyleBackColor = false;
-            // 
-            // btnReset
-            // 
-            btnReset.BackColor = Color.Orange;
-            btnReset.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnReset.Location = new Point(3, 316);
-            btnReset.Name = "btnReset";
-            btnReset.Size = new Size(155, 47);
-            btnReset.TabIndex = 7;
-            btnReset.Text = "Reset Mật Khẩu";
-            btnReset.TextAlign = ContentAlignment.MiddleLeft;
-            btnReset.UseVisualStyleBackColor = false;
+            btnDangXuat.Click += btnDangXuat_Click;
             // 
             // btnTaiKhoan
             // 
@@ -363,10 +350,11 @@
             // lblXinChao
             // 
             lblXinChao.AutoSize = true;
-            lblXinChao.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            lblXinChao.Location = new Point(226, 28);
+            lblXinChao.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            lblXinChao.ForeColor = Color.OrangeRed;
+            lblXinChao.Location = new Point(229, 28);
             lblXinChao.Name = "lblXinChao";
-            lblXinChao.Size = new Size(234, 41);
+            lblXinChao.Size = new Size(249, 41);
             lblXinChao.TabIndex = 4;
             lblXinChao.Text = "Xin chào, Admin";
             lblXinChao.Click += label1_Click_1;
@@ -426,27 +414,29 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.OrangeRed;
             label2.Location = new Point(593, 102);
             label2.Name = "label2";
-            label2.Size = new Size(164, 28);
+            label2.Size = new Size(182, 28);
             label2.TabIndex = 49;
             label2.Text = "Tỷ lệ học viên đạt";
             label2.Click += label2_Click_1;
             // 
             // chartKetQua
             // 
-            chartArea5.Name = "ChartArea1";
-            chartKetQua.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            chartKetQua.Legends.Add(legend5);
+            chartArea1.Name = "ChartArea1";
+            chartKetQua.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartKetQua.Legends.Add(legend1);
             chartKetQua.Location = new Point(593, 143);
             chartKetQua.Name = "chartKetQua";
             chartKetQua.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            chartKetQua.Series.Add(series5);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartKetQua.Series.Add(series1);
             chartKetQua.Size = new Size(423, 212);
             chartKetQua.TabIndex = 48;
             chartKetQua.Text = "chart2";
@@ -454,6 +444,7 @@
             // label15
             // 
             label15.AutoSize = true;
+            label15.BackColor = Color.Transparent;
             label15.Location = new Point(135, 497);
             label15.Name = "label15";
             label15.Size = new Size(199, 20);
@@ -463,6 +454,7 @@
             // label14
             // 
             label14.AutoSize = true;
+            label14.BackColor = Color.Transparent;
             label14.Location = new Point(135, 465);
             label14.Name = "label14";
             label14.Size = new Size(219, 20);
@@ -472,6 +464,7 @@
             // label13
             // 
             label13.AutoSize = true;
+            label13.BackColor = Color.Transparent;
             label13.Location = new Point(135, 438);
             label13.Name = "label13";
             label13.Size = new Size(185, 20);
@@ -480,26 +473,26 @@
             // 
             // chartHocVien
             // 
-            chartArea6.AxisX.Interval = 1D;
-            chartArea6.AxisX.Maximum = 12D;
-            chartArea6.AxisX.Minimum = 1D;
-            chartArea6.AxisX.Title = "Tháng";
-            chartArea6.AxisY.Interval = 1D;
-            chartArea6.AxisY.Minimum = 0D;
-            chartArea6.AxisY.Title = "Số học viên";
-            chartArea6.Name = "ChartArea1";
-            chartHocVien.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            chartHocVien.Legends.Add(legend6);
+            chartArea2.AxisX.Interval = 1D;
+            chartArea2.AxisX.Maximum = 12D;
+            chartArea2.AxisX.Minimum = 1D;
+            chartArea2.AxisX.Title = "Tháng";
+            chartArea2.AxisY.Interval = 1D;
+            chartArea2.AxisY.Minimum = 0D;
+            chartArea2.AxisY.Title = "Số học viên";
+            chartArea2.Name = "ChartArea1";
+            chartHocVien.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            chartHocVien.Legends.Add(legend2);
             chartHocVien.Location = new Point(135, 144);
             chartHocVien.Name = "chartHocVien";
             chartHocVien.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.LegendText = "Số học viên đăng ký";
-            series6.Name = "Series1";
-            series6.SmartLabelStyle.Enabled = false;
-            chartHocVien.Series.Add(series6);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.LegendText = "Số học viên đăng ký";
+            series2.Name = "Series1";
+            series2.SmartLabelStyle.Enabled = false;
+            chartHocVien.Series.Add(series2);
             chartHocVien.Size = new Size(423, 212);
             chartHocVien.TabIndex = 44;
             chartHocVien.Text = "chart1";
@@ -507,26 +500,30 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.BackColor = Color.Transparent;
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(135, 397);
             label12.Name = "label12";
-            label12.Size = new Size(96, 28);
+            label12.Size = new Size(104, 28);
             label12.TabIndex = 43;
             label12.Text = "Cần chú ý";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label11.ForeColor = Color.OrangeRed;
             label11.Location = new Point(135, 104);
             label11.Name = "label11";
-            label11.Size = new Size(264, 28);
+            label11.Size = new Size(287, 28);
             label11.TabIndex = 42;
             label11.Text = "Học viên đăng ký theo tháng";
             // 
             // lblTongHocPhi
             // 
             lblTongHocPhi.AutoSize = true;
+            lblTongHocPhi.BackColor = Color.Transparent;
             lblTongHocPhi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongHocPhi.Location = new Point(736, 46);
             lblTongHocPhi.Name = "lblTongHocPhi";
@@ -537,6 +534,7 @@
             // lblTongLop
             // 
             lblTongLop.AutoSize = true;
+            lblTongLop.BackColor = Color.Transparent;
             lblTongLop.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongLop.Location = new Point(492, 46);
             lblTongLop.Name = "lblTongLop";
@@ -547,6 +545,7 @@
             // lblTongGiaoVien
             // 
             lblTongGiaoVien.AutoSize = true;
+            lblTongGiaoVien.BackColor = Color.Transparent;
             lblTongGiaoVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongGiaoVien.Location = new Point(301, 46);
             lblTongGiaoVien.Name = "lblTongGiaoVien";
@@ -557,6 +556,7 @@
             // lblTongHocVien
             // 
             lblTongHocVien.AutoSize = true;
+            lblTongHocVien.BackColor = Color.Transparent;
             lblTongHocVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongHocVien.Location = new Point(122, 46);
             lblTongHocVien.Name = "lblTongHocVien";
@@ -567,44 +567,48 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.BackColor = Color.LightSalmon;
-            label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.OrangeRed;
             label6.Location = new Point(736, 2);
             label6.Name = "label6";
-            label6.Size = new Size(234, 37);
+            label6.Size = new Size(258, 38);
             label6.TabIndex = 37;
             label6.Text = "Học phí tháng này";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.BackColor = Color.LightSalmon;
-            label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.OrangeRed;
             label5.Location = new Point(492, 2);
             label5.Name = "label5";
-            label5.Size = new Size(176, 37);
+            label5.Size = new Size(193, 38);
             label5.TabIndex = 36;
             label5.Text = "Lớp đang mở";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.BackColor = Color.LightSalmon;
-            label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.OrangeRed;
             label4.Location = new Point(301, 2);
             label4.Name = "label4";
-            label4.Size = new Size(133, 37);
+            label4.Size = new Size(144, 38);
             label4.TabIndex = 35;
             label4.Text = "Giáo Viên";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.BackColor = Color.LightSalmon;
-            label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.OrangeRed;
             label3.Location = new Point(122, 2);
             label3.Name = "label3";
-            label3.Size = new Size(124, 37);
+            label3.Size = new Size(135, 38);
             label3.TabIndex = 34;
             label3.Text = "Học Viên";
             // 
@@ -650,7 +654,6 @@
         private Button button8;
         private Label lblXinChao;
         private Label lblNgay;
-        private Button btnReset;
         private Button btnDangXuat;
         private Label label1;
         private Panel pnlMain;

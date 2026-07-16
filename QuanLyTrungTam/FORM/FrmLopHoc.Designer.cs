@@ -30,7 +30,9 @@
         {
             panel2 = new Panel();
             dataLopHoc = new DataGridView();
-            panel1 = new Panel();
+            panelTop = new Panel();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
             txtPhongHoc = new TextBox();
             txtMaKH = new TextBox();
             label8 = new Label();
@@ -49,27 +51,24 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataLopHoc).BeginInit();
-            panel1.SuspendLayout();
+            panelTop.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
             panel2.Controls.Add(dataLopHoc);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 180);
+            panel2.Location = new Point(0, 198);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1082, 373);
+            panel2.Size = new Size(1082, 355);
             panel2.TabIndex = 3;
             // 
             // dataLopHoc
             // 
             dataLopHoc.AllowUserToAddRows = false;
             dataLopHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataLopHoc.Dock = DockStyle.Fill;
             dataLopHoc.Location = new Point(0, 0);
             dataLopHoc.Name = "dataLopHoc";
             dataLopHoc.ReadOnly = true;
@@ -79,33 +78,48 @@
             dataLopHoc.Size = new Size(1082, 373);
             dataLopHoc.TabIndex = 0;
             // 
-            // panel1
+            // panelTop
             // 
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(txtPhongHoc);
-            panel1.Controls.Add(txtMaKH);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(txtTimKiem);
-            panel1.Controls.Add(btnTimKiem);
-            panel1.Controls.Add(btnLoad);
-            panel1.Controls.Add(btnXoa);
-            panel1.Controls.Add(btnSua);
-            panel1.Controls.Add(btnThem);
-            panel1.Controls.Add(txtTenLop);
-            panel1.Controls.Add(txtMaLop);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 180);
-            panel1.TabIndex = 2;
+            panelTop.Controls.Add(textBox2);
+            panelTop.Controls.Add(textBox1);
+            panelTop.Controls.Add(txtPhongHoc);
+            panelTop.Controls.Add(txtMaKH);
+            panelTop.Controls.Add(label8);
+            panelTop.Controls.Add(txtTimKiem);
+            panelTop.Controls.Add(btnTimKiem);
+            panelTop.Controls.Add(btnLoad);
+            panelTop.Controls.Add(btnXoa);
+            panelTop.Controls.Add(btnSua);
+            panelTop.Controls.Add(btnThem);
+            panelTop.Controls.Add(txtTenLop);
+            panelTop.Controls.Add(txtMaLop);
+            panelTop.Controls.Add(label7);
+            panelTop.Controls.Add(label6);
+            panelTop.Controls.Add(label5);
+            panelTop.Controls.Add(label4);
+            panelTop.Controls.Add(label3);
+            panelTop.Controls.Add(label2);
+            panelTop.Controls.Add(label1);
+            panelTop.Dock = DockStyle.Top;
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(1082, 198);
+            panelTop.TabIndex = 2;
+            panelTop.Paint += panelTop_Paint;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(145, 111);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(181, 27);
+            textBox2.TabIndex = 40;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(145, 78);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(181, 27);
+            textBox1.TabIndex = 39;
             // 
             // txtPhongHoc
             // 
@@ -124,9 +138,11 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(412, 110);
             label8.Name = "label8";
-            label8.Size = new Size(54, 20);
+            label8.Size = new Size(56, 20);
             label8.TabIndex = 36;
             label8.Text = "Mã KH";
             // 
@@ -141,48 +157,53 @@
             // 
             // btnTimKiem
             // 
+            btnTimKiem.BackColor = Color.LightSalmon;
             btnTimKiem.Location = new Point(863, 145);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(94, 29);
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
-            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.UseVisualStyleBackColor = false;
             // 
             // btnLoad
             // 
+            btnLoad.BackColor = Color.LightSalmon;
             btnLoad.Location = new Point(473, 146);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(94, 29);
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
-            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.UseVisualStyleBackColor = false;
             // 
             // btnXoa
             // 
+            btnXoa.BackColor = Color.LightSalmon;
             btnXoa.Location = new Point(373, 146);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(94, 29);
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.UseVisualStyleBackColor = false;
             // 
             // btnSua
             // 
+            btnSua.BackColor = Color.LightSalmon;
             btnSua.Location = new Point(273, 146);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(94, 29);
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = true;
+            btnSua.UseVisualStyleBackColor = false;
             // 
             // btnThem
             // 
+            btnThem.BackColor = Color.LightSalmon;
             btnThem.Location = new Point(173, 146);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(94, 29);
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
             // 
             // txtTenLop
             // 
@@ -201,6 +222,8 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(69, 81);
             label7.Name = "label7";
             label7.Size = new Size(42, 20);
@@ -210,9 +233,11 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(412, 48);
             label6.Name = "label6";
-            label6.Size = new Size(61, 20);
+            label6.Size = new Size(64, 20);
             label6.TabIndex = 23;
             label6.Text = "Tên Lớp";
             // 
@@ -227,53 +252,47 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(69, 114);
             label4.Name = "label4";
-            label4.Size = new Size(53, 20);
+            label4.Size = new Size(56, 20);
             label4.TabIndex = 21;
             label4.Text = "Mã GV";
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(412, 81);
             label3.Name = "label3";
-            label3.Size = new Size(82, 20);
+            label3.Size = new Size(85, 20);
             label3.TabIndex = 20;
             label3.Text = "Phòng Học";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(69, 48);
             label2.Name = "label2";
-            label2.Size = new Size(59, 20);
+            label2.Size = new Size(61, 20);
             label2.TabIndex = 19;
             label2.Text = "Mã Lớp";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.OrangeRed;
             label1.Location = new Point(451, 6);
             label1.Name = "label1";
-            label1.Size = new Size(217, 32);
+            label1.Size = new Size(218, 31);
             label1.TabIndex = 18;
             label1.Text = "QUẢN LÝ LỚP HỌC";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(145, 78);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(181, 27);
-            textBox1.TabIndex = 39;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(145, 111);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(181, 27);
-            textBox2.TabIndex = 40;
             // 
             // FrmLopHoc
             // 
@@ -281,13 +300,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1082, 553);
             Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panelTop);
             Name = "FrmLopHoc";
             Text = "FrmLopHoc";
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataLopHoc).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -295,7 +314,7 @@
 
         private Panel panel2;
         private DataGridView dataLopHoc;
-        private Panel panel1;
+        private Panel panelTop;
         private Label label8;
         private TextBox txtTimKiem;
         private Button btnTimKiem;

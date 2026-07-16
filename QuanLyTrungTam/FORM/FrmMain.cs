@@ -364,5 +364,10 @@ namespace QuanLyTrungTam.FORM
                 e.Graphics.FillRectangle(brush, pnlHome.ClientRectangle);
             }
         }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

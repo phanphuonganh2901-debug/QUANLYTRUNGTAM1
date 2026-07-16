@@ -62,9 +62,9 @@
             // 
             panel2.Controls.Add(dataBienLaiHocPhi);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 202);
+            panel2.Location = new Point(0, 212);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1082, 351);
+            panel2.Size = new Size(1082, 341);
             panel2.TabIndex = 3;
             // 
             // dataBienLaiHocPhi
@@ -78,7 +78,7 @@
             dataBienLaiHocPhi.RowHeadersWidth = 51;
             dataBienLaiHocPhi.RowTemplate.Height = 29;
             dataBienLaiHocPhi.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataBienLaiHocPhi.Size = new Size(1082, 351);
+            dataBienLaiHocPhi.Size = new Size(1082, 341);
             dataBienLaiHocPhi.TabIndex = 1;
             // 
             // panelTop
@@ -108,7 +108,7 @@
             panelTop.Dock = DockStyle.Top;
             panelTop.Location = new Point(0, 0);
             panelTop.Name = "panelTop";
-            panelTop.Size = new Size(1082, 202);
+            panelTop.Size = new Size(1082, 212);
             panelTop.TabIndex = 2;
             panelTop.Paint += panel1_Paint;
             // 
@@ -122,9 +122,11 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label9.Location = new Point(473, 49);
             label9.Name = "label9";
-            label9.Size = new Size(79, 20);
+            label9.Size = new Size(84, 20);
             label9.TabIndex = 40;
             label9.Text = "Người Thu";
             // 
@@ -152,9 +154,11 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(69, 118);
             label8.Name = "label8";
-            label8.Size = new Size(91, 20);
+            label8.Size = new Size(94, 20);
             label8.TabIndex = 36;
             label8.Text = "Số Tiền Nộp";
             // 
@@ -169,48 +173,53 @@
             // 
             // btnTimKiem
             // 
+            btnTimKiem.BackColor = Color.Salmon;
             btnTimKiem.Location = new Point(863, 157);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(94, 29);
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
-            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.UseVisualStyleBackColor = false;
             // 
             // btnLoad
             // 
+            btnLoad.BackColor = Color.LightSalmon;
             btnLoad.Location = new Point(473, 158);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(94, 29);
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
-            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.UseVisualStyleBackColor = false;
             // 
             // btnXoa
             // 
+            btnXoa.BackColor = Color.LightSalmon;
             btnXoa.Location = new Point(373, 158);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(94, 29);
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.UseVisualStyleBackColor = false;
             // 
             // btnSua
             // 
+            btnSua.BackColor = Color.LightSalmon;
             btnSua.Location = new Point(273, 158);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(94, 29);
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = true;
+            btnSua.UseVisualStyleBackColor = false;
             // 
             // btnThem
             // 
+            btnThem.BackColor = Color.LightSalmon;
             btnThem.Location = new Point(173, 158);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(94, 29);
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -236,20 +245,25 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(473, 78);
             label7.Name = "label7";
-            label7.Size = new Size(59, 20);
+            label7.Size = new Size(61, 20);
             label7.TabIndex = 24;
             label7.Text = "Mã Lớp";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(778, 81);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(788, 85);
             label6.Name = "label6";
-            label6.Size = new Size(54, 20);
+            label6.Size = new Size(56, 20);
             label6.TabIndex = 23;
             label6.Text = "Mã HV";
+            label6.Click += label6_Click;
             // 
             // label5
             // 
@@ -262,9 +276,11 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(473, 110);
             label4.Name = "label4";
-            label4.Size = new Size(54, 20);
+            label4.Size = new Size(56, 20);
             label4.TabIndex = 21;
             label4.Text = "Mã KH";
             label4.Click += label4_Click;
@@ -272,28 +288,34 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(69, 86);
             label3.Name = "label3";
-            label3.Size = new Size(77, 20);
+            label3.Size = new Size(80, 20);
             label3.TabIndex = 20;
             label3.Text = "Ngày Nộp";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(69, 55);
             label2.Name = "label2";
-            label2.Size = new Size(82, 20);
+            label2.Size = new Size(85, 20);
             label2.TabIndex = 19;
             label2.Text = "Số Biên Lai";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.OrangeRed;
             label1.Location = new Point(412, 9);
             label1.Name = "label1";
-            label1.Size = new Size(308, 32);
+            label1.Size = new Size(313, 31);
             label1.TabIndex = 18;
             label1.Text = "QUẢN LÝ BIÊN LAI HỌC PHÍ";
             // 

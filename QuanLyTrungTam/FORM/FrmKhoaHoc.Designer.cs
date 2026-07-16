@@ -30,7 +30,8 @@
         {
             panel2 = new Panel();
             dataKhoaHoc = new DataGridView();
-            panel1 = new Panel();
+            panelTop = new Panel();
+            dateTimePicker2 = new DateTimePicker();
             txtTimKiem = new TextBox();
             btnTimKiem = new Button();
             btnLoad = new Button();
@@ -46,10 +47,9 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            dateTimePicker2 = new DateTimePicker();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataKhoaHoc).BeginInit();
-            panel1.SuspendLayout();
+            panelTop.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
@@ -75,29 +75,37 @@
             dataKhoaHoc.Size = new Size(1082, 373);
             dataKhoaHoc.TabIndex = 0;
             // 
-            // panel1
+            // panelTop
             // 
-            panel1.Controls.Add(dateTimePicker2);
-            panel1.Controls.Add(txtTimKiem);
-            panel1.Controls.Add(btnTimKiem);
-            panel1.Controls.Add(btnLoad);
-            panel1.Controls.Add(btnXoa);
-            panel1.Controls.Add(btnSua);
-            panel1.Controls.Add(btnThem);
-            panel1.Controls.Add(dateTimePicker1);
-            panel1.Controls.Add(txtTenKH);
-            panel1.Controls.Add(txtMaKH);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 180);
-            panel1.TabIndex = 2;
+            panelTop.Controls.Add(dateTimePicker2);
+            panelTop.Controls.Add(txtTimKiem);
+            panelTop.Controls.Add(btnTimKiem);
+            panelTop.Controls.Add(btnLoad);
+            panelTop.Controls.Add(btnXoa);
+            panelTop.Controls.Add(btnSua);
+            panelTop.Controls.Add(btnThem);
+            panelTop.Controls.Add(dateTimePicker1);
+            panelTop.Controls.Add(txtTenKH);
+            panelTop.Controls.Add(txtMaKH);
+            panelTop.Controls.Add(label7);
+            panelTop.Controls.Add(label6);
+            panelTop.Controls.Add(label5);
+            panelTop.Controls.Add(label3);
+            panelTop.Controls.Add(label2);
+            panelTop.Controls.Add(label1);
+            panelTop.Dock = DockStyle.Top;
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(1082, 180);
+            panelTop.TabIndex = 2;
+            panelTop.Paint += panelTop_Paint;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Location = new Point(198, 85);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(250, 27);
+            dateTimePicker2.TabIndex = 36;
             // 
             // txtTimKiem
             // 
@@ -110,48 +118,53 @@
             // 
             // btnTimKiem
             // 
+            btnTimKiem.BackColor = Color.LightSalmon;
             btnTimKiem.Location = new Point(863, 145);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(94, 29);
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
-            btnTimKiem.UseVisualStyleBackColor = true;
+            btnTimKiem.UseVisualStyleBackColor = false;
             // 
             // btnLoad
             // 
+            btnLoad.BackColor = Color.LightSalmon;
             btnLoad.Location = new Point(473, 146);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(94, 29);
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
-            btnLoad.UseVisualStyleBackColor = true;
+            btnLoad.UseVisualStyleBackColor = false;
             // 
             // btnXoa
             // 
+            btnXoa.BackColor = Color.LightSalmon;
             btnXoa.Location = new Point(373, 146);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(94, 29);
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
+            btnXoa.UseVisualStyleBackColor = false;
             // 
             // btnSua
             // 
+            btnSua.BackColor = Color.LightSalmon;
             btnSua.Location = new Point(273, 146);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(94, 29);
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = true;
+            btnSua.UseVisualStyleBackColor = false;
             // 
             // btnThem
             // 
+            btnThem.BackColor = Color.LightSalmon;
             btnThem.Location = new Point(173, 146);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(94, 29);
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
             // 
             // dateTimePicker1
             // 
@@ -178,9 +191,11 @@
             // label7
             // 
             label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(69, 85);
             label7.Name = "label7";
-            label7.Size = new Size(101, 20);
+            label7.Size = new Size(106, 20);
             label7.TabIndex = 24;
             label7.Text = "Ngày Bắt Đầu";
             label7.Click += label7_Click;
@@ -188,9 +203,12 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.Black;
             label6.Location = new Point(488, 51);
             label6.Name = "label6";
-            label6.Size = new Size(101, 20);
+            label6.Size = new Size(105, 20);
             label6.TabIndex = 23;
             label6.Text = "Tên Khóa Học";
             // 
@@ -205,37 +223,37 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(488, 85);
             label3.Name = "label3";
-            label3.Size = new Size(105, 20);
+            label3.Size = new Size(112, 20);
             label3.TabIndex = 20;
             label3.Text = "Ngày Kết Thúc";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(69, 55);
             label2.Name = "label2";
-            label2.Size = new Size(54, 20);
+            label2.Size = new Size(56, 20);
             label2.TabIndex = 19;
             label2.Text = "Mã KH";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.OrangeRed;
             label1.Location = new Point(451, 6);
             label1.Name = "label1";
-            label1.Size = new Size(238, 32);
+            label1.Size = new Size(240, 31);
             label1.TabIndex = 18;
             label1.Text = "QUẢN LÝ KHÓA HỌC";
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(198, 85);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(250, 27);
-            dateTimePicker2.TabIndex = 36;
             // 
             // FrmKhoaHoc
             // 
@@ -243,13 +261,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1082, 553);
             Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panelTop);
             Name = "FrmKhoaHoc";
             Text = "FrmKhoaHoc";
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataKhoaHoc).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -257,7 +275,7 @@
 
         private Panel panel2;
         private DataGridView dataKhoaHoc;
-        private Panel panel1;
+        private Panel panelTop;
         private TextBox txtTimKiem;
         private Button btnTimKiem;
         private Button btnLoad;

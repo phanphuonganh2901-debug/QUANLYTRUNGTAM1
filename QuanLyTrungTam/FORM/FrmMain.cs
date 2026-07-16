@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +31,17 @@ namespace QuanLyTrungTam.FORM
         }
         private Form currentForm = null;
 
+        private string vaiTro;
+        private string maNguoiDung;
+
+        public FrmMain(string vaiTro, string maNguoiDung)
+        {
+            InitializeComponent();
+
+            this.vaiTro = vaiTro;
+            this.maNguoiDung = maNguoiDung;
+        }
+
         private void FrmMain_Load(object sender, EventArgs e)
         {
             lblXinChao.Text = "Xin chào, Admin";
@@ -44,6 +57,9 @@ namespace QuanLyTrungTam.FORM
             VeBieuDoHocVien();
 
             VeChartKetQua();
+
+            panelGiaoVien.Visible = false;
+            panelHocVien.Visible = false;
         }
         private void OpenChildForm(Form childForm)
         {
@@ -187,7 +203,7 @@ namespace QuanLyTrungTam.FORM
 
         private void button3_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmHocVien());
+            panelHocVien.Visible = !panelHocVien.Visible;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -227,7 +243,7 @@ namespace QuanLyTrungTam.FORM
 
         private void btnGiaoVien_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmGiaoVien());
+            panelGiaoVien.Visible = !panelGiaoVien.Visible;
         }
 
         private void FrmMain_Load_1(object sender, EventArgs e)
@@ -284,7 +300,7 @@ namespace QuanLyTrungTam.FORM
 
         private void btnKetQuaThi_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmKetQuaThi());
+
         }
 
         private void btnHocPhi_Click(object sender, EventArgs e)
@@ -295,6 +311,58 @@ namespace QuanLyTrungTam.FORM
         private void label2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDSHV_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKetQua_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmKetQuaThi());
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmGiaoVien());
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmLichHoc(vaiTro, maNguoiDung));
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmHocVien());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FrmKetQuaThi());
+        }
+
+        private void pnlHome_Paint(object sender, PaintEventArgs e)
+        {
+            using (LinearGradientBrush brush = new LinearGradientBrush(
+            pnlHome.ClientRectangle,
+            Color.FromArgb(255, 236, 210),
+            Color.FromArgb(255, 200, 150),
+            LinearGradientMode.Vertical))
+            {
+                e.Graphics.FillRectangle(brush, pnlHome.ClientRectangle);
+            }
         }
     }
 }

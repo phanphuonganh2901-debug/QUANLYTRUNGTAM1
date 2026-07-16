@@ -29,18 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             panel1 = new Panel();
+            panelHocVien = new Panel();
+            button5 = new Button();
+            button6 = new Button();
+            panelGiaoVien = new Panel();
+            button4 = new Button();
+            button3 = new Button();
+            panelGV = new Panel();
+            button2 = new Button();
+            button1 = new Button();
+            panelHV = new Panel();
+            btnKetQua = new Button();
+            btnDSHV = new Button();
             btnKhoaHoc = new Button();
             btnDangXuat = new Button();
             btnReset = new Button();
             btnTaiKhoan = new Button();
-            btnKetQuaThi = new Button();
             btnHocPhi = new Button();
             btnLopHoc = new Button();
             btnHocVien = new Button();
@@ -69,6 +80,10 @@
             label4 = new Label();
             label3 = new Label();
             panel1.SuspendLayout();
+            panelHocVien.SuspendLayout();
+            panelGiaoVien.SuspendLayout();
+            panelGV.SuspendLayout();
+            panelHV.SuspendLayout();
             pnlMain.SuspendLayout();
             pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)chartKetQua).BeginInit();
@@ -77,23 +92,148 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(panelHocVien);
+            panel1.Controls.Add(panelGiaoVien);
+            panel1.Controls.Add(panelGV);
+            panel1.Controls.Add(panelHV);
             panel1.Controls.Add(btnKhoaHoc);
             panel1.Controls.Add(btnDangXuat);
             panel1.Controls.Add(btnReset);
             panel1.Controls.Add(btnTaiKhoan);
-            panel1.Controls.Add(btnKetQuaThi);
             panel1.Controls.Add(btnHocPhi);
             panel1.Controls.Add(btnLopHoc);
             panel1.Controls.Add(btnHocVien);
             panel1.Controls.Add(btnGiaoVien);
             panel1.Controls.Add(btnTrangChu);
-            panel1.Location = new Point(45, 98);
+            panel1.Location = new Point(52, 98);
             panel1.Name = "panel1";
             panel1.Size = new Size(162, 475);
             panel1.TabIndex = 2;
             // 
+            // panelHocVien
+            // 
+            panelHocVien.Controls.Add(button5);
+            panelHocVien.Controls.Add(button6);
+            panelHocVien.Location = new Point(21, 141);
+            panelHocVien.Name = "panelHocVien";
+            panelHocVien.Size = new Size(138, 107);
+            panelHocVien.TabIndex = 11;
+            // 
+            // button5
+            // 
+            button5.BackColor = SystemColors.InactiveCaption;
+            button5.Location = new Point(0, 7);
+            button5.Name = "button5";
+            button5.Size = new Size(138, 40);
+            button5.TabIndex = 2;
+            button5.Text = "Danh sách";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.BackColor = SystemColors.InactiveCaption;
+            button6.Location = new Point(0, 54);
+            button6.Name = "button6";
+            button6.Size = new Size(138, 40);
+            button6.TabIndex = 3;
+            button6.Text = "Kết quả thi";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
+            // 
+            // panelGiaoVien
+            // 
+            panelGiaoVien.Controls.Add(button4);
+            panelGiaoVien.Controls.Add(button3);
+            panelGiaoVien.Location = new Point(24, 94);
+            panelGiaoVien.Name = "panelGiaoVien";
+            panelGiaoVien.Size = new Size(138, 109);
+            panelGiaoVien.TabIndex = 26;
+            // 
+            // button4
+            // 
+            button4.BackColor = SystemColors.InactiveCaption;
+            button4.Location = new Point(0, 48);
+            button4.Name = "button4";
+            button4.Size = new Size(138, 40);
+            button4.TabIndex = 1;
+            button4.Text = "Lịch dạy";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.InactiveCaption;
+            button3.Location = new Point(0, 5);
+            button3.Name = "button3";
+            button3.Size = new Size(138, 40);
+            button3.TabIndex = 0;
+            button3.Text = "Danh sách";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click_1;
+            // 
+            // panelGV
+            // 
+            panelGV.Controls.Add(button2);
+            panelGV.Controls.Add(button1);
+            panelGV.Location = new Point(164, 47);
+            panelGV.Name = "panelGV";
+            panelGV.Size = new Size(136, 88);
+            panelGV.TabIndex = 10;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(3, 49);
+            button2.Name = "button2";
+            button2.Size = new Size(130, 36);
+            button2.TabIndex = 1;
+            button2.Text = "Lịch Dạy";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(0, 10);
+            button1.Name = "button1";
+            button1.Size = new Size(133, 40);
+            button1.TabIndex = 0;
+            button1.Text = "Danh sách";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // panelHV
+            // 
+            panelHV.Controls.Add(btnKetQua);
+            panelHV.Controls.Add(btnDSHV);
+            panelHV.Location = new Point(164, 96);
+            panelHV.Name = "panelHV";
+            panelHV.Size = new Size(133, 92);
+            panelHV.TabIndex = 10;
+            // 
+            // btnKetQua
+            // 
+            btnKetQua.AutoSize = true;
+            btnKetQua.Location = new Point(0, 53);
+            btnKetQua.Name = "btnKetQua";
+            btnKetQua.Size = new Size(130, 36);
+            btnKetQua.TabIndex = 2;
+            btnKetQua.Text = "Kết Quả thi";
+            btnKetQua.UseVisualStyleBackColor = true;
+            btnKetQua.Click += btnKetQua_Click;
+            // 
+            // btnDSHV
+            // 
+            btnDSHV.Location = new Point(0, 13);
+            btnDSHV.Name = "btnDSHV";
+            btnDSHV.Size = new Size(130, 36);
+            btnDSHV.TabIndex = 1;
+            btnDSHV.Text = "Danh Sách ";
+            btnDSHV.UseVisualStyleBackColor = true;
+            btnDSHV.Click += btnDSHV_Click;
+            // 
             // btnKhoaHoc
             // 
+            btnKhoaHoc.BackColor = Color.Orange;
             btnKhoaHoc.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnKhoaHoc.Location = new Point(3, 188);
             btnKhoaHoc.Name = "btnKhoaHoc";
@@ -101,69 +241,62 @@
             btnKhoaHoc.TabIndex = 9;
             btnKhoaHoc.Text = "Khóa Học";
             btnKhoaHoc.TextAlign = ContentAlignment.MiddleLeft;
-            btnKhoaHoc.UseVisualStyleBackColor = true;
+            btnKhoaHoc.UseVisualStyleBackColor = false;
             btnKhoaHoc.Click += btnKhoaHoc_Click;
             // 
             // btnDangXuat
             // 
+            btnDangXuat.BackColor = Color.Orange;
             btnDangXuat.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDangXuat.Location = new Point(3, 423);
+            btnDangXuat.Location = new Point(3, 359);
             btnDangXuat.Name = "btnDangXuat";
             btnDangXuat.Size = new Size(155, 47);
             btnDangXuat.TabIndex = 8;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = ContentAlignment.MiddleLeft;
-            btnDangXuat.UseVisualStyleBackColor = true;
+            btnDangXuat.UseVisualStyleBackColor = false;
             // 
             // btnReset
             // 
+            btnReset.BackColor = Color.Orange;
             btnReset.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnReset.Location = new Point(3, 376);
+            btnReset.Location = new Point(3, 316);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(155, 47);
             btnReset.TabIndex = 7;
             btnReset.Text = "Reset Mật Khẩu";
             btnReset.TextAlign = ContentAlignment.MiddleLeft;
-            btnReset.UseVisualStyleBackColor = true;
+            btnReset.UseVisualStyleBackColor = false;
             // 
             // btnTaiKhoan
             // 
+            btnTaiKhoan.BackColor = Color.Orange;
             btnTaiKhoan.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnTaiKhoan.Location = new Point(3, 329);
+            btnTaiKhoan.Location = new Point(3, 273);
             btnTaiKhoan.Name = "btnTaiKhoan";
             btnTaiKhoan.Size = new Size(155, 47);
             btnTaiKhoan.TabIndex = 6;
             btnTaiKhoan.Text = "Tài khoản";
             btnTaiKhoan.TextAlign = ContentAlignment.MiddleLeft;
-            btnTaiKhoan.UseVisualStyleBackColor = true;
+            btnTaiKhoan.UseVisualStyleBackColor = false;
             btnTaiKhoan.Click += btnTaiKhoan_Click;
-            // 
-            // btnKetQuaThi
-            // 
-            btnKetQuaThi.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnKetQuaThi.Location = new Point(3, 235);
-            btnKetQuaThi.Name = "btnKetQuaThi";
-            btnKetQuaThi.Size = new Size(155, 47);
-            btnKetQuaThi.TabIndex = 5;
-            btnKetQuaThi.Text = "Kết quả";
-            btnKetQuaThi.TextAlign = ContentAlignment.MiddleLeft;
-            btnKetQuaThi.UseVisualStyleBackColor = true;
-            btnKetQuaThi.Click += btnKetQuaThi_Click;
             // 
             // btnHocPhi
             // 
+            btnHocPhi.BackColor = Color.Orange;
             btnHocPhi.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnHocPhi.Location = new Point(3, 282);
+            btnHocPhi.Location = new Point(3, 232);
             btnHocPhi.Name = "btnHocPhi";
             btnHocPhi.Size = new Size(155, 47);
             btnHocPhi.TabIndex = 4;
             btnHocPhi.Text = "Học phí";
             btnHocPhi.TextAlign = ContentAlignment.MiddleLeft;
-            btnHocPhi.UseVisualStyleBackColor = true;
+            btnHocPhi.UseVisualStyleBackColor = false;
             btnHocPhi.Click += btnHocPhi_Click;
             // 
             // btnLopHoc
             // 
+            btnLopHoc.BackColor = Color.Orange;
             btnLopHoc.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnLopHoc.Location = new Point(3, 141);
             btnLopHoc.Name = "btnLopHoc";
@@ -171,11 +304,12 @@
             btnLopHoc.TabIndex = 3;
             btnLopHoc.Text = "Lớp học";
             btnLopHoc.TextAlign = ContentAlignment.MiddleLeft;
-            btnLopHoc.UseVisualStyleBackColor = true;
+            btnLopHoc.UseVisualStyleBackColor = false;
             btnLopHoc.Click += btnLopHoc_Click;
             // 
             // btnHocVien
             // 
+            btnHocVien.BackColor = Color.Orange;
             btnHocVien.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnHocVien.Location = new Point(3, 94);
             btnHocVien.Name = "btnHocVien";
@@ -183,11 +317,12 @@
             btnHocVien.TabIndex = 2;
             btnHocVien.Text = "Học viên";
             btnHocVien.TextAlign = ContentAlignment.MiddleLeft;
-            btnHocVien.UseVisualStyleBackColor = true;
+            btnHocVien.UseVisualStyleBackColor = false;
             btnHocVien.Click += button3_Click;
             // 
             // btnGiaoVien
             // 
+            btnGiaoVien.BackColor = Color.Orange;
             btnGiaoVien.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnGiaoVien.Location = new Point(3, 47);
             btnGiaoVien.Name = "btnGiaoVien";
@@ -195,11 +330,12 @@
             btnGiaoVien.TabIndex = 1;
             btnGiaoVien.Text = "Giáo viên";
             btnGiaoVien.TextAlign = ContentAlignment.MiddleLeft;
-            btnGiaoVien.UseVisualStyleBackColor = true;
+            btnGiaoVien.UseVisualStyleBackColor = false;
             btnGiaoVien.Click += btnGiaoVien_Click;
             // 
             // btnTrangChu
             // 
+            btnTrangChu.BackColor = Color.Orange;
             btnTrangChu.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnTrangChu.Location = new Point(3, 0);
             btnTrangChu.Name = "btnTrangChu";
@@ -207,7 +343,7 @@
             btnTrangChu.TabIndex = 0;
             btnTrangChu.Text = "Trang chủ";
             btnTrangChu.TextAlign = ContentAlignment.MiddleLeft;
-            btnTrangChu.UseVisualStyleBackColor = true;
+            btnTrangChu.UseVisualStyleBackColor = false;
             btnTrangChu.Click += btnTrangChu_Click;
             // 
             // button8
@@ -257,7 +393,7 @@
             // pnlMain
             // 
             pnlMain.Controls.Add(pnlHome);
-            pnlMain.Location = new Point(226, 93);
+            pnlMain.Location = new Point(226, 98);
             pnlMain.Name = "pnlMain";
             pnlMain.Size = new Size(1100, 600);
             pnlMain.TabIndex = 25;
@@ -285,6 +421,7 @@
             pnlHome.Name = "pnlHome";
             pnlHome.Size = new Size(1077, 594);
             pnlHome.TabIndex = 0;
+            pnlHome.Paint += pnlHome_Paint;
             // 
             // label2
             // 
@@ -299,17 +436,17 @@
             // 
             // chartKetQua
             // 
-            chartArea1.Name = "ChartArea1";
-            chartKetQua.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            chartKetQua.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            chartKetQua.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            chartKetQua.Legends.Add(legend5);
             chartKetQua.Location = new Point(593, 143);
             chartKetQua.Name = "chartKetQua";
             chartKetQua.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            chartKetQua.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            chartKetQua.Series.Add(series5);
             chartKetQua.Size = new Size(423, 212);
             chartKetQua.TabIndex = 48;
             chartKetQua.Text = "chart2";
@@ -343,26 +480,26 @@
             // 
             // chartHocVien
             // 
-            chartArea2.AxisX.Interval = 1D;
-            chartArea2.AxisX.Maximum = 12D;
-            chartArea2.AxisX.Minimum = 1D;
-            chartArea2.AxisX.Title = "Tháng";
-            chartArea2.AxisY.Interval = 1D;
-            chartArea2.AxisY.Minimum = 0D;
-            chartArea2.AxisY.Title = "Số học viên";
-            chartArea2.Name = "ChartArea1";
-            chartHocVien.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chartHocVien.Legends.Add(legend2);
+            chartArea6.AxisX.Interval = 1D;
+            chartArea6.AxisX.Maximum = 12D;
+            chartArea6.AxisX.Minimum = 1D;
+            chartArea6.AxisX.Title = "Tháng";
+            chartArea6.AxisY.Interval = 1D;
+            chartArea6.AxisY.Minimum = 0D;
+            chartArea6.AxisY.Title = "Số học viên";
+            chartArea6.Name = "ChartArea1";
+            chartHocVien.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            chartHocVien.Legends.Add(legend6);
             chartHocVien.Location = new Point(135, 144);
             chartHocVien.Name = "chartHocVien";
             chartHocVien.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.LegendText = "Số học viên đăng ký";
-            series2.Name = "Series1";
-            series2.SmartLabelStyle.Enabled = false;
-            chartHocVien.Series.Add(series2);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.LegendText = "Số học viên đăng ký";
+            series6.Name = "Series1";
+            series6.SmartLabelStyle.Enabled = false;
+            chartHocVien.Series.Add(series6);
             chartHocVien.Size = new Size(423, 212);
             chartHocVien.TabIndex = 44;
             chartHocVien.Text = "chart1";
@@ -430,6 +567,7 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.LightSalmon;
             label6.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label6.Location = new Point(736, 2);
             label6.Name = "label6";
@@ -440,6 +578,7 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = Color.LightSalmon;
             label5.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(492, 2);
             label5.Name = "label5";
@@ -450,6 +589,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.LightSalmon;
             label4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(301, 2);
             label4.Name = "label4";
@@ -460,6 +600,7 @@
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = Color.LightSalmon;
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(122, 2);
             label3.Name = "label3";
@@ -471,6 +612,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Control;
             ClientSize = new Size(1348, 721);
             Controls.Add(pnlMain);
             Controls.Add(label1);
@@ -483,6 +625,11 @@
             Text = "FrmMain";
             Load += FrmMain_Load_1;
             panel1.ResumeLayout(false);
+            panelHocVien.ResumeLayout(false);
+            panelGiaoVien.ResumeLayout(false);
+            panelGV.ResumeLayout(false);
+            panelHV.ResumeLayout(false);
+            panelHV.PerformLayout();
             pnlMain.ResumeLayout(false);
             pnlHome.ResumeLayout(false);
             pnlHome.PerformLayout();
@@ -497,7 +644,6 @@
         private Button btnHocVien;
         private Button btnGiaoVien;
         private Button btnTrangChu;
-        private Button btnKetQuaThi;
         private Button btnHocPhi;
         private Button btnLopHoc;
         private Button btnTaiKhoan;
@@ -526,5 +672,17 @@
         private Button btnKhoaHoc;
         private Label label2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartKetQua;
+        private Panel panelGV;
+        private Button button2;
+        private Button button1;
+        private Panel panelHV;
+        private Button btnKetQua;
+        private Button btnDSHV;
+        private Panel panelGiaoVien;
+        private Button button4;
+        private Button button3;
+        private Panel panelHocVien;
+        private Button button5;
+        private Button button6;
     }
 }

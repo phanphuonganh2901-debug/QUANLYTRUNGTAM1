@@ -29,7 +29,12 @@
         private void InitializeComponent()
         {
             panel2 = new Panel();
-            panel1 = new Panel();
+            dataBienLaiHocPhi = new DataGridView();
+            panelTop = new Panel();
+            txtNguoiThu = new TextBox();
+            label9 = new Label();
+            txtMaKH = new TextBox();
+            txtMaLop = new TextBox();
             txtTienNop = new TextBox();
             label8 = new Label();
             txtTimKiem = new TextBox();
@@ -48,54 +53,94 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            dataBienLaiHocPhi = new DataGridView();
-            txtMaLop = new TextBox();
-            txtMaKH = new TextBox();
-            txtNguoiThu = new TextBox();
-            label9 = new Label();
             panel2.SuspendLayout();
-            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataBienLaiHocPhi).BeginInit();
+            panelTop.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
             panel2.Controls.Add(dataBienLaiHocPhi);
             panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 180);
+            panel2.Location = new Point(0, 202);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1082, 373);
+            panel2.Size = new Size(1082, 351);
             panel2.TabIndex = 3;
             // 
-            // panel1
+            // dataBienLaiHocPhi
             // 
-            panel1.Controls.Add(txtNguoiThu);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(txtMaKH);
-            panel1.Controls.Add(txtMaLop);
-            panel1.Controls.Add(txtTienNop);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(txtTimKiem);
-            panel1.Controls.Add(btnTimKiem);
-            panel1.Controls.Add(btnLoad);
-            panel1.Controls.Add(btnXoa);
-            panel1.Controls.Add(btnSua);
-            panel1.Controls.Add(btnThem);
-            panel1.Controls.Add(dateTimePicker1);
-            panel1.Controls.Add(txtMaHocVien);
-            panel1.Controls.Add(txtSoBienLai);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 180);
-            panel1.TabIndex = 2;
+            dataBienLaiHocPhi.AllowUserToAddRows = false;
+            dataBienLaiHocPhi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataBienLaiHocPhi.Dock = DockStyle.Fill;
+            dataBienLaiHocPhi.Location = new Point(0, 0);
+            dataBienLaiHocPhi.Name = "dataBienLaiHocPhi";
+            dataBienLaiHocPhi.ReadOnly = true;
+            dataBienLaiHocPhi.RowHeadersWidth = 51;
+            dataBienLaiHocPhi.RowTemplate.Height = 29;
+            dataBienLaiHocPhi.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataBienLaiHocPhi.Size = new Size(1082, 351);
+            dataBienLaiHocPhi.TabIndex = 1;
+            // 
+            // panelTop
+            // 
+            panelTop.Controls.Add(txtNguoiThu);
+            panelTop.Controls.Add(label9);
+            panelTop.Controls.Add(txtMaKH);
+            panelTop.Controls.Add(txtMaLop);
+            panelTop.Controls.Add(txtTienNop);
+            panelTop.Controls.Add(label8);
+            panelTop.Controls.Add(txtTimKiem);
+            panelTop.Controls.Add(btnTimKiem);
+            panelTop.Controls.Add(btnLoad);
+            panelTop.Controls.Add(btnXoa);
+            panelTop.Controls.Add(btnSua);
+            panelTop.Controls.Add(btnThem);
+            panelTop.Controls.Add(dateTimePicker1);
+            panelTop.Controls.Add(txtMaHocVien);
+            panelTop.Controls.Add(txtSoBienLai);
+            panelTop.Controls.Add(label7);
+            panelTop.Controls.Add(label6);
+            panelTop.Controls.Add(label5);
+            panelTop.Controls.Add(label4);
+            panelTop.Controls.Add(label3);
+            panelTop.Controls.Add(label2);
+            panelTop.Controls.Add(label1);
+            panelTop.Dock = DockStyle.Top;
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(1082, 202);
+            panelTop.TabIndex = 2;
+            panelTop.Paint += panel1_Paint;
+            // 
+            // txtNguoiThu
+            // 
+            txtNguoiThu.Location = new Point(565, 45);
+            txtNguoiThu.Name = "txtNguoiThu";
+            txtNguoiThu.Size = new Size(454, 27);
+            txtNguoiThu.TabIndex = 41;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(473, 49);
+            label9.Name = "label9";
+            label9.Size = new Size(79, 20);
+            label9.TabIndex = 40;
+            label9.Text = "Người Thu";
+            // 
+            // txtMaKH
+            // 
+            txtMaKH.Location = new Point(565, 115);
+            txtMaKH.Name = "txtMaKH";
+            txtMaKH.Size = new Size(171, 27);
+            txtMaKH.TabIndex = 39;
+            // 
+            // txtMaLop
+            // 
+            txtMaLop.Location = new Point(565, 78);
+            txtMaLop.Name = "txtMaLop";
+            txtMaLop.Size = new Size(171, 27);
+            txtMaLop.TabIndex = 38;
             // 
             // txtTienNop
             // 
@@ -115,7 +160,7 @@
             // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(637, 148);
+            txtTimKiem.Location = new Point(637, 160);
             txtTimKiem.Name = "txtTimKiem";
             txtTimKiem.Size = new Size(220, 27);
             txtTimKiem.TabIndex = 35;
@@ -124,7 +169,7 @@
             // 
             // btnTimKiem
             // 
-            btnTimKiem.Location = new Point(863, 145);
+            btnTimKiem.Location = new Point(863, 157);
             btnTimKiem.Name = "btnTimKiem";
             btnTimKiem.Size = new Size(94, 29);
             btnTimKiem.TabIndex = 34;
@@ -133,7 +178,7 @@
             // 
             // btnLoad
             // 
-            btnLoad.Location = new Point(473, 146);
+            btnLoad.Location = new Point(473, 158);
             btnLoad.Name = "btnLoad";
             btnLoad.Size = new Size(94, 29);
             btnLoad.TabIndex = 33;
@@ -142,7 +187,7 @@
             // 
             // btnXoa
             // 
-            btnXoa.Location = new Point(373, 146);
+            btnXoa.Location = new Point(373, 158);
             btnXoa.Name = "btnXoa";
             btnXoa.Size = new Size(94, 29);
             btnXoa.TabIndex = 32;
@@ -151,7 +196,7 @@
             // 
             // btnSua
             // 
-            btnSua.Location = new Point(273, 146);
+            btnSua.Location = new Point(273, 158);
             btnSua.Name = "btnSua";
             btnSua.Size = new Size(94, 29);
             btnSua.TabIndex = 31;
@@ -160,7 +205,7 @@
             // 
             // btnThem
             // 
-            btnThem.Location = new Point(173, 146);
+            btnThem.Location = new Point(173, 158);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(94, 29);
             btnThem.TabIndex = 30;
@@ -252,70 +297,26 @@
             label1.TabIndex = 18;
             label1.Text = "QUẢN LÝ BIÊN LAI HỌC PHÍ";
             // 
-            // dataBienLaiHocPhi
-            // 
-            dataBienLaiHocPhi.AllowUserToAddRows = false;
-            dataBienLaiHocPhi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataBienLaiHocPhi.Dock = DockStyle.Fill;
-            dataBienLaiHocPhi.Location = new Point(0, 0);
-            dataBienLaiHocPhi.Name = "dataBienLaiHocPhi";
-            dataBienLaiHocPhi.ReadOnly = true;
-            dataBienLaiHocPhi.RowHeadersWidth = 51;
-            dataBienLaiHocPhi.RowTemplate.Height = 29;
-            dataBienLaiHocPhi.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataBienLaiHocPhi.Size = new Size(1082, 373);
-            dataBienLaiHocPhi.TabIndex = 1;
-            // 
-            // txtMaLop
-            // 
-            txtMaLop.Location = new Point(565, 78);
-            txtMaLop.Name = "txtMaLop";
-            txtMaLop.Size = new Size(171, 27);
-            txtMaLop.TabIndex = 38;
-            // 
-            // txtMaKH
-            // 
-            txtMaKH.Location = new Point(565, 115);
-            txtMaKH.Name = "txtMaKH";
-            txtMaKH.Size = new Size(171, 27);
-            txtMaKH.TabIndex = 39;
-            // 
-            // txtNguoiThu
-            // 
-            txtNguoiThu.Location = new Point(565, 45);
-            txtNguoiThu.Name = "txtNguoiThu";
-            txtNguoiThu.Size = new Size(454, 27);
-            txtNguoiThu.TabIndex = 41;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Location = new Point(473, 49);
-            label9.Name = "label9";
-            label9.Size = new Size(79, 20);
-            label9.TabIndex = 40;
-            label9.Text = "Người Thu";
-            // 
             // FrmBienLaiHocPhi
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1082, 553);
             Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panelTop);
             Name = "FrmBienLaiHocPhi";
             Text = "FrmBienLaiHocPhi";
             panel2.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataBienLaiHocPhi).EndInit();
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panel2;
-        private Panel panel1;
+        private Panel panelTop;
         private TextBox txtTimKiem;
         private Button btnTimKiem;
         private Button btnLoad;

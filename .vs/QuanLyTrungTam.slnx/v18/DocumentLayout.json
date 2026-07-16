@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmlichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmlichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmlichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmlichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\bienlaihocphibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\bienlaihocphibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmmainhv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmainhv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\lichhocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\lichhocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\ketquathibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\ketquathibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\lophocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\lophocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\models\\lichdayview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\models\\lichdayview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\bienlaihocphibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\bienlaihocphibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,14 +71,6 @@
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\models\\ketquathi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\ketquathibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\ketquathibus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\models\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\models\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\models\\lichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\models\\lichhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmmainhv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmainhv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6309D49-2BCF-4F5C-B30E-F2713D498866}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmlophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -63,24 +95,12 @@
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmmaingv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmmaingv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6309D49-2BCF-4F5C-B30E-F2713D498866}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D6309D49-2BCF-4F5C-B30E-F2713D498866}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmhocvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmgiaovien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\frmbienlaihocphi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\form\\frmgiaovien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +143,6 @@
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\form\\loginadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\lichhocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\lichhocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\danhgiahocvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\danhgiahocvienbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -136,10 +152,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\khoahocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\khoahocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\bus\\lophocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|solutionrelative:quanlytrungtam\\bus\\lophocbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E36D235-E426-A0B9-7BA7-55D6C476F44B}|QuanLyTrungTam\\QuanLyTrungTam.csproj|d:\\users\\admin\\source\\repos\\quanlytrungtam\\quanlytrungtam\\quanlytrungtam.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -157,7 +169,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FrmMain.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMain.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
@@ -170,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "FrmMainHV.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMainHV.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMainHV.cs",
@@ -178,49 +190,147 @@
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMainHV.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-12T17:18:52.887Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FrmMainGV.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMainGV.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMainGV.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMainGV.cs [Design]",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMainGV.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "FrmBienLaiHocPhi.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAvwB8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-12T17:18:14.211Z",
-              "IsPinned": true
+              "WhenOpened": "2026-07-16T02:55:18.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LopHoc.cs",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\LopHoc.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\LopHoc.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\LopHoc.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\Models\\LopHoc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FrmBienLaiHocPhi.cs [Design]",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs [Design]",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T05:52:27.82Z",
-              "IsPinned": true
+              "WhenOpened": "2026-07-13T05:39:50.224Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmGiaoVien.cs [Design]",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs [Design]",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T05:25:10.155Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmLichHoc.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAewFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:38:22.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmLichHoc.cs [Design]",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLichHoc.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLichHoc.cs [Design]",
+              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmLichHoc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-16T02:52:28.967Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FrmMain.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMain.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.cs",
               "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMain.cs",
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmMain.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwHUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAIA7wG0BAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T05:21:13.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "LichHocBUS.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LichHocBUS.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\LichHocBUS.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LichHocBUS.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\BUS\\LichHocBUS.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAIwGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T04:48:36.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\TaiKhoan.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\Models\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:29:26.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KetQuaThiBUS.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T04:48:36.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LopHocBUS.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LopHocBUS.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LopHocBUS.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T04:48:36.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LichDayView.cs",
+              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\LichDayView.cs",
+              "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\LichDayView.cs",
+              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\LichDayView.cs",
+              "RelativeToolTip": "QuanLyTrungTam\\Models\\LichDayView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T16:22:18.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BienLaiHocPhiBUS.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
@@ -228,12 +338,11 @@
               "RelativeToolTip": "QuanLyTrungTam\\BUS\\BienLaiHocPhiBUS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:48:36.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-11T04:48:36.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "FrmMain.Designer.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMain.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMain.Designer.cs",
@@ -246,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "DanhGiaHocVien.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\DanhGiaHocVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\DanhGiaHocVien.cs",
@@ -258,19 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "KetQuaThiBUS.cs",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\BUS\\KetQuaThiBUS.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwDEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:48:36.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "KetQuaThi.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\KetQuaThi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\KetQuaThi.cs",
@@ -282,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "LichHoc.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Models\\LichHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Models\\LichHoc.cs",
@@ -294,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "DBContext.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\DAL\\DBContext.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\DAL\\DBContext.cs",
@@ -306,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "FrmLopHoc.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
@@ -317,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "FrmLopHoc.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLopHoc.cs",
@@ -328,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "FrmLopHoc.Designer.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLopHoc.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLopHoc.Designer.cs",
@@ -340,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\Program.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\Program.cs",
@@ -352,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "FrmHocVien.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmHocVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmHocVien.cs",
@@ -363,7 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "FrmHocVien.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmHocVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmHocVien.cs",
@@ -374,29 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FrmGiaoVien.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs [Design]",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T05:25:10.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FrmBienLaiHocPhi.cs [Design]",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs [Design]",
-              "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmBienLaiHocPhi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T05:39:50.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "FrmGiaoVien.Designer.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmGiaoVien.Designer.cs",
@@ -404,11 +479,12 @@
               "RelativeToolTip": "QuanLyTrungTam\\FORM\\FrmGiaoVien.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T05:25:18.325Z"
+              "WhenOpened": "2026-07-13T05:25:18.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "FrmGiaoVien.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmGiaoVien.cs",
@@ -419,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "FrmMainHV.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMainHV.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMainHV.cs",
@@ -431,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "FrmMainGV.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmMainGV.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmMainGV.cs",
@@ -443,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "LoginStudent.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\LoginStudent.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginStudent.cs",
@@ -454,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "LoginStudent.Designer.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\LoginStudent.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginStudent.Designer.cs",
@@ -466,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "FrmLoginChoose.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmLoginChoose.cs",
@@ -477,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "FrmKhoaHoc.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmKhoaHoc.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmKhoaHoc.cs",
@@ -488,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "FrmKetQuaThi.cs [Design]",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\FrmKetQuaThi.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\FrmKetQuaThi.cs",
@@ -499,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "DanhGiaHocVienBUS.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\DanhGiaHocVienBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\DanhGiaHocVienBUS.cs",
@@ -511,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "LoginAdmin.Designer.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\FORM\\LoginAdmin.Designer.cs",
@@ -523,19 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LichHocBUS.cs",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LichHocBUS.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\LichHocBUS.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LichHocBUS.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\BUS\\LichHocBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:48:36.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "KhoaHocBUS.cs",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\KhoaHocBUS.cs",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\KhoaHocBUS.cs",
@@ -547,19 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "LopHocBUS.cs",
-              "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LopHocBUS.cs",
-              "RelativeDocumentMoniker": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
-              "ToolTip": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\BUS\\LopHocBUS.cs",
-              "RelativeToolTip": "QuanLyTrungTam\\BUS\\LopHocBUS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-11T04:48:36.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "Microsoft.NET.EolTargetFrameworks.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
@@ -569,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "QuanLyTrungTam.csproj",
               "DocumentMoniker": "D:\\Users\\Admin\\source\\repos\\QuanLyTrungTam\\QuanLyTrungTam\\QuanLyTrungTam.csproj",
               "RelativeDocumentMoniker": "QuanLyTrungTam\\QuanLyTrungTam.csproj",

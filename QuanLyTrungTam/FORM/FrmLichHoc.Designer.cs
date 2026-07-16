@@ -28,20 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panel2 = new Panel();
-            dataLopHoc = new DataGridView();
-            panel1 = new Panel();
+            panelTop = new Panel();
+            cboGioKT = new ComboBox();
+            cboGioBD = new ComboBox();
+            cboGiaoVien = new ComboBox();
+            label10 = new Label();
+            cboLop = new ComboBox();
+            dtpNgayHoc = new DateTimePicker();
+            txtNoiDung = new TextBox();
+            label9 = new Label();
             txtPhongHoc = new TextBox();
             label8 = new Label();
-            txtTimKiem = new TextBox();
-            btnTimKiem = new Button();
-            btnLoad = new Button();
-            btnXoa = new Button();
-            btnSua = new Button();
-            btnThem = new Button();
-            txtSiSo = new TextBox();
-            txtTenLop = new TextBox();
-            txtMaLop = new TextBox();
+            txtMaLich = new TextBox();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
@@ -49,67 +47,120 @@
             label3 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox1 = new TextBox();
-            label9 = new Label();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataLopHoc).BeginInit();
-            panel1.SuspendLayout();
+            panel4 = new Panel();
+            dgvLichHoc = new DataGridView();
+            txtTimKiem = new TextBox();
+            btnTimKiem = new Button();
+            btnLoad = new Button();
+            btnXoa = new Button();
+            btnSua = new Button();
+            btnThem = new Button();
+            panelTop.SuspendLayout();
+            panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvLichHoc).BeginInit();
             SuspendLayout();
             // 
-            // panel2
+            // panelTop
             // 
-            panel2.Controls.Add(dataLopHoc);
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 180);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(1082, 373);
-            panel2.TabIndex = 5;
+            panelTop.Controls.Add(txtTimKiem);
+            panelTop.Controls.Add(btnTimKiem);
+            panelTop.Controls.Add(btnLoad);
+            panelTop.Controls.Add(btnXoa);
+            panelTop.Controls.Add(btnSua);
+            panelTop.Controls.Add(btnThem);
+            panelTop.Controls.Add(cboGioKT);
+            panelTop.Controls.Add(cboGioBD);
+            panelTop.Controls.Add(cboGiaoVien);
+            panelTop.Controls.Add(label10);
+            panelTop.Controls.Add(cboLop);
+            panelTop.Controls.Add(dtpNgayHoc);
+            panelTop.Controls.Add(txtNoiDung);
+            panelTop.Controls.Add(label9);
+            panelTop.Controls.Add(txtPhongHoc);
+            panelTop.Controls.Add(label8);
+            panelTop.Controls.Add(txtMaLich);
+            panelTop.Controls.Add(label7);
+            panelTop.Controls.Add(label6);
+            panelTop.Controls.Add(label5);
+            panelTop.Controls.Add(label4);
+            panelTop.Controls.Add(label3);
+            panelTop.Controls.Add(label2);
+            panelTop.Controls.Add(label1);
+            panelTop.Dock = DockStyle.Top;
+            panelTop.Location = new Point(0, 0);
+            panelTop.Name = "panelTop";
+            panelTop.Size = new Size(1082, 226);
+            panelTop.TabIndex = 4;
+            panelTop.Paint += panelTop_Paint;
             // 
-            // dataLopHoc
+            // cboGioKT
             // 
-            dataLopHoc.AllowUserToAddRows = false;
-            dataLopHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataLopHoc.Dock = DockStyle.Fill;
-            dataLopHoc.Location = new Point(0, 0);
-            dataLopHoc.Name = "dataLopHoc";
-            dataLopHoc.ReadOnly = true;
-            dataLopHoc.RowHeadersWidth = 51;
-            dataLopHoc.RowTemplate.Height = 29;
-            dataLopHoc.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataLopHoc.Size = new Size(1082, 373);
-            dataLopHoc.TabIndex = 0;
+            cboGioKT.FormattingEnabled = true;
+            cboGioKT.Location = new Point(828, 82);
+            cboGioKT.Name = "cboGioKT";
+            cboGioKT.Size = new Size(151, 28);
+            cboGioKT.TabIndex = 46;
             // 
-            // panel1
+            // cboGioBD
             // 
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(txtPhongHoc);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(txtTimKiem);
-            panel1.Controls.Add(btnTimKiem);
-            panel1.Controls.Add(btnLoad);
-            panel1.Controls.Add(btnXoa);
-            panel1.Controls.Add(btnSua);
-            panel1.Controls.Add(btnThem);
-            panel1.Controls.Add(txtSiSo);
-            panel1.Controls.Add(txtTenLop);
-            panel1.Controls.Add(txtMaLop);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(label1);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 180);
-            panel1.TabIndex = 4;
+            cboGioBD.FormattingEnabled = true;
+            cboGioBD.Location = new Point(466, 77);
+            cboGioBD.Name = "cboGioBD";
+            cboGioBD.Size = new Size(151, 28);
+            cboGioBD.TabIndex = 45;
+            // 
+            // cboGiaoVien
+            // 
+            cboGiaoVien.FormattingEnabled = true;
+            cboGiaoVien.Location = new Point(156, 114);
+            cboGiaoVien.Name = "cboGiaoVien";
+            cboGiaoVien.Size = new Size(151, 28);
+            cboGiaoVien.TabIndex = 44;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(69, 117);
+            label10.Name = "label10";
+            label10.Size = new Size(73, 20);
+            label10.TabIndex = 43;
+            label10.Text = "Giáo Viên";
+            label10.Click += label10_Click;
+            // 
+            // cboLop
+            // 
+            cboLop.FormattingEnabled = true;
+            cboLop.Location = new Point(156, 81);
+            cboLop.Name = "cboLop";
+            cboLop.Size = new Size(151, 28);
+            cboLop.TabIndex = 42;
+            // 
+            // dtpNgayHoc
+            // 
+            dtpNgayHoc.Location = new Point(468, 46);
+            dtpNgayHoc.Name = "dtpNgayHoc";
+            dtpNgayHoc.Size = new Size(250, 27);
+            dtpNgayHoc.TabIndex = 41;
+            // 
+            // txtNoiDung
+            // 
+            txtNoiDung.Location = new Point(504, 115);
+            txtNoiDung.Name = "txtNoiDung";
+            txtNoiDung.Size = new Size(410, 27);
+            txtNoiDung.TabIndex = 40;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(373, 117);
+            label9.Name = "label9";
+            label9.Size = new Size(125, 20);
+            label9.TabIndex = 39;
+            label9.Text = "Nội dung lớp học";
             // 
             // txtPhongHoc
             // 
-            txtPhongHoc.Location = new Point(156, 115);
+            txtPhongHoc.Location = new Point(828, 45);
             txtPhongHoc.Name = "txtPhongHoc";
             txtPhongHoc.Size = new Size(171, 27);
             txtPhongHoc.TabIndex = 38;
@@ -117,92 +168,24 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(720, 92);
+            label8.Location = new Point(720, 84);
             label8.Name = "label8";
             label8.Size = new Size(88, 20);
             label8.TabIndex = 36;
             label8.Text = "Giờ kết thúc";
             label8.Click += label8_Click;
             // 
-            // txtTimKiem
+            // txtMaLich
             // 
-            txtTimKiem.Location = new Point(637, 145);
-            txtTimKiem.Name = "txtTimKiem";
-            txtTimKiem.Size = new Size(220, 27);
-            txtTimKiem.TabIndex = 35;
-            txtTimKiem.Text = "Nhập Mã Lớp cần tìm";
-            txtTimKiem.TextAlign = HorizontalAlignment.Center;
-            // 
-            // btnTimKiem
-            // 
-            btnTimKiem.Location = new Point(863, 145);
-            btnTimKiem.Name = "btnTimKiem";
-            btnTimKiem.Size = new Size(94, 29);
-            btnTimKiem.TabIndex = 34;
-            btnTimKiem.Text = "Tìm Kiếm";
-            btnTimKiem.UseVisualStyleBackColor = true;
-            // 
-            // btnLoad
-            // 
-            btnLoad.Location = new Point(473, 146);
-            btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(94, 29);
-            btnLoad.TabIndex = 33;
-            btnLoad.Text = "Làm Mới";
-            btnLoad.UseVisualStyleBackColor = true;
-            // 
-            // btnXoa
-            // 
-            btnXoa.Location = new Point(373, 146);
-            btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(94, 29);
-            btnXoa.TabIndex = 32;
-            btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = true;
-            // 
-            // btnSua
-            // 
-            btnSua.Location = new Point(273, 146);
-            btnSua.Name = "btnSua";
-            btnSua.Size = new Size(94, 29);
-            btnSua.TabIndex = 31;
-            btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = true;
-            // 
-            // btnThem
-            // 
-            btnThem.Location = new Point(173, 146);
-            btnThem.Name = "btnThem";
-            btnThem.Size = new Size(94, 29);
-            btnThem.TabIndex = 30;
-            btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = true;
-            // 
-            // txtSiSo
-            // 
-            txtSiSo.Location = new Point(156, 82);
-            txtSiSo.Name = "txtSiSo";
-            txtSiSo.Size = new Size(171, 27);
-            txtSiSo.TabIndex = 27;
-            // 
-            // txtTenLop
-            // 
-            txtTenLop.Location = new Point(504, 48);
-            txtTenLop.Name = "txtTenLop";
-            txtTenLop.Size = new Size(410, 27);
-            txtTenLop.TabIndex = 26;
-            // 
-            // txtMaLop
-            // 
-            txtMaLop.Location = new Point(156, 52);
-            txtMaLop.Name = "txtMaLop";
-            txtMaLop.Size = new Size(171, 27);
-            txtMaLop.TabIndex = 25;
+            txtMaLich.Location = new Point(156, 52);
+            txtMaLich.Name = "txtMaLich";
+            txtMaLich.Size = new Size(151, 27);
+            txtMaLich.TabIndex = 25;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(69, 85);
+            label7.Location = new Point(69, 86);
             label7.Name = "label7";
             label7.Size = new Size(59, 20);
             label7.TabIndex = 24;
@@ -237,7 +220,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(53, 118);
+            label3.Location = new Point(726, 52);
             label3.Name = "label3";
             label3.Size = new Size(82, 20);
             label3.TabIndex = 20;
@@ -258,60 +241,106 @@
             label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(451, 6);
             label1.Name = "label1";
-            label1.Size = new Size(224, 32);
+            label1.Size = new Size(174, 32);
             label1.TabIndex = 18;
-            label1.Text = "QUẢN LÝ LỊCH HỌC";
+            label1.Text = "QUẢN LÝ LỊCH ";
             // 
-            // textBox1
+            // panel4
             // 
-            textBox1.Location = new Point(504, 115);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(410, 27);
-            textBox1.TabIndex = 40;
+            panel4.Controls.Add(dgvLichHoc);
+            panel4.Location = new Point(0, 229);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1082, 327);
+            panel4.TabIndex = 6;
             // 
-            // label9
+            // dgvLichHoc
             // 
-            label9.AutoSize = true;
-            label9.Location = new Point(373, 117);
-            label9.Name = "label9";
-            label9.Size = new Size(125, 20);
-            label9.TabIndex = 39;
-            label9.Text = "Nội dung lớp học";
+            dgvLichHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvLichHoc.Location = new Point(0, 3);
+            dgvLichHoc.Name = "dgvLichHoc";
+            dgvLichHoc.RowHeadersWidth = 51;
+            dgvLichHoc.RowTemplate.Height = 29;
+            dgvLichHoc.Size = new Size(1082, 327);
+            dgvLichHoc.TabIndex = 0;
+            // 
+            // txtTimKiem
+            // 
+            txtTimKiem.Location = new Point(565, 177);
+            txtTimKiem.Name = "txtTimKiem";
+            txtTimKiem.Size = new Size(220, 27);
+            txtTimKiem.TabIndex = 52;
+            txtTimKiem.Text = "Nhập Mã Lịch cần tìm";
+            txtTimKiem.TextAlign = HorizontalAlignment.Center;
+            // 
+            // btnTimKiem
+            // 
+            btnTimKiem.Location = new Point(791, 177);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.Size = new Size(94, 29);
+            btnTimKiem.TabIndex = 51;
+            btnTimKiem.Text = "Tìm Kiếm";
+            btnTimKiem.UseVisualStyleBackColor = true;
+            // 
+            // btnLoad
+            // 
+            btnLoad.Location = new Point(401, 178);
+            btnLoad.Name = "btnLoad";
+            btnLoad.Size = new Size(94, 29);
+            btnLoad.TabIndex = 50;
+            btnLoad.Text = "Làm Mới";
+            btnLoad.UseVisualStyleBackColor = true;
+            // 
+            // btnXoa
+            // 
+            btnXoa.Location = new Point(301, 178);
+            btnXoa.Name = "btnXoa";
+            btnXoa.Size = new Size(94, 29);
+            btnXoa.TabIndex = 49;
+            btnXoa.Text = "Xóa";
+            btnXoa.UseVisualStyleBackColor = true;
+            // 
+            // btnSua
+            // 
+            btnSua.Location = new Point(201, 178);
+            btnSua.Name = "btnSua";
+            btnSua.Size = new Size(94, 29);
+            btnSua.TabIndex = 48;
+            btnSua.Text = "Sửa";
+            btnSua.UseVisualStyleBackColor = true;
+            // 
+            // btnThem
+            // 
+            btnThem.Location = new Point(101, 178);
+            btnThem.Name = "btnThem";
+            btnThem.Size = new Size(94, 29);
+            btnThem.TabIndex = 47;
+            btnThem.Text = "Thêm";
+            btnThem.UseVisualStyleBackColor = true;
             // 
             // FrmLichHoc
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1082, 553);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
+            Controls.Add(panel4);
+            Controls.Add(panelTop);
             Name = "FrmLichHoc";
             Text = "FrmLichHoc";
-            panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataLopHoc).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += FrmLichHoc_Load_1;
+            panelTop.ResumeLayout(false);
+            panelTop.PerformLayout();
+            panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dgvLichHoc).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private Panel panel2;
-        private DataGridView dataLopHoc;
-        private Panel panel1;
-        private TextBox textBox1;
+        private Panel panelTop;
+        private TextBox txtNoiDung;
         private Label label9;
         private TextBox txtPhongHoc;
         private Label label8;
-        private TextBox txtTimKiem;
-        private Button btnTimKiem;
-        private Button btnLoad;
-        private Button btnXoa;
-        private Button btnSua;
-        private Button btnThem;
-        private TextBox txtSiSo;
-        private TextBox txtTenLop;
-        private TextBox txtMaLop;
+        private TextBox txtMaLich;
         private Label label7;
         private Label label6;
         private Label label5;
@@ -319,5 +348,19 @@
         private Label label3;
         private Label label2;
         private Label label1;
+        private DateTimePicker dtpNgayHoc;
+        private Panel panel4;
+        private Label label10;
+        private ComboBox cboLop;
+        private ComboBox cboGioKT;
+        private ComboBox cboGioBD;
+        private ComboBox cboGiaoVien;
+        private DataGridView dgvLichHoc;
+        private TextBox txtTimKiem;
+        private Button btnTimKiem;
+        private Button btnLoad;
+        private Button btnXoa;
+        private Button btnSua;
+        private Button btnThem;
     }
 }

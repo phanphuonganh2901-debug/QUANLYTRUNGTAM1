@@ -1,0 +1,13 @@
+.vs/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.nupkg
+packages/
+*.snupkg

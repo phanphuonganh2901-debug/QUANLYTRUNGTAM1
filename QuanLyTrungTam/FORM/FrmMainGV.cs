@@ -29,5 +29,29 @@ namespace QuanLyTrungTam.FORM
         {
 
         }
+
+        private void btnThem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvMainGV_SelectionChanged(object sender, EventArgs e)
+        {
+
+        }
+        private readonly DAL.DBContext db = new DAL.DBContext();
+        private void FrmMainGV_Load(object sender, EventArgs e)
+        {
+            var ds = db.GiaoViens!.Select(gv => new
+            {
+                gv.MaGV,
+                gv.TenGV,
+                gv.NgaySinh,
+                gv.DiaChi,
+                gv.SDT
+            }).ToList();
+            dgvMainGV.DataSource = ds;
+        }
+        
     }
 }

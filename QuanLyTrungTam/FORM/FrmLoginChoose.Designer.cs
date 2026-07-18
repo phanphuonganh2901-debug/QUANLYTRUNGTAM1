@@ -42,10 +42,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(1, -183);
-            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Location = new Point(2, -293);
+            pictureBox1.Margin = new Padding(5, 6, 5, 6);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1197, 493);
+            pictureBox1.Size = new Size(1945, 789);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -53,9 +53,10 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 27.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(345, 36);
+            label1.Location = new Point(653, 34);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(466, 62);
+            label1.Size = new Size(737, 99);
             label1.TabIndex = 2;
             label1.Text = "XIN CHÀO, BẠN LÀ ...";
             label1.TextAlign = ContentAlignment.TopCenter;
@@ -66,10 +67,10 @@
             panel1.Controls.Add(btHV);
             panel1.Controls.Add(btGV);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(1, 312);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(2, 499);
+            panel1.Margin = new Padding(5, 6, 5, 6);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1098, 520);
+            panel1.Size = new Size(1784, 832);
             panel1.TabIndex = 6;
             // 
             // btAd
@@ -77,11 +78,11 @@
             btAd.AutoSize = true;
             btAd.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btAd.Image = (Image)resources.GetObject("btAd.Image");
-            btAd.Location = new Point(104, 177);
-            btAd.Margin = new Padding(3, 4, 3, 4);
+            btAd.Location = new Point(169, 283);
+            btAd.Margin = new Padding(5, 6, 5, 6);
             btAd.Name = "btAd";
             btAd.RightToLeft = RightToLeft.No;
-            btAd.Size = new Size(232, 313);
+            btAd.Size = new Size(377, 501);
             btAd.TabIndex = 9;
             btAd.Text = "Admin";
             btAd.TextAlign = ContentAlignment.BottomCenter;
@@ -94,11 +95,11 @@
             btHV.AutoSize = true;
             btHV.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btHV.Image = (Image)resources.GetObject("btHV.Image");
-            btHV.Location = new Point(746, 177);
-            btHV.Margin = new Padding(3, 4, 3, 4);
+            btHV.Location = new Point(1212, 283);
+            btHV.Margin = new Padding(5, 6, 5, 6);
             btHV.Name = "btHV";
             btHV.RightToLeft = RightToLeft.No;
-            btHV.Size = new Size(232, 313);
+            btHV.Size = new Size(377, 501);
             btHV.TabIndex = 8;
             btHV.Text = "Học viên";
             btHV.TextAlign = ContentAlignment.BottomCenter;
@@ -110,11 +111,11 @@
             btGV.AutoSize = true;
             btGV.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             btGV.Image = (Image)resources.GetObject("btGV.Image");
-            btGV.Location = new Point(430, 177);
-            btGV.Margin = new Padding(3, 4, 3, 4);
+            btGV.Location = new Point(699, 283);
+            btGV.Margin = new Padding(5, 6, 5, 6);
             btGV.Name = "btGV";
             btGV.RightToLeft = RightToLeft.No;
-            btGV.Size = new Size(232, 313);
+            btGV.Size = new Size(377, 501);
             btGV.TabIndex = 7;
             btGV.Text = "Giáo viên";
             btGV.TextAlign = ContentAlignment.BottomCenter;
@@ -124,11 +125,12 @@
             // 
             // FrmLoginChoose
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(882, 503);
+            ClientSize = new Size(1433, 805);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(5, 5, 5, 5);
             Name = "FrmLoginChoose";
             Text = "FrmLogin";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

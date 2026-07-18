@@ -29,14 +29,15 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainGV));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             lblNgay = new Label();
             lblXinChao = new Label();
             button8 = new Button();
-            chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
+            dateTimePicker1 = new DateTimePicker();
+            dgvMainGV = new DataGridView();
+            btnThem = new Button();
+            btnSua = new Button();
+            btnCapNhat = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvMainGV).BeginInit();
             SuspendLayout();
             // 
             // lblNgay
@@ -76,36 +77,70 @@
             button8.TextImageRelation = TextImageRelation.ImageBeforeText;
             button8.UseVisualStyleBackColor = true;
             // 
-            // chart1
+            // dateTimePicker1
             // 
-            chartArea1.Name = "ChartArea1";
-            chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            chart1.Legends.Add(legend1);
-            chart1.Location = new Point(183, 164);
-            chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            chart1.Series.Add(series1);
-            chart1.Size = new Size(637, 529);
-            chart1.TabIndex = 9;
-            chart1.Text = "chart1";
-            chart1.Click += chart1_Click;
+            dateTimePicker1.Location = new Point(320, 102);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(400, 39);
+            dateTimePicker1.TabIndex = 9;
+            // 
+            // dgvMainGV
+            // 
+            dgvMainGV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMainGV.Location = new Point(811, 30);
+            dgvMainGV.Name = "dgvMainGV";
+            dgvMainGV.RowHeadersWidth = 82;
+            dgvMainGV.RowTemplate.Height = 41;
+            dgvMainGV.Size = new Size(1078, 1091);
+            dgvMainGV.TabIndex = 10;
+            dgvMainGV.SelectionChanged += dgvMainGV_SelectionChanged;
+            // 
+            // btnThem
+            // 
+            btnThem.Location = new Point(83, 237);
+            btnThem.Name = "btnThem";
+            btnThem.Size = new Size(150, 46);
+            btnThem.TabIndex = 11;
+            btnThem.Text = "Thêm";
+            btnThem.UseVisualStyleBackColor = true;
+            btnThem.Click += btnThem_Click;
+            // 
+            // btnSua
+            // 
+            btnSua.Location = new Point(83, 419);
+            btnSua.Name = "btnSua";
+            btnSua.Size = new Size(150, 46);
+            btnSua.TabIndex = 12;
+            btnSua.Text = "Sửa";
+            btnSua.UseVisualStyleBackColor = true;
+            // 
+            // btnCapNhat
+            // 
+            btnCapNhat.Location = new Point(83, 331);
+            btnCapNhat.Name = "btnCapNhat";
+            btnCapNhat.Size = new Size(150, 46);
+            btnCapNhat.TabIndex = 13;
+            btnCapNhat.Text = "Cập Nhật";
+            btnCapNhat.UseVisualStyleBackColor = true;
             // 
             // FrmMainGV
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(2190, 1154);
-            Controls.Add(chart1);
+            Controls.Add(btnCapNhat);
+            Controls.Add(btnSua);
+            Controls.Add(btnThem);
+            Controls.Add(dgvMainGV);
+            Controls.Add(dateTimePicker1);
             Controls.Add(lblNgay);
             Controls.Add(lblXinChao);
             Controls.Add(button8);
             Margin = new Padding(5);
             Name = "FrmMainGV";
             Text = "FrmMainGV";
-            ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
+            Load += FrmMainGV_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvMainGV).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -115,6 +150,10 @@
         private Label lblNgay;
         private Label lblXinChao;
         private Button button8;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private DateTimePicker dateTimePicker1;
+        private DataGridView dgvMainGV;
+        private Button btnThem;
+        private Button btnSua;
+        private Button btnCapNhat;
     }
 }

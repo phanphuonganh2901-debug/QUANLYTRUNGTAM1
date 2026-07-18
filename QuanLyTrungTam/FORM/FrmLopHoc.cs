@@ -15,6 +15,26 @@ namespace QuanLyTrungTam.FORM
         public FrmLopHoc()
         {
             InitializeComponent();
+            LoadLopHoc();
+        }
+        private readonly DAL.DBContext db = new DAL.DBContext();
+
+        public void LoadLopHoc()
+        {
+            var ds = db.LopHocs!.Select(lh => new
+            {
+                lh.MaLop,
+                lh.TenLop,
+                lh.SiSo,
+                lh.PhongHoc,
+                lh.MaGV,
+                lh.MaKH,
+            }).ToList();
+            dataLopHoc.DataSource = ds;
+        }
+        private void dataLopHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

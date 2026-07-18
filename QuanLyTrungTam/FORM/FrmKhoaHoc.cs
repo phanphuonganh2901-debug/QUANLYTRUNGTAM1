@@ -15,6 +15,7 @@ namespace QuanLyTrungTam.FORM
         public FrmKhoaHoc()
         {
             InitializeComponent();
+            LoadKhoaHoc();
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
@@ -23,6 +24,23 @@ namespace QuanLyTrungTam.FORM
         }
 
         private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+        private readonly DAL.DBContext db = new DAL.DBContext();
+
+        public void LoadKhoaHoc()
+        {
+            var ds = db.KhoaHocs!.Select(kh => new
+            {
+                kh.MaKH,
+                kh.TenKH,
+                kh.NgayBatDau,
+                kh.NgayKetThuc,
+            }).ToList();
+            dataKhoaHoc.DataSource = ds;
+        }
+        private void dataKhoaHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

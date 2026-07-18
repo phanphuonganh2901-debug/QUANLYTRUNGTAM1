@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuanLyTrungTam.Models;
+using QuanLyTrungTam.DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyTrungTam.DAL
 {
-    internal class DBContext : DbContext
+    public class DBContext : DbContext
     {
         // DbSet
         public DbSet<GiaoVien> GiaoViens { get; set; }
@@ -30,8 +31,17 @@ namespace QuanLyTrungTam.DAL
         {
             if (!optionsBuilder.IsConfigured)
             {
+                var connectionString = @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=QuanLyTrungTam;Integrated Security=True";
+
                 optionsBuilder.UseSqlServer(
+
                     @"Data Source=(localdb)\mssqllocaldb;Initial Catalog=QuanLyTrungTam;Integrated Security=True");
+
+                optionsBuilder.UseSqlServer(
+                    connectionString,
+                    sqlOptions => sqlOptions.EnableRetryOnFailure()
+                );
+
             }
         }
 

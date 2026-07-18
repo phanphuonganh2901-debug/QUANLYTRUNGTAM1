@@ -38,6 +38,9 @@
     <Compile Update="FORM\FrmQuanLyTaiKhoan.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FORM\FrmThongTinGV.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FORM\LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>

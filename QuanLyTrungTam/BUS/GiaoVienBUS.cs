@@ -18,6 +18,8 @@ namespace QuanLyTrungTam.BUS
             return db.GiaoViens.ToList();
         }
 
+        
+
         public GiaoVien GetById(string maGV)
         {
             return db.GiaoViens.Find(maGV);

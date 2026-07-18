@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyTrungTam.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,8 +17,21 @@ namespace QuanLyTrungTam.FORM
         public FrmGiaoVien()
         {
             InitializeComponent();
+            LoadGiaoVien();
         }
-
+        DBContext db = new DBContext();
+        public void LoadGiaoVien()
+        {
+            var ds = db.GiaoViens!.Select(gv => new
+            {
+                gv.MaGV,
+                gv.TenGV,
+                gv.NgaySinh,
+                gv.DiaChi,
+                gv.SDT
+            }).ToList();
+            dataGiaoVien.DataSource = ds;
+        }
         private void label1_Click(object sender, EventArgs e)
         {
 

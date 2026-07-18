@@ -24,20 +24,38 @@ namespace QuanLyTrungTam.FORM
         public FrmLichHoc(string vaiTro, string maNguoiDung)
         {
             InitializeComponent();
+            LoadLichHoc();
 
             this.vaiTro = vaiTro;
             this.maNguoiDung = maNguoiDung;
         }
+        DBContext db = new DBContext();
+        public void LoadLichHoc()
+        {
+            var ds = db.LichHocs!.Select(lh => new
+            {
+                lh.MaLich,
+                lh.MaLop,
+                lh.NgayHoc,
+                lh.GioBatDau,
+                lh.GioKetThuc,
+                lh.PhongHoc,
+                lh.NoiDungBuoi
+
+            }).ToList();
+            dataLichHoc.DataSource = ds;
+        }
+
         private void FrmLichHoc_Load(object sender, EventArgs e)
         {
             if (vaiTro == "Admin")
             {
-                dgvLichHoc.DataSource = bus.GetAll();
+                dataLichHoc.DataSource = bus.GetAll();
             }
 
             else if (vaiTro == "GiaoVien")
             {
-                dgvLichHoc.DataSource = bus.GetByMaGV(maNguoiDung);
+                dataLichHoc.DataSource = bus.GetByMaGV(maNguoiDung);
 
                 btnThem.Enabled = false;
                 btnSua.Enabled = false;
@@ -48,7 +66,7 @@ namespace QuanLyTrungTam.FORM
 
             else
             {
-                dgvLichHoc.DataSource = bus.GetByHocVien(maNguoiDung);
+                dataLichHoc.DataSource = bus.GetByHocVien(maNguoiDung);
 
                 panelTop.Enabled = false;
 

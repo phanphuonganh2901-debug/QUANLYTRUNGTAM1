@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyTrungTam.DAL;
 
 namespace QuanLyTrungTam.FORM
 {
@@ -16,8 +17,24 @@ namespace QuanLyTrungTam.FORM
         public FrmBienLaiHocPhi()
         {
             InitializeComponent();
+            LoadBienLaiHocPhi();
         }
 
+        DBContext db = new DBContext();
+        public void LoadBienLaiHocPhi()
+        {
+            var ds = db.BienLaiHocPhis!.Select(bl => new
+            {
+                bl.SoBienLai,
+                bl.MaHV,
+                bl.MaLop,
+                bl.MaKH,
+                bl.TienNop,
+                bl.NgayNop,
+                bl.NguoiThu
+            }).ToList();
+            dataBienLaiHocPhi.DataSource = ds;
+        }
         private void label4_Click(object sender, EventArgs e)
         {
 

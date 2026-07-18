@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyTrungTam.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,20 @@ namespace QuanLyTrungTam.FORM
         public FrmKhoaHoc()
         {
             InitializeComponent();
+            LoadKhoaHoc();
+        }
+        DBContext db = new DBContext();
+        public void LoadKhoaHoc()
+        {
+            var ds = db.KhoaHocs!.Select(kh => new
+            {
+                kh.MaKH,
+                kh.TenKH,
+                kh.NgayBatDau,
+                kh.NgayKetThuc
+
+            }).ToList();
+            dataKhoaHoc.DataSource = ds;
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)

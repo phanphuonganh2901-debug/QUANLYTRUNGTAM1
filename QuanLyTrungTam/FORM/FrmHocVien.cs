@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyTrungTam.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,20 @@ namespace QuanLyTrungTam.FORM
         public FrmHocVien()
         {
             InitializeComponent();
+            LoadHocVien();
+        }
+        DBContext db = new DBContext();
+        public void LoadHocVien()
+        {
+            var ds = db.HocViens!.Select(hv => new
+            {
+                hv.MaHV,
+                hv.CMND,
+                hv.TenHV,
+                hv.NgaySinh,
+                hv.NgheNghiep
+            }).ToList();
+            dataHocVien.DataSource = ds;
         }
 
         private void panelTop_Paint(object sender, PaintEventArgs e)

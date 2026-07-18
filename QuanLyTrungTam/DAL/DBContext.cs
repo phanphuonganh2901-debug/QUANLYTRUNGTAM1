@@ -85,6 +85,15 @@ namespace QuanLyTrungTam.DAL
                 .OnDelete(DeleteBehavior.Restrict);
 
             //=========================
+            // LopHoc -> KetQuaThi
+            //=========================
+            modelBuilder.Entity<KetQuaThi>()
+            .HasOne(kq => kq.LopHoc)
+            .WithMany()
+            .HasForeignKey(kq => kq.MaLop)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            //=========================
             // HocVien -> KetQuaThi
             //=========================
             modelBuilder.Entity<KetQuaThi>()

@@ -54,10 +54,10 @@
             label2 = new Label();
             label1 = new Label();
             panel4 = new Panel();
-            dgvLichHoc = new DataGridView();
+            dataLichHoc = new DataGridView();
             panelTop.SuspendLayout();
             panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dgvLichHoc).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataLichHoc).BeginInit();
             SuspendLayout();
             // 
             // panelTop
@@ -324,21 +324,21 @@
             // 
             // panel4
             // 
-            panel4.Controls.Add(dgvLichHoc);
+            panel4.Controls.Add(dataLichHoc);
             panel4.Location = new Point(0, 198);
             panel4.Name = "panel4";
             panel4.Size = new Size(1082, 358);
             panel4.TabIndex = 6;
             // 
-            // dgvLichHoc
+            // dataLichHoc
             // 
-            dgvLichHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvLichHoc.Location = new Point(0, 0);
-            dgvLichHoc.Name = "dgvLichHoc";
-            dgvLichHoc.RowHeadersWidth = 51;
-            dgvLichHoc.RowTemplate.Height = 29;
-            dgvLichHoc.Size = new Size(1082, 330);
-            dgvLichHoc.TabIndex = 0;
+            dataLichHoc.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataLichHoc.Location = new Point(0, 0);
+            dataLichHoc.Name = "dataLichHoc";
+            dataLichHoc.RowHeadersWidth = 51;
+            dataLichHoc.RowTemplate.Height = 29;
+            dataLichHoc.Size = new Size(1082, 330);
+            dataLichHoc.TabIndex = 0;
             // 
             // FrmLichHoc
             // 
@@ -353,7 +353,7 @@
             panelTop.ResumeLayout(false);
             panelTop.PerformLayout();
             panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dgvLichHoc).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataLichHoc).EndInit();
             ResumeLayout(false);
         }
 
@@ -378,7 +378,7 @@
         private ComboBox cboGioKT;
         private ComboBox cboGioBD;
         private ComboBox cboGiaoVien;
-        private DataGridView dgvLichHoc;
+        private DataGridView dataLichHoc;
         private TextBox txtTimKiem;
         private Button btnTimKiem;
         private Button btnLoad;

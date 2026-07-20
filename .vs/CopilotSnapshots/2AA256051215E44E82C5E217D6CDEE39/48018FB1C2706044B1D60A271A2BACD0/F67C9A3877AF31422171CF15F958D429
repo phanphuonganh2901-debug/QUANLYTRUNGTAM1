@@ -791,7 +791,6 @@
         private Button btnDangXuat;
         private Label label1;
         private Panel pnlMain;
-        private Button button8;
         private Panel pnlHome;
         private Label label15;
         private Label label14;

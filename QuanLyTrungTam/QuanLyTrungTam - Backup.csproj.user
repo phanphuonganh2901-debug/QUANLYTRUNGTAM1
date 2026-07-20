@@ -16,14 +16,7 @@
     <Compile Update="FORM\FrmKhoaHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Update="FORM\FrmLichHoc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FORM\FrmLogin.cs">
-=======
-    <Compile Update="FORM\FrmLoginChoose.cs">
->>>>>>> NguyenDacDat
+    <Compile Update="FORM\FrmLoginChoose.cs"> NguyenDacDat
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FORM\FrmLopHoc.cs">
@@ -32,17 +25,13 @@
     <Compile Update="FORM\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Update="FORM\FrmQuanLyTaiKhoan.cs">
-=======
     <Compile Update="FORM\LoginAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FORM\LoginStudent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FORM\LoginTeacher.cs">
->>>>>>> NguyenDacDat
+    <Compile Update="FORM\LoginTeacher.cs"> NguyenDacDat
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -121,7 +121,7 @@ D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLy
 D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.genruntimeconfig.cache
 D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\obj\Debug\net6.0-windows\ref\QuanLyTrungTam.dll
 D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\bin\Debug\net6.0-windows\WinForms.DataVisualization.Utilities.dll
-D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll NguyenDacDat
+D:\QUANLYTRUNGTAM\QUANLYTRUNGTAM1\QuanLyTrungTam\bin\Debug\net6.0-windows\WinForms.DataVisualization.dll
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmLoginChoose.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.LoginAdmin.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.LoginStudent.resources
@@ -132,4 +132,7 @@ D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\bin\Debug\net6.0-windo
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmMainGV.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmMainHV.resources
 D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmThongTinGV.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmLichHoc.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.FORM.FrmQuanLyTaiKhoan.resources
+D:\Users\Admin\source\repos\QuanLyTrungTam\QuanLyTrungTam\obj\Debug\net6.0-windows\QuanLyTrungTam.sourcelink.json
 

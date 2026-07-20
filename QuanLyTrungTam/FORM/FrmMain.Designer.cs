@@ -138,7 +138,6 @@
             panelHocVien.Margin = new Padding(3, 2, 3, 2);
             panelHocVien.Name = "panelHocVien";
             panelHocVien.Size = new Size(121, 80);
->>>>>>> NguyenDacDat
             panelHocVien.TabIndex = 11;
             // 
             // button5
@@ -147,7 +146,7 @@
             button5.Location = new Point(0, 5);
             button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(121, 30); NguyenDacDat
+            button5.Size = new Size(121, 30);
             button5.TabIndex = 2;
             button5.Text = "Danh sách";
             button5.UseVisualStyleBackColor = false;
@@ -159,7 +158,7 @@
             button6.Location = new Point(0, 40);
             button6.Margin = new Padding(3, 2, 3, 2);
             button6.Name = "button6";
-            button6.Size = new Size(121, 30); NguyenDacDat
+            button6.Size = new Size(121, 30);
             button6.TabIndex = 3;
             button6.Text = "Kết quả thi";
             button6.UseVisualStyleBackColor = false;
@@ -172,7 +171,7 @@
             panelGiaoVien.Location = new Point(21, 70);
             panelGiaoVien.Margin = new Padding(3, 2, 3, 2);
             panelGiaoVien.Name = "panelGiaoVien";
-            panelGiaoVien.Size = new Size(121, 82); NguyenDacDat
+            panelGiaoVien.Size = new Size(121, 82);
             panelGiaoVien.TabIndex = 26;
             // 
             // button4
@@ -181,7 +180,7 @@
             button4.Location = new Point(0, 36);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(121, 30); NguyenDacDat
+            button4.Size = new Size(121, 30);
             button4.TabIndex = 1;
             button4.Text = "Lịch dạy";
             button4.UseVisualStyleBackColor = false;
@@ -193,7 +192,7 @@
             button3.Location = new Point(0, 4);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(121, 30); NguyenDacDat
+            button3.Size = new Size(121, 30);
             button3.TabIndex = 0;
             button3.Text = "Danh sách";
             button3.UseVisualStyleBackColor = false;
@@ -206,7 +205,7 @@
             panelGV.Location = new Point(144, 35);
             panelGV.Margin = new Padding(3, 2, 3, 2);
             panelGV.Name = "panelGV";
-            panelGV.Size = new Size(119, 66); NguyenDacDat
+            panelGV.Size = new Size(119, 66);
             panelGV.TabIndex = 10;
             // 
             // button2
@@ -214,7 +213,7 @@
             button2.Location = new Point(3, 37);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(114, 27); NguyenDacDat
+            button2.Size = new Size(114, 27);
             button2.TabIndex = 1;
             button2.Text = "Lịch Dạy";
             button2.UseVisualStyleBackColor = true;
@@ -225,7 +224,7 @@
             button1.Location = new Point(0, 8);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(116, 30); NguyenDacDat
+            button1.Size = new Size(116, 30);
             button1.TabIndex = 0;
             button1.Text = "Danh sách";
             button1.UseVisualStyleBackColor = true;
@@ -238,7 +237,7 @@
             panelHV.Location = new Point(144, 72);
             panelHV.Margin = new Padding(3, 2, 3, 2);
             panelHV.Name = "panelHV";
-            panelHV.Size = new Size(116, 69); NguyenDacDat
+            panelHV.Size = new Size(116, 69);
             panelHV.TabIndex = 10;
             // 
             // btnKetQua
@@ -247,7 +246,7 @@
             btnKetQua.Location = new Point(0, 40);
             btnKetQua.Margin = new Padding(3, 2, 3, 2);
             btnKetQua.Name = "btnKetQua";
-            btnKetQua.Size = new Size(114, 27); NguyenDacDat
+            btnKetQua.Size = new Size(114, 27);
             btnKetQua.TabIndex = 2;
             btnKetQua.Text = "Kết Quả thi";
             btnKetQua.UseVisualStyleBackColor = true;
@@ -258,7 +257,7 @@
             btnDSHV.Location = new Point(0, 10);
             btnDSHV.Margin = new Padding(3, 2, 3, 2);
             btnDSHV.Name = "btnDSHV";
-            btnDSHV.Size = new Size(114, 27); NguyenDacDat
+            btnDSHV.Size = new Size(114, 27);
             btnDSHV.TabIndex = 1;
             btnDSHV.Text = "Danh Sách ";
             btnDSHV.UseVisualStyleBackColor = true;
@@ -271,7 +270,7 @@
             btnKhoaHoc.Location = new Point(3, 141);
             btnKhoaHoc.Margin = new Padding(3, 2, 3, 2);
             btnKhoaHoc.Name = "btnKhoaHoc";
-            btnKhoaHoc.Size = new Size(136, 35); NguyenDacDat
+            btnKhoaHoc.Size = new Size(136, 35);
             btnKhoaHoc.TabIndex = 9;
             btnKhoaHoc.Text = "Khóa Học";
             btnKhoaHoc.TextAlign = ContentAlignment.MiddleLeft;
@@ -285,7 +284,7 @@
             btnDangXuat.Location = new Point(4, 234);
             btnDangXuat.Margin = new Padding(3, 2, 3, 2);
             btnDangXuat.Name = "btnDangXuat";
-            btnDangXuat.Size = new Size(136, 35); NguyenDacDat
+            btnDangXuat.Size = new Size(136, 35);
             btnDangXuat.TabIndex = 8;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = ContentAlignment.MiddleLeft;
@@ -299,7 +298,7 @@
             btnTaiKhoan.Location = new Point(3, 205);
             btnTaiKhoan.Margin = new Padding(3, 2, 3, 2);
             btnTaiKhoan.Name = "btnTaiKhoan";
-            btnTaiKhoan.Size = new Size(136, 35); NguyenDacDat
+            btnTaiKhoan.Size = new Size(136, 35);
             btnTaiKhoan.TabIndex = 6;
             btnTaiKhoan.Text = "Tài khoản";
             btnTaiKhoan.TextAlign = ContentAlignment.MiddleLeft;
@@ -313,7 +312,7 @@
             btnHocPhi.Location = new Point(3, 174);
             btnHocPhi.Margin = new Padding(3, 2, 3, 2);
             btnHocPhi.Name = "btnHocPhi";
-            btnHocPhi.Size = new Size(136, 35); NguyenDacDat
+            btnHocPhi.Size = new Size(136, 35);
             btnHocPhi.TabIndex = 4;
             btnHocPhi.Text = "Học phí";
             btnHocPhi.TextAlign = ContentAlignment.MiddleLeft;
@@ -327,7 +326,7 @@
             btnLopHoc.Location = new Point(3, 106);
             btnLopHoc.Margin = new Padding(3, 2, 3, 2);
             btnLopHoc.Name = "btnLopHoc";
-            btnLopHoc.Size = new Size(136, 35); NguyenDacDat
+            btnLopHoc.Size = new Size(136, 35);
             btnLopHoc.TabIndex = 3;
             btnLopHoc.Text = "Lớp học";
             btnLopHoc.TextAlign = ContentAlignment.MiddleLeft;
@@ -341,7 +340,7 @@
             btnHocVien.Location = new Point(3, 70);
             btnHocVien.Margin = new Padding(3, 2, 3, 2);
             btnHocVien.Name = "btnHocVien";
-            btnHocVien.Size = new Size(136, 35); NguyenDacDat
+            btnHocVien.Size = new Size(136, 35);
             btnHocVien.TabIndex = 2;
             btnHocVien.Text = "Học viên";
             btnHocVien.TextAlign = ContentAlignment.MiddleLeft;
@@ -355,7 +354,7 @@
             btnGiaoVien.Location = new Point(3, 35);
             btnGiaoVien.Margin = new Padding(3, 2, 3, 2);
             btnGiaoVien.Name = "btnGiaoVien";
-            btnGiaoVien.Size = new Size(136, 35); NguyenDacDat
+            btnGiaoVien.Size = new Size(136, 35);
             btnGiaoVien.TabIndex = 1;
             btnGiaoVien.Text = "Giáo viên";
             btnGiaoVien.TextAlign = ContentAlignment.MiddleLeft;
@@ -369,27 +368,24 @@
             btnTrangChu.Location = new Point(3, 0);
             btnTrangChu.Margin = new Padding(3, 2, 3, 2);
             btnTrangChu.Name = "btnTrangChu";
-            btnTrangChu.Size = new Size(136, 35); NguyenDacDat
+            btnTrangChu.Size = new Size(136, 35);
             btnTrangChu.TabIndex = 0;
             btnTrangChu.Text = "Trang chủ";
             btnTrangChu.TextAlign = ContentAlignment.MiddleLeft;
             btnTrangChu.UseVisualStyleBackColor = false;
             btnTrangChu.Click += btnTrangChu_Click;
             // 
->>>>>>> NguyenDacDat
             // lblXinChao
             // 
             lblXinChao.AutoSize = true;
             lblXinChao.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblXinChao.ForeColor = Color.OrangeRed;
-<<<<<<< HEAD
             lblXinChao.Location = new Point(229, 28);
             lblXinChao.Name = "lblXinChao";
             lblXinChao.Size = new Size(249, 41);
-=======
             lblXinChao.Location = new Point(200, 21);
             lblXinChao.Name = "lblXinChao";
-            lblXinChao.Size = new Size(203, 32); NguyenDacDat
+            lblXinChao.Size = new Size(203, 32);
             lblXinChao.TabIndex = 4;
             lblXinChao.Text = "Xin chào, Admin";
             lblXinChao.Click += label1_Click_1;
@@ -400,7 +396,7 @@
             lblNgay.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblNgay.Location = new Point(198, 55);
             lblNgay.Name = "lblNgay";
-            lblNgay.Size = new Size(188, 15); NguyenDacDat
+            lblNgay.Size = new Size(188, 15);
             lblNgay.TabIndex = 5;
             lblNgay.Text = "Thứ bảy, ngày tháng năm để đây ";
             lblNgay.Click += label2_Click;
@@ -410,7 +406,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15); NguyenDacDat
+            label1.Size = new Size(0, 15);
             label1.TabIndex = 24;
             // 
             // pnlMain
@@ -419,7 +415,7 @@
             pnlMain.Location = new Point(198, 74);
             pnlMain.Margin = new Padding(3, 2, 3, 2);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(962, 450); NguyenDacDat
+            pnlMain.Size = new Size(962, 450);
             pnlMain.TabIndex = 25;
             pnlMain.Paint += pnlMain_Paint;
             // 
@@ -444,7 +440,7 @@
             pnlHome.Location = new Point(3, 2);
             pnlHome.Margin = new Padding(3, 2, 3, 2);
             pnlHome.Name = "pnlHome";
-            pnlHome.Size = new Size(942, 446); NguyenDacDat
+            pnlHome.Size = new Size(942, 446);
             pnlHome.TabIndex = 0;
             pnlHome.Paint += pnlHome_Paint;
             // 
@@ -456,7 +452,7 @@
             label2.ForeColor = Color.OrangeRed;
             label2.Location = new Point(519, 76);
             label2.Name = "label2";
-            label2.Size = new Size(144, 21); NguyenDacDat
+            label2.Size = new Size(144, 21);
             label2.TabIndex = 49;
             label2.Text = "Tỷ lệ học viên đạt";
             label2.Click += label2_Click_1;
@@ -475,7 +471,7 @@
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             chartKetQua.Series.Add(series3);
-            chartKetQua.Size = new Size(370, 159); NguyenDacDat
+            chartKetQua.Size = new Size(370, 159);
             chartKetQua.TabIndex = 48;
             chartKetQua.Text = "chart2";
             // 
@@ -485,7 +481,7 @@
             label15.BackColor = Color.Transparent;
             label15.Location = new Point(118, 373);
             label15.Name = "label15";
-            label15.Size = new Size(158, 15); NguyenDacDat
+            label15.Size = new Size(158, 15);
             label15.TabIndex = 47;
             label15.Text = "Số lớp chưa nhập kết quả thi";
             // 
@@ -560,7 +556,6 @@
             series4.SmartLabelStyle.Enabled = false;
             chartHocVien.Series.Add(series4);
             chartHocVien.Size = new Size(370, 159);
->>>>>>> NguyenDacDat
             chartHocVien.TabIndex = 44;
             chartHocVien.Text = "chart1";
             // 
@@ -571,7 +566,7 @@
             label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(118, 298);
             label12.Name = "label12";
-            label12.Size = new Size(84, 21); NguyenDacDat
+            label12.Size = new Size(84, 21);
             label12.TabIndex = 43;
             label12.Text = "Cần chú ý";
             // 
@@ -583,7 +578,7 @@
             label11.ForeColor = Color.OrangeRed;
             label11.Location = new Point(118, 78);
             label11.Name = "label11";
-            label11.Size = new Size(230, 21); NguyenDacDat
+            label11.Size = new Size(230, 21);
             label11.TabIndex = 42;
             label11.Text = "Học viên đăng ký theo tháng";
             // 
@@ -594,7 +589,7 @@
             lblTongHocPhi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongHocPhi.Location = new Point(644, 34);
             lblTongHocPhi.Name = "lblTongHocPhi";
-            lblTongHocPhi.Size = new Size(162, 15); NguyenDacDat
+            lblTongHocPhi.Size = new Size(162, 15);
             lblTongHocPhi.TabIndex = 41;
             lblTongHocPhi.Text = "Số học phí tháng này để đây";
             // 
@@ -605,7 +600,7 @@
             lblTongLop.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongLop.Location = new Point(430, 34);
             lblTongLop.Name = "lblTongLop";
-            lblTongLop.Size = new Size(136, 15); NguyenDacDat
+            lblTongLop.Size = new Size(136, 15);
             lblTongLop.TabIndex = 40;
             lblTongLop.Text = "Số lớp đang mở để đây";
             // 
@@ -616,7 +611,7 @@
             lblTongGiaoVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongGiaoVien.Location = new Point(263, 34);
             lblTongGiaoVien.Name = "lblTongGiaoVien";
-            lblTongGiaoVien.Size = new Size(115, 15); NguyenDacDat
+            lblTongGiaoVien.Size = new Size(115, 15);
             lblTongGiaoVien.TabIndex = 39;
             lblTongGiaoVien.Text = "Số giáo viên để đây";
             // 
@@ -627,7 +622,7 @@
             lblTongHocVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             lblTongHocVien.Location = new Point(107, 34);
             lblTongHocVien.Name = "lblTongHocVien";
-            lblTongHocVien.Size = new Size(112, 15); NguyenDacDat
+            lblTongHocVien.Size = new Size(112, 15);
             lblTongHocVien.TabIndex = 38;
             lblTongHocVien.Text = "Số học viên để đây";
             // 
@@ -639,7 +634,7 @@
             label6.ForeColor = Color.OrangeRed;
             label6.Location = new Point(644, 2);
             label6.Name = "label6";
-            label6.Size = new Size(203, 30); NguyenDacDat
+            label6.Size = new Size(203, 30);
             label6.TabIndex = 37;
             label6.Text = "Học phí tháng này";
             // 
@@ -651,7 +646,7 @@
             label5.ForeColor = Color.OrangeRed;
             label5.Location = new Point(430, 2);
             label5.Name = "label5";
-            label5.Size = new Size(151, 30); NguyenDacDat
+            label5.Size = new Size(151, 30);
             label5.TabIndex = 36;
             label5.Text = "Lớp đang mở";
             // 
@@ -663,7 +658,7 @@
             label4.ForeColor = Color.OrangeRed;
             label4.Location = new Point(263, 2);
             label4.Name = "label4";
-            label4.Size = new Size(112, 30); NguyenDacDat
+            label4.Size = new Size(112, 30);
             label4.TabIndex = 35;
             label4.Text = "Giáo Viên";
             // 
@@ -756,12 +751,11 @@
             BackColor = SystemColors.Control;
             ClientSize = new Size(1180, 541);
             Controls.Add(panel2);
-            Controls.Add(panel3); NguyenDacDat
+            Controls.Add(panel3);
             Controls.Add(pnlMain);
             Controls.Add(label1);
             Controls.Add(lblNgay);
             Controls.Add(lblXinChao);
->>>>>>> NguyenDacDat
             Controls.Add(panel1);
             Margin = new Padding(3, 2, 3, 2);
             Name = "FrmMain";
@@ -778,11 +772,9 @@
             pnlHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)chartKetQua).EndInit();
             ((System.ComponentModel.ISupportInitialize)chartHocVien).EndInit();
-<<<<<<< HEAD
-=======
             panel3.ResumeLayout(false);
             panel4.ResumeLayout(false);
-            panel4.PerformLayout(); NguyenDacDat
+            panel4.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -795,7 +787,6 @@
         private Button btnHocPhi;
         private Button btnLopHoc;
         private Button btnTaiKhoan;
->>>>>>> NguyenDacDat
         private Label lblXinChao;
         private Label lblNgay;
         private Button btnDangXuat;
@@ -831,13 +822,12 @@
         private Panel panelHocVien;
         private Button button5;
         private Button button6;
-<<<<<<< HEAD
-=======
         private Panel panel3;
         private Panel panel4;
         private Panel panel2;
         private Label label9;
         private Label label8;
-        private Label label7; NguyenDacDat
+        private Label label7;
     }
 }
+

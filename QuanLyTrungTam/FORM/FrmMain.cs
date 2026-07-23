@@ -295,7 +295,7 @@ namespace QuanLyTrungTam.FORM
 
         private void btnKhoaHoc_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmKhoaHoc());
+            OpenChildForm(new FrmKhoaHoc(vaiTro, maNguoiDung));
         }
 
         private void btnKetQuaThi_Click(object sender, EventArgs e)
@@ -330,7 +330,7 @@ namespace QuanLyTrungTam.FORM
 
         private void btnKetQua_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmKetQuaThi());
+            OpenChildForm(new FrmKetQuaThi(vaiTro, maNguoiDung));
         }
 
         private void button3_Click_1(object sender, EventArgs e)
@@ -350,7 +350,7 @@ namespace QuanLyTrungTam.FORM
 
         private void button6_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new FrmKetQuaThi());
+            OpenChildForm(new FrmKetQuaThi(vaiTro, maNguoiDung));
         }
 
         private void pnlHome_Paint(object sender, PaintEventArgs e)
@@ -367,7 +367,19 @@ namespace QuanLyTrungTam.FORM
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
+            DialogResult rs = MessageBox.Show(
+            "Bạn có muốn đăng xuất không?",
+            "Đăng xuất",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question);
 
+            if (rs == DialogResult.Yes)
+            {
+                FrmLoginChoose frm = new FrmLoginChoose();
+                frm.Show();
+
+                this.Hide();
+            }
         }
     }
 }

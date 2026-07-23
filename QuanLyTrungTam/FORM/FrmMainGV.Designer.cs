@@ -543,6 +543,7 @@
             Controls.Add(button8);
             Name = "FrmMainGV";
             Text = "FrmMainGV";
+            Load += FrmMainGV_Load;
             pnlMain.ResumeLayout(false);
             pnlHome.ResumeLayout(false);
             pnlHome.PerformLayout();

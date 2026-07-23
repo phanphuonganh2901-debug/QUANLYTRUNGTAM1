@@ -35,7 +35,7 @@
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            dateTimePicker1 = new DateTimePicker();
+            dtNgaySinh = new DateTimePicker();
             txtDiaChi = new TextBox();
             txtSDT = new TextBox();
             txtHoTen = new TextBox();
@@ -62,7 +62,7 @@
             panelTop.Controls.Add(btnXoa);
             panelTop.Controls.Add(btnSua);
             panelTop.Controls.Add(btnThem);
-            panelTop.Controls.Add(dateTimePicker1);
+            panelTop.Controls.Add(dtNgaySinh);
             panelTop.Controls.Add(txtDiaChi);
             panelTop.Controls.Add(txtSDT);
             panelTop.Controls.Add(txtHoTen);
@@ -89,6 +89,7 @@
             txtTimKiem.TabIndex = 17;
             txtTimKiem.Text = "Nhập Mã GV cần tìm";
             txtTimKiem.TextAlign = HorizontalAlignment.Center;
+            txtTimKiem.TextChanged += txtTimKiem_TextChanged;
             // 
             // btnTimKiem
             // 
@@ -99,6 +100,7 @@
             btnTimKiem.TabIndex = 16;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -109,6 +111,7 @@
             btnLoad.TabIndex = 15;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -119,6 +122,7 @@
             btnXoa.TabIndex = 14;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -129,6 +133,7 @@
             btnSua.TabIndex = 13;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -139,13 +144,14 @@
             btnThem.TabIndex = 12;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
-            // dateTimePicker1
+            // dtNgaySinh
             // 
-            dateTimePicker1.Location = new Point(508, 83);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 11;
+            dtNgaySinh.Location = new Point(508, 83);
+            dtNgaySinh.Name = "dtNgaySinh";
+            dtNgaySinh.Size = new Size(250, 27);
+            dtNgaySinh.TabIndex = 11;
             // 
             // txtDiaChi
             // 
@@ -275,6 +281,7 @@
             dataGiaoVien.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGiaoVien.Size = new Size(1082, 367);
             dataGiaoVien.TabIndex = 0;
+            dataGiaoVien.CellContentClick += dataGiaoVien_CellContentClick;
             // 
             // FrmGiaoVien
             // 
@@ -308,7 +315,7 @@
         private Button btnXoa;
         private Button btnSua;
         private Button btnThem;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtNgaySinh;
         private TextBox txtDiaChi;
         private TextBox txtSDT;
         private TextBox txtHoTen;

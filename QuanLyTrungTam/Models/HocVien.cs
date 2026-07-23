@@ -17,6 +17,8 @@ namespace QuanLyTrungTam.Models
         public string TenHV { get; set; }
         public DateTime NgaySinh { get; set; }
         public string NgheNghiep { get; set; }
+        public string email { get; set; }
+        public int SDT { get; set; }
         public ICollection<BienLaiHocPhi>? BienLaiHocPhis { get; set; }
 
         public ICollection<KetQuaThi>? KetQuaThis { get; set; }

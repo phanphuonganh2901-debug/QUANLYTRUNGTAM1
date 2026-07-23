@@ -43,8 +43,8 @@
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            dateTimePicker1 = new DateTimePicker();
-            txtMaHocVien = new TextBox();
+            dtNgayNop = new DateTimePicker();
+            txtMaHV = new TextBox();
             txtSoBienLai = new TextBox();
             label7 = new Label();
             label6 = new Label();
@@ -80,6 +80,7 @@
             dataBienLaiHocPhi.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataBienLaiHocPhi.Size = new Size(1082, 341);
             dataBienLaiHocPhi.TabIndex = 1;
+            dataBienLaiHocPhi.CellContentClick += dataBienLaiHocPhi_CellContentClick;
             // 
             // panelTop
             // 
@@ -95,8 +96,8 @@
             panelTop.Controls.Add(btnXoa);
             panelTop.Controls.Add(btnSua);
             panelTop.Controls.Add(btnThem);
-            panelTop.Controls.Add(dateTimePicker1);
-            panelTop.Controls.Add(txtMaHocVien);
+            panelTop.Controls.Add(dtNgayNop);
+            panelTop.Controls.Add(txtMaHV);
             panelTop.Controls.Add(txtSoBienLai);
             panelTop.Controls.Add(label7);
             panelTop.Controls.Add(label6);
@@ -180,6 +181,7 @@
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -190,6 +192,7 @@
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -200,6 +203,7 @@
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -210,6 +214,7 @@
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -220,20 +225,21 @@
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
-            // dateTimePicker1
+            // dtNgayNop
             // 
-            dateTimePicker1.Location = new Point(173, 79);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 29;
+            dtNgayNop.Location = new Point(173, 79);
+            dtNgayNop.Name = "dtNgayNop";
+            dtNgayNop.Size = new Size(250, 27);
+            dtNgayNop.TabIndex = 29;
             // 
-            // txtMaHocVien
+            // txtMaHV
             // 
-            txtMaHocVien.Location = new Point(848, 78);
-            txtMaHocVien.Name = "txtMaHocVien";
-            txtMaHocVien.Size = new Size(171, 27);
-            txtMaHocVien.TabIndex = 26;
+            txtMaHV.Location = new Point(848, 78);
+            txtMaHV.Name = "txtMaHV";
+            txtMaHV.Size = new Size(171, 27);
+            txtMaHV.TabIndex = 26;
             // 
             // txtSoBienLai
             // 
@@ -328,6 +334,7 @@
             Controls.Add(panelTop);
             Name = "FrmBienLaiHocPhi";
             Text = "FrmBienLaiHocPhi";
+            Load += FrmBienLaiHocPhi_Load;
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataBienLaiHocPhi).EndInit();
             panelTop.ResumeLayout(false);
@@ -345,8 +352,8 @@
         private Button btnXoa;
         private Button btnSua;
         private Button btnThem;
-        private DateTimePicker dateTimePicker1;
-        private TextBox txtMaHocVien;
+        private DateTimePicker dtNgayNop;
+        private TextBox txtMaHV;
         private TextBox txtSoBienLai;
         private Label label7;
         private Label label6;

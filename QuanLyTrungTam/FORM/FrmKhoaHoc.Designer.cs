@@ -31,14 +31,14 @@
             panel2 = new Panel();
             dataKhoaHoc = new DataGridView();
             panelTop = new Panel();
-            dateTimePicker2 = new DateTimePicker();
+            dtNgayBatDau = new DateTimePicker();
             txtTimKiem = new TextBox();
             btnTimKiem = new Button();
             btnLoad = new Button();
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            dateTimePicker1 = new DateTimePicker();
+            dtNgayKetThuc = new DateTimePicker();
             txtTenKH = new TextBox();
             txtMaKH = new TextBox();
             label7 = new Label();
@@ -74,17 +74,18 @@
             dataKhoaHoc.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataKhoaHoc.Size = new Size(1082, 373);
             dataKhoaHoc.TabIndex = 0;
+            dataKhoaHoc.CellContentClick += dataKhoaHoc_CellContentClick;
             // 
             // panelTop
             // 
-            panelTop.Controls.Add(dateTimePicker2);
+            panelTop.Controls.Add(dtNgayBatDau);
             panelTop.Controls.Add(txtTimKiem);
             panelTop.Controls.Add(btnTimKiem);
             panelTop.Controls.Add(btnLoad);
             panelTop.Controls.Add(btnXoa);
             panelTop.Controls.Add(btnSua);
             panelTop.Controls.Add(btnThem);
-            panelTop.Controls.Add(dateTimePicker1);
+            panelTop.Controls.Add(dtNgayKetThuc);
             panelTop.Controls.Add(txtTenKH);
             panelTop.Controls.Add(txtMaKH);
             panelTop.Controls.Add(label7);
@@ -100,12 +101,12 @@
             panelTop.TabIndex = 2;
             panelTop.Paint += panelTop_Paint;
             // 
-            // dateTimePicker2
+            // dtNgayBatDau
             // 
-            dateTimePicker2.Location = new Point(198, 85);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(250, 27);
-            dateTimePicker2.TabIndex = 36;
+            dtNgayBatDau.Location = new Point(198, 85);
+            dtNgayBatDau.Name = "dtNgayBatDau";
+            dtNgayBatDau.Size = new Size(250, 27);
+            dtNgayBatDau.TabIndex = 36;
             // 
             // txtTimKiem
             // 
@@ -125,6 +126,7 @@
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -135,6 +137,7 @@
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -145,6 +148,7 @@
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -155,6 +159,7 @@
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -165,14 +170,15 @@
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
-            // dateTimePicker1
+            // dtNgayKetThuc
             // 
-            dateTimePicker1.Location = new Point(609, 80);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 29;
-            dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
+            dtNgayKetThuc.Location = new Point(609, 80);
+            dtNgayKetThuc.Name = "dtNgayKetThuc";
+            dtNgayKetThuc.Size = new Size(250, 27);
+            dtNgayKetThuc.TabIndex = 29;
+            dtNgayKetThuc.ValueChanged += dateTimePicker1_ValueChanged;
             // 
             // txtTenKH
             // 
@@ -264,6 +270,7 @@
             Controls.Add(panelTop);
             Name = "FrmKhoaHoc";
             Text = "FrmKhoaHoc";
+            Load += FrmKhoaHoc_Load;
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataKhoaHoc).EndInit();
             panelTop.ResumeLayout(false);
@@ -282,7 +289,7 @@
         private Button btnXoa;
         private Button btnSua;
         private Button btnThem;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtNgayKetThuc;
         private TextBox txtTenKH;
         private TextBox txtMaKH;
         private Label label7;
@@ -291,6 +298,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dtNgayBatDau;
     }
 }

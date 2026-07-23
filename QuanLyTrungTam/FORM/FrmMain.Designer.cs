@@ -28,13 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -85,11 +78,11 @@
             label4 = new Label();
             label3 = new Label();
             panel3 = new Panel();
-            panel2 = new Panel();
             panel4 = new Panel();
             label9 = new Label();
             label8 = new Label();
             label7 = new Label();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             panelHocVien.SuspendLayout();
             panelGiaoVien.SuspendLayout();
@@ -105,9 +98,8 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(panelHocVien);
-            panel1.Controls.Add(panelGiaoVien);
             panel1.Controls.Add(panelGV);
+            panel1.Controls.Add(panelGiaoVien);
             panel1.Controls.Add(panelHV);
             panel1.Controls.Add(btnKhoaHoc);
             panel1.Controls.Add(btnDangXuat);
@@ -117,35 +109,27 @@
             panel1.Controls.Add(btnHocVien);
             panel1.Controls.Add(btnGiaoVien);
             panel1.Controls.Add(btnTrangChu);
-            panel1.Location = new Point(52, 98);
+            panel1.Location = new Point(53, 99);
             panel1.Name = "panel1";
             panel1.Size = new Size(162, 475);
-            panel1.Location = new Point(46, 74);
-            panel1.Margin = new Padding(3, 2, 3, 2);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(142, 356);
             panel1.TabIndex = 2;
             // 
             // panelHocVien
             // 
+            panelHocVien.BackColor = Color.Transparent;
             panelHocVien.Controls.Add(button5);
             panelHocVien.Controls.Add(button6);
-            panelHocVien.Location = new Point(21, 141);
+            panelHocVien.Location = new Point(12, 240);
             panelHocVien.Name = "panelHocVien";
             panelHocVien.Size = new Size(138, 107);
-            panelHocVien.Location = new Point(18, 106);
-            panelHocVien.Margin = new Padding(3, 2, 3, 2);
-            panelHocVien.Name = "panelHocVien";
-            panelHocVien.Size = new Size(121, 80);
             panelHocVien.TabIndex = 11;
             // 
             // button5
             // 
-            button5.BackColor = SystemColors.InactiveCaption;
-            button5.Location = new Point(0, 5);
-            button5.Margin = new Padding(3, 2, 3, 2);
+            button5.BackColor = Color.DarkOrange;
+            button5.Location = new Point(0, 7);
             button5.Name = "button5";
-            button5.Size = new Size(121, 30);
+            button5.Size = new Size(138, 40);
             button5.TabIndex = 2;
             button5.Text = "Danh sách";
             button5.UseVisualStyleBackColor = false;
@@ -153,11 +137,10 @@
             // 
             // button6
             // 
-            button6.BackColor = SystemColors.InactiveCaption;
-            button6.Location = new Point(0, 40);
-            button6.Margin = new Padding(3, 2, 3, 2);
+            button6.BackColor = Color.DarkOrange;
+            button6.Location = new Point(0, 53);
             button6.Name = "button6";
-            button6.Size = new Size(121, 30);
+            button6.Size = new Size(138, 40);
             button6.TabIndex = 3;
             button6.Text = "Kết quả thi";
             button6.UseVisualStyleBackColor = false;
@@ -165,21 +148,20 @@
             // 
             // panelGiaoVien
             // 
+            panelGiaoVien.BackColor = Color.Transparent;
             panelGiaoVien.Controls.Add(button4);
             panelGiaoVien.Controls.Add(button3);
-            panelGiaoVien.Location = new Point(21, 70);
-            panelGiaoVien.Margin = new Padding(3, 2, 3, 2);
+            panelGiaoVien.Location = new Point(29, 93);
             panelGiaoVien.Name = "panelGiaoVien";
-            panelGiaoVien.Size = new Size(121, 82);
+            panelGiaoVien.Size = new Size(138, 109);
             panelGiaoVien.TabIndex = 26;
             // 
             // button4
             // 
-            button4.BackColor = SystemColors.InactiveCaption;
-            button4.Location = new Point(0, 36);
-            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.BackColor = Color.DarkOrange;
+            button4.Location = new Point(0, 48);
             button4.Name = "button4";
-            button4.Size = new Size(121, 30);
+            button4.Size = new Size(138, 40);
             button4.TabIndex = 1;
             button4.Text = "Lịch dạy";
             button4.UseVisualStyleBackColor = false;
@@ -187,11 +169,10 @@
             // 
             // button3
             // 
-            button3.BackColor = SystemColors.InactiveCaption;
-            button3.Location = new Point(0, 4);
-            button3.Margin = new Padding(3, 2, 3, 2);
+            button3.BackColor = Color.DarkOrange;
+            button3.Location = new Point(0, 5);
             button3.Name = "button3";
-            button3.Size = new Size(121, 30);
+            button3.Size = new Size(138, 40);
             button3.TabIndex = 0;
             button3.Text = "Danh sách";
             button3.UseVisualStyleBackColor = false;
@@ -201,18 +182,16 @@
             // 
             panelGV.Controls.Add(button2);
             panelGV.Controls.Add(button1);
-            panelGV.Location = new Point(144, 35);
-            panelGV.Margin = new Padding(3, 2, 3, 2);
+            panelGV.Location = new Point(165, 47);
             panelGV.Name = "panelGV";
-            panelGV.Size = new Size(119, 66);
+            panelGV.Size = new Size(136, 88);
             panelGV.TabIndex = 10;
             // 
             // button2
             // 
-            button2.Location = new Point(3, 37);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(3, 49);
             button2.Name = "button2";
-            button2.Size = new Size(114, 27);
+            button2.Size = new Size(130, 36);
             button2.TabIndex = 1;
             button2.Text = "Lịch Dạy";
             button2.UseVisualStyleBackColor = true;
@@ -220,10 +199,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(0, 8);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(0, 11);
             button1.Name = "button1";
-            button1.Size = new Size(116, 30);
+            button1.Size = new Size(133, 40);
             button1.TabIndex = 0;
             button1.Text = "Danh sách";
             button1.UseVisualStyleBackColor = true;
@@ -233,19 +211,17 @@
             // 
             panelHV.Controls.Add(btnKetQua);
             panelHV.Controls.Add(btnDSHV);
-            panelHV.Location = new Point(144, 72);
-            panelHV.Margin = new Padding(3, 2, 3, 2);
+            panelHV.Location = new Point(165, 96);
             panelHV.Name = "panelHV";
-            panelHV.Size = new Size(116, 69);
+            panelHV.Size = new Size(133, 92);
             panelHV.TabIndex = 10;
             // 
             // btnKetQua
             // 
             btnKetQua.AutoSize = true;
-            btnKetQua.Location = new Point(0, 40);
-            btnKetQua.Margin = new Padding(3, 2, 3, 2);
+            btnKetQua.Location = new Point(0, 53);
             btnKetQua.Name = "btnKetQua";
-            btnKetQua.Size = new Size(114, 27);
+            btnKetQua.Size = new Size(130, 40);
             btnKetQua.TabIndex = 2;
             btnKetQua.Text = "Kết Quả thi";
             btnKetQua.UseVisualStyleBackColor = true;
@@ -253,10 +229,9 @@
             // 
             // btnDSHV
             // 
-            btnDSHV.Location = new Point(0, 10);
-            btnDSHV.Margin = new Padding(3, 2, 3, 2);
+            btnDSHV.Location = new Point(0, 13);
             btnDSHV.Name = "btnDSHV";
-            btnDSHV.Size = new Size(114, 27);
+            btnDSHV.Size = new Size(130, 36);
             btnDSHV.TabIndex = 1;
             btnDSHV.Text = "Danh Sách ";
             btnDSHV.UseVisualStyleBackColor = true;
@@ -266,10 +241,9 @@
             // 
             btnKhoaHoc.BackColor = Color.Orange;
             btnKhoaHoc.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnKhoaHoc.Location = new Point(3, 141);
-            btnKhoaHoc.Margin = new Padding(3, 2, 3, 2);
+            btnKhoaHoc.Location = new Point(3, 188);
             btnKhoaHoc.Name = "btnKhoaHoc";
-            btnKhoaHoc.Size = new Size(136, 35);
+            btnKhoaHoc.Size = new Size(155, 47);
             btnKhoaHoc.TabIndex = 9;
             btnKhoaHoc.Text = "Khóa Học";
             btnKhoaHoc.TextAlign = ContentAlignment.MiddleLeft;
@@ -280,10 +254,9 @@
             // 
             btnDangXuat.BackColor = Color.Orange;
             btnDangXuat.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnDangXuat.Location = new Point(4, 234);
-            btnDangXuat.Margin = new Padding(3, 2, 3, 2);
+            btnDangXuat.Location = new Point(5, 312);
             btnDangXuat.Name = "btnDangXuat";
-            btnDangXuat.Size = new Size(136, 35);
+            btnDangXuat.Size = new Size(155, 47);
             btnDangXuat.TabIndex = 8;
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = ContentAlignment.MiddleLeft;
@@ -294,10 +267,9 @@
             // 
             btnTaiKhoan.BackColor = Color.Orange;
             btnTaiKhoan.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnTaiKhoan.Location = new Point(3, 205);
-            btnTaiKhoan.Margin = new Padding(3, 2, 3, 2);
+            btnTaiKhoan.Location = new Point(3, 273);
             btnTaiKhoan.Name = "btnTaiKhoan";
-            btnTaiKhoan.Size = new Size(136, 35);
+            btnTaiKhoan.Size = new Size(155, 47);
             btnTaiKhoan.TabIndex = 6;
             btnTaiKhoan.Text = "Tài khoản";
             btnTaiKhoan.TextAlign = ContentAlignment.MiddleLeft;
@@ -308,10 +280,9 @@
             // 
             btnHocPhi.BackColor = Color.Orange;
             btnHocPhi.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnHocPhi.Location = new Point(3, 174);
-            btnHocPhi.Margin = new Padding(3, 2, 3, 2);
+            btnHocPhi.Location = new Point(3, 232);
             btnHocPhi.Name = "btnHocPhi";
-            btnHocPhi.Size = new Size(136, 35);
+            btnHocPhi.Size = new Size(155, 47);
             btnHocPhi.TabIndex = 4;
             btnHocPhi.Text = "Học phí";
             btnHocPhi.TextAlign = ContentAlignment.MiddleLeft;
@@ -322,10 +293,9 @@
             // 
             btnLopHoc.BackColor = Color.Orange;
             btnLopHoc.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnLopHoc.Location = new Point(3, 106);
-            btnLopHoc.Margin = new Padding(3, 2, 3, 2);
+            btnLopHoc.Location = new Point(3, 141);
             btnLopHoc.Name = "btnLopHoc";
-            btnLopHoc.Size = new Size(136, 35);
+            btnLopHoc.Size = new Size(155, 47);
             btnLopHoc.TabIndex = 3;
             btnLopHoc.Text = "Lớp học";
             btnLopHoc.TextAlign = ContentAlignment.MiddleLeft;
@@ -336,10 +306,9 @@
             // 
             btnHocVien.BackColor = Color.Orange;
             btnHocVien.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnHocVien.Location = new Point(3, 70);
-            btnHocVien.Margin = new Padding(3, 2, 3, 2);
+            btnHocVien.Location = new Point(3, 93);
             btnHocVien.Name = "btnHocVien";
-            btnHocVien.Size = new Size(136, 35);
+            btnHocVien.Size = new Size(155, 47);
             btnHocVien.TabIndex = 2;
             btnHocVien.Text = "Học viên";
             btnHocVien.TextAlign = ContentAlignment.MiddleLeft;
@@ -350,10 +319,9 @@
             // 
             btnGiaoVien.BackColor = Color.Orange;
             btnGiaoVien.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnGiaoVien.Location = new Point(3, 35);
-            btnGiaoVien.Margin = new Padding(3, 2, 3, 2);
+            btnGiaoVien.Location = new Point(3, 47);
             btnGiaoVien.Name = "btnGiaoVien";
-            btnGiaoVien.Size = new Size(136, 35);
+            btnGiaoVien.Size = new Size(155, 47);
             btnGiaoVien.TabIndex = 1;
             btnGiaoVien.Text = "Giáo viên";
             btnGiaoVien.TextAlign = ContentAlignment.MiddleLeft;
@@ -365,14 +333,20 @@
             btnTrangChu.BackColor = Color.Orange;
             btnTrangChu.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnTrangChu.Location = new Point(3, 0);
-            btnTrangChu.Margin = new Padding(3, 2, 3, 2);
             btnTrangChu.Name = "btnTrangChu";
-            btnTrangChu.Size = new Size(136, 35);
+            btnTrangChu.Size = new Size(155, 47);
             btnTrangChu.TabIndex = 0;
             btnTrangChu.Text = "Trang chủ";
             btnTrangChu.TextAlign = ContentAlignment.MiddleLeft;
             btnTrangChu.UseVisualStyleBackColor = false;
             btnTrangChu.Click += btnTrangChu_Click;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(0, 0);
+            button8.Name = "button8";
+            button8.Size = new Size(75, 23);
+            button8.TabIndex = 0;
             // 
             // lblXinChao
             // 
@@ -382,9 +356,6 @@
             lblXinChao.Location = new Point(229, 28);
             lblXinChao.Name = "lblXinChao";
             lblXinChao.Size = new Size(249, 41);
-            lblXinChao.Location = new Point(200, 21);
-            lblXinChao.Name = "lblXinChao";
-            lblXinChao.Size = new Size(203, 32);
             lblXinChao.TabIndex = 4;
             lblXinChao.Text = "Xin chào, Admin";
             lblXinChao.Click += label1_Click_1;
@@ -393,9 +364,9 @@
             // 
             lblNgay.AutoSize = true;
             lblNgay.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblNgay.Location = new Point(198, 55);
+            lblNgay.Location = new Point(226, 73);
             lblNgay.Name = "lblNgay";
-            lblNgay.Size = new Size(188, 15);
+            lblNgay.Size = new Size(241, 20);
             lblNgay.TabIndex = 5;
             lblNgay.Text = "Thứ bảy, ngày tháng năm để đây ";
             lblNgay.Click += label2_Click;
@@ -405,16 +376,15 @@
             label1.AutoSize = true;
             label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(0, 15);
+            label1.Size = new Size(0, 20);
             label1.TabIndex = 24;
             // 
             // pnlMain
             // 
             pnlMain.Controls.Add(pnlHome);
-            pnlMain.Location = new Point(198, 74);
-            pnlMain.Margin = new Padding(3, 2, 3, 2);
+            pnlMain.Location = new Point(226, 99);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(962, 450);
+            pnlMain.Size = new Size(1099, 600);
             pnlMain.TabIndex = 25;
             pnlMain.Paint += pnlMain_Paint;
             // 
@@ -436,10 +406,9 @@
             pnlHome.Controls.Add(label5);
             pnlHome.Controls.Add(label4);
             pnlHome.Controls.Add(label3);
-            pnlHome.Location = new Point(3, 2);
-            pnlHome.Margin = new Padding(3, 2, 3, 2);
+            pnlHome.Location = new Point(3, 3);
             pnlHome.Name = "pnlHome";
-            pnlHome.Size = new Size(942, 446);
+            pnlHome.Size = new Size(1077, 595);
             pnlHome.TabIndex = 0;
             pnlHome.Paint += pnlHome_Paint;
             // 
@@ -449,9 +418,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.OrangeRed;
-            label2.Location = new Point(519, 76);
+            label2.Location = new Point(593, 101);
             label2.Name = "label2";
-            label2.Size = new Size(144, 21);
+            label2.Size = new Size(182, 28);
             label2.TabIndex = 49;
             label2.Text = "Tỷ lệ học viên đạt";
             label2.Click += label2_Click_1;
@@ -462,15 +431,14 @@
             chartKetQua.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             chartKetQua.Legends.Add(legend3);
-            chartKetQua.Location = new Point(519, 107);
-            chartKetQua.Margin = new Padding(3, 2, 3, 2);
+            chartKetQua.Location = new Point(593, 143);
             chartKetQua.Name = "chartKetQua";
             chartKetQua.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry;
             series3.ChartArea = "ChartArea1";
             series3.Legend = "Legend1";
             series3.Name = "Series1";
             chartKetQua.Series.Add(series3);
-            chartKetQua.Size = new Size(370, 159);
+            chartKetQua.Size = new Size(423, 212);
             chartKetQua.TabIndex = 48;
             chartKetQua.Text = "chart2";
             // 
@@ -478,9 +446,9 @@
             // 
             label15.AutoSize = true;
             label15.BackColor = Color.Transparent;
-            label15.Location = new Point(118, 373);
+            label15.Location = new Point(135, 497);
             label15.Name = "label15";
-            label15.Size = new Size(158, 15);
+            label15.Size = new Size(199, 20);
             label15.TabIndex = 47;
             label15.Text = "Số lớp chưa nhập kết quả thi";
             // 
@@ -491,9 +459,6 @@
             label14.Location = new Point(135, 465);
             label14.Name = "label14";
             label14.Size = new Size(219, 20);
-            label14.Location = new Point(118, 349);
-            label14.Name = "label14";
-            label14.Size = new Size(173, 15);
             label14.TabIndex = 46;
             label14.Text = "Số đánh giá điểm thấp cần xem";
             // 
@@ -501,38 +466,14 @@
             // 
             label13.AutoSize = true;
             label13.BackColor = Color.Transparent;
-            label13.Location = new Point(135, 438);
+            label13.Location = new Point(135, 437);
             label13.Name = "label13";
             label13.Size = new Size(185, 20);
-            label13.Location = new Point(118, 328);
-            label13.Name = "label13";
-            label13.Size = new Size(147, 15);
             label13.TabIndex = 45;
             label13.Text = "Số lớp khai giảng tuần này";
             // 
             // chartHocVien
             // 
-            chartArea2.AxisX.Interval = 1D;
-            chartArea2.AxisX.Maximum = 12D;
-            chartArea2.AxisX.Minimum = 1D;
-            chartArea2.AxisX.Title = "Tháng";
-            chartArea2.AxisY.Interval = 1D;
-            chartArea2.AxisY.Minimum = 0D;
-            chartArea2.AxisY.Title = "Số học viên";
-            chartArea2.Name = "ChartArea1";
-            chartHocVien.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            chartHocVien.Legends.Add(legend2);
-            chartHocVien.Location = new Point(135, 144);
-            chartHocVien.Name = "chartHocVien";
-            chartHocVien.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.LegendText = "Số học viên đăng ký";
-            series2.Name = "Series1";
-            series2.SmartLabelStyle.Enabled = false;
-            chartHocVien.Series.Add(series2);
-            chartHocVien.Size = new Size(423, 212);
             chartArea4.AxisX.Interval = 1D;
             chartArea4.AxisX.Maximum = 12D;
             chartArea4.AxisX.Minimum = 1D;
@@ -544,8 +485,7 @@
             chartHocVien.ChartAreas.Add(chartArea4);
             legend4.Name = "Legend1";
             chartHocVien.Legends.Add(legend4);
-            chartHocVien.Location = new Point(118, 108);
-            chartHocVien.Margin = new Padding(3, 2, 3, 2);
+            chartHocVien.Location = new Point(135, 144);
             chartHocVien.Name = "chartHocVien";
             chartHocVien.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series4.ChartArea = "ChartArea1";
@@ -554,7 +494,7 @@
             series4.Name = "Series1";
             series4.SmartLabelStyle.Enabled = false;
             chartHocVien.Series.Add(series4);
-            chartHocVien.Size = new Size(370, 159);
+            chartHocVien.Size = new Size(423, 212);
             chartHocVien.TabIndex = 44;
             chartHocVien.Text = "chart1";
             // 
@@ -563,9 +503,9 @@
             label12.AutoSize = true;
             label12.BackColor = Color.Transparent;
             label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.Location = new Point(118, 298);
+            label12.Location = new Point(135, 397);
             label12.Name = "label12";
-            label12.Size = new Size(84, 21);
+            label12.Size = new Size(104, 28);
             label12.TabIndex = 43;
             label12.Text = "Cần chú ý";
             // 
@@ -575,9 +515,9 @@
             label11.BackColor = Color.Transparent;
             label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label11.ForeColor = Color.OrangeRed;
-            label11.Location = new Point(118, 78);
+            label11.Location = new Point(135, 104);
             label11.Name = "label11";
-            label11.Size = new Size(230, 21);
+            label11.Size = new Size(287, 28);
             label11.TabIndex = 42;
             label11.Text = "Học viên đăng ký theo tháng";
             // 
@@ -586,9 +526,9 @@
             lblTongHocPhi.AutoSize = true;
             lblTongHocPhi.BackColor = Color.Transparent;
             lblTongHocPhi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongHocPhi.Location = new Point(644, 34);
+            lblTongHocPhi.Location = new Point(736, 45);
             lblTongHocPhi.Name = "lblTongHocPhi";
-            lblTongHocPhi.Size = new Size(162, 15);
+            lblTongHocPhi.Size = new Size(205, 20);
             lblTongHocPhi.TabIndex = 41;
             lblTongHocPhi.Text = "Số học phí tháng này để đây";
             // 
@@ -597,9 +537,9 @@
             lblTongLop.AutoSize = true;
             lblTongLop.BackColor = Color.Transparent;
             lblTongLop.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongLop.Location = new Point(430, 34);
+            lblTongLop.Location = new Point(491, 45);
             lblTongLop.Name = "lblTongLop";
-            lblTongLop.Size = new Size(136, 15);
+            lblTongLop.Size = new Size(168, 20);
             lblTongLop.TabIndex = 40;
             lblTongLop.Text = "Số lớp đang mở để đây";
             // 
@@ -608,9 +548,9 @@
             lblTongGiaoVien.AutoSize = true;
             lblTongGiaoVien.BackColor = Color.Transparent;
             lblTongGiaoVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongGiaoVien.Location = new Point(263, 34);
+            lblTongGiaoVien.Location = new Point(301, 45);
             lblTongGiaoVien.Name = "lblTongGiaoVien";
-            lblTongGiaoVien.Size = new Size(115, 15);
+            lblTongGiaoVien.Size = new Size(143, 20);
             lblTongGiaoVien.TabIndex = 39;
             lblTongGiaoVien.Text = "Số giáo viên để đây";
             // 
@@ -619,9 +559,9 @@
             lblTongHocVien.AutoSize = true;
             lblTongHocVien.BackColor = Color.Transparent;
             lblTongHocVien.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongHocVien.Location = new Point(107, 34);
+            lblTongHocVien.Location = new Point(122, 45);
             lblTongHocVien.Name = "lblTongHocVien";
-            lblTongHocVien.Size = new Size(112, 15);
+            lblTongHocVien.Size = new Size(138, 20);
             lblTongHocVien.TabIndex = 38;
             lblTongHocVien.Text = "Số học viên để đây";
             // 
@@ -631,9 +571,9 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.OrangeRed;
-            label6.Location = new Point(644, 2);
+            label6.Location = new Point(736, 3);
             label6.Name = "label6";
-            label6.Size = new Size(203, 30);
+            label6.Size = new Size(258, 38);
             label6.TabIndex = 37;
             label6.Text = "Học phí tháng này";
             // 
@@ -643,9 +583,9 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = Color.OrangeRed;
-            label5.Location = new Point(430, 2);
+            label5.Location = new Point(491, 3);
             label5.Name = "label5";
-            label5.Size = new Size(151, 30);
+            label5.Size = new Size(193, 38);
             label5.TabIndex = 36;
             label5.Text = "Lớp đang mở";
             // 
@@ -655,9 +595,9 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.OrangeRed;
-            label4.Location = new Point(263, 2);
+            label4.Location = new Point(301, 3);
             label4.Name = "label4";
-            label4.Size = new Size(112, 30);
+            label4.Size = new Size(144, 38);
             label4.TabIndex = 35;
             label4.Text = "Giáo Viên";
             // 
@@ -667,38 +607,31 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.OrangeRed;
-            label3.Location = new Point(107, 2);
+            label3.Location = new Point(122, 3);
             label3.Name = "label3";
-            label3.Size = new Size(106, 30);
+            label3.Size = new Size(135, 38);
             label3.TabIndex = 34;
             label3.Text = "Học Viên";
             // 
             // panel3
             // 
             panel3.Controls.Add(panel4);
-            panel3.Location = new Point(46, 5);
+            panel3.Location = new Point(53, 7);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(142, 65);
+            panel3.Size = new Size(162, 87);
             panel3.TabIndex = 30;
             panel3.Paint += panel3_Paint;
-            // 
-            // panel2
-            // 
-            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
-            panel2.BackgroundImageLayout = ImageLayout.Center;
-            panel2.Location = new Point(46, 5);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(70, 65);
-            panel2.TabIndex = 31;
             // 
             // panel4
             // 
             panel4.Controls.Add(label9);
             panel4.Controls.Add(label8);
             panel4.Controls.Add(label7);
-            panel4.Location = new Point(72, 0);
+            panel4.Location = new Point(82, 0);
+            panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.Name = "panel4";
-            panel4.Size = new Size(70, 65);
+            panel4.Size = new Size(80, 87);
             panel4.TabIndex = 32;
             // 
             // label9
@@ -708,9 +641,9 @@
             label9.AutoSize = true;
             label9.FlatStyle = FlatStyle.Popup;
             label9.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label9.Location = new Point(12, 43);
+            label9.Location = new Point(14, 57);
             label9.Name = "label9";
-            label9.Size = new Size(41, 13);
+            label9.Size = new Size(53, 19);
             label9.TabIndex = 5;
             label9.Text = "Center";
             label9.TextAlign = ContentAlignment.MiddleCenter;
@@ -722,9 +655,9 @@
             label8.AutoSize = true;
             label8.FlatStyle = FlatStyle.Popup;
             label8.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label8.Location = new Point(12, 26);
+            label8.Location = new Point(14, 35);
             label8.Name = "label8";
-            label8.Size = new Size(45, 13);
+            label8.Size = new Size(55, 19);
             label8.TabIndex = 4;
             label8.Text = "English";
             label8.TextAlign = ContentAlignment.MiddleCenter;
@@ -736,19 +669,29 @@
             label7.AutoSize = true;
             label7.FlatStyle = FlatStyle.Popup;
             label7.Font = new Font("Segoe UI", 8.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(12, 9);
+            label7.Location = new Point(14, 12);
             label7.Name = "label7";
-            label7.Size = new Size(46, 13);
+            label7.Size = new Size(59, 19);
             label7.TabIndex = 3;
             label7.Text = "Canada";
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // panel2
+            // 
+            panel2.BackgroundImageLayout = ImageLayout.Center;
+            panel2.Location = new Point(53, 7);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(80, 87);
+            panel2.TabIndex = 31;
+            // 
             // FrmMain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1180, 541);
+            ClientSize = new Size(1349, 721);
+            Controls.Add(panelHocVien);
             Controls.Add(panel2);
             Controls.Add(panel3);
             Controls.Add(pnlMain);
@@ -756,7 +699,6 @@
             Controls.Add(lblNgay);
             Controls.Add(lblXinChao);
             Controls.Add(panel1);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmMain";
             Text = "FrmMain";
             Load += FrmMain_Load_1;

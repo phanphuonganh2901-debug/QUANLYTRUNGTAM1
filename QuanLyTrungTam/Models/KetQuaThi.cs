@@ -21,7 +21,7 @@ namespace QuanLyTrungTam.Models
         [ForeignKey("LopHoc")]
         public string MaLop { get; set; }
         public DateTime NgayThi { get; set; }
-        public decimal DiemThi { get; set; }
+        public double DiemThi { get; set; }
         public string XepLoai { get; set; }
         public LopHoc? LopHoc { get; set; }
         public HocVien? HocVien { get; set; }

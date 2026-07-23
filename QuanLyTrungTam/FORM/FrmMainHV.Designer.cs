@@ -28,33 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMainHV));
             panel2 = new Panel();
+            lblEmail = new Label();
             button3 = new Button();
+            lblCMND = new Label();
             lblSDT = new Label();
-            lblDiaChi = new Label();
+            lblNgheNghiep = new Label();
             lblNgaySinh = new Label();
-            lblMaGV = new Label();
-            lblTenGV = new Label();
-            pictureBox1 = new PictureBox();
+            lblMaHV = new Label();
+            lblTenHV = new Label();
             pnlMain = new Panel();
             pnlHome = new Panel();
             lblHocPhiCon = new Label();
             label6 = new Label();
             dataLichHomNay = new DataGridView();
             label11 = new Label();
-            chartHocVien = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            chartDiem = new System.Windows.Forms.DataVisualization.Charting.Chart();
             lblTongKH = new Label();
-            lblTongBuoi = new Label();
-            lblTongHV = new Label();
+            lblDiemTB = new Label();
+            lblTongLop = new Label();
             label4 = new Label();
             label3 = new Label();
             label1 = new Label();
             label2 = new Label();
             panel1 = new Panel();
+            btnHocPhi = new Button();
             panelGV = new Panel();
             button2 = new Button();
             button1 = new Button();
@@ -69,13 +71,11 @@
             lblNgay = new Label();
             lblXinChao = new Label();
             button8 = new Button();
-            btnHocPhi = new Button();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             pnlMain.SuspendLayout();
             pnlHome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataLichHomNay).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)chartHocVien).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)chartDiem).BeginInit();
             panel1.SuspendLayout();
             panelGV.SuspendLayout();
             panelHV.SuspendLayout();
@@ -83,79 +83,92 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(lblEmail);
             panel2.Controls.Add(button3);
+            panel2.Controls.Add(lblCMND);
             panel2.Controls.Add(lblSDT);
-            panel2.Controls.Add(lblDiaChi);
+            panel2.Controls.Add(lblNgheNghiep);
             panel2.Controls.Add(lblNgaySinh);
-            panel2.Controls.Add(lblMaGV);
-            panel2.Controls.Add(lblTenGV);
-            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(lblMaHV);
+            panel2.Controls.Add(lblTenHV);
             panel2.Location = new Point(3, 408);
             panel2.Name = "panel2";
             panel2.Size = new Size(227, 276);
             panel2.TabIndex = 34;
             // 
+            // lblEmail
+            // 
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new Point(9, 191);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new Size(46, 20);
+            lblEmail.TabIndex = 8;
+            lblEmail.Text = "email";
+            // 
             // button3
             // 
-            button3.Location = new Point(34, 237);
+            button3.Location = new Point(55, 232);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 6;
             button3.Text = "Chi Tiết";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // lblCMND
+            // 
+            lblCMND.AutoSize = true;
+            lblCMND.Location = new Point(9, 75);
+            lblCMND.Name = "lblCMND";
+            lblCMND.Size = new Size(53, 20);
+            lblCMND.TabIndex = 7;
+            lblCMND.Text = "CMND";
             // 
             // lblSDT
             // 
             lblSDT.AutoSize = true;
-            lblSDT.Location = new Point(3, 206);
+            lblSDT.Location = new Point(9, 162);
             lblSDT.Name = "lblSDT";
             lblSDT.Size = new Size(36, 20);
             lblSDT.TabIndex = 5;
             lblSDT.Text = "SĐT";
             // 
-            // lblDiaChi
+            // lblNgheNghiep
             // 
-            lblDiaChi.AutoSize = true;
-            lblDiaChi.Location = new Point(3, 174);
-            lblDiaChi.Name = "lblDiaChi";
-            lblDiaChi.Size = new Size(53, 20);
-            lblDiaChi.TabIndex = 4;
-            lblDiaChi.Text = "địa chỉ";
+            lblNgheNghiep.AutoSize = true;
+            lblNgheNghiep.Location = new Point(9, 133);
+            lblNgheNghiep.Name = "lblNgheNghiep";
+            lblNgheNghiep.Size = new Size(98, 20);
+            lblNgheNghiep.TabIndex = 4;
+            lblNgheNghiep.Text = "Nghề Nghiệp";
             // 
             // lblNgaySinh
             // 
             lblNgaySinh.AutoSize = true;
-            lblNgaySinh.Location = new Point(3, 143);
+            lblNgaySinh.Location = new Point(9, 104);
             lblNgaySinh.Name = "lblNgaySinh";
             lblNgaySinh.Size = new Size(74, 20);
             lblNgaySinh.TabIndex = 3;
             lblNgaySinh.Text = "Ngày sinh";
+            lblNgaySinh.Click += lblNgaySinh_Click;
             // 
-            // lblMaGV
+            // lblMaHV
             // 
-            lblMaGV.AutoSize = true;
-            lblMaGV.Location = new Point(3, 114);
-            lblMaGV.Name = "lblMaGV";
-            lblMaGV.Size = new Size(50, 20);
-            lblMaGV.TabIndex = 2;
-            lblMaGV.Text = "mã gv";
+            lblMaHV.AutoSize = true;
+            lblMaHV.Location = new Point(9, 46);
+            lblMaHV.Name = "lblMaHV";
+            lblMaHV.Size = new Size(49, 20);
+            lblMaHV.TabIndex = 2;
+            lblMaHV.Text = "mã hv";
             // 
-            // lblTenGV
+            // lblTenHV
             // 
-            lblTenGV.AutoSize = true;
-            lblTenGV.Location = new Point(3, 85);
-            lblTenGV.Name = "lblTenGV";
-            lblTenGV.Size = new Size(50, 20);
-            lblTenGV.TabIndex = 1;
-            lblTenGV.Text = "tên gv";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(34, 3);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(125, 62);
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
+            lblTenHV.AutoSize = true;
+            lblTenHV.Location = new Point(9, 17);
+            lblTenHV.Name = "lblTenHV";
+            lblTenHV.Size = new Size(49, 20);
+            lblTenHV.TabIndex = 1;
+            lblTenHV.Text = "tên hv";
             // 
             // pnlMain
             // 
@@ -171,10 +184,10 @@
             pnlHome.Controls.Add(label6);
             pnlHome.Controls.Add(dataLichHomNay);
             pnlHome.Controls.Add(label11);
-            pnlHome.Controls.Add(chartHocVien);
+            pnlHome.Controls.Add(chartDiem);
             pnlHome.Controls.Add(lblTongKH);
-            pnlHome.Controls.Add(lblTongBuoi);
-            pnlHome.Controls.Add(lblTongHV);
+            pnlHome.Controls.Add(lblDiemTB);
+            pnlHome.Controls.Add(lblTongLop);
             pnlHome.Controls.Add(label4);
             pnlHome.Controls.Add(label3);
             pnlHome.Controls.Add(label1);
@@ -190,11 +203,12 @@
             lblHocPhiCon.AutoSize = true;
             lblHocPhiCon.BackColor = Color.Transparent;
             lblHocPhiCon.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblHocPhiCon.Location = new Point(117, 38);
+            lblHocPhiCon.Location = new Point(105, 38);
             lblHocPhiCon.Name = "lblHocPhiCon";
             lblHocPhiCon.Size = new Size(60, 20);
             lblHocPhiCon.TabIndex = 65;
             lblHocPhiCon.Text = "học phí";
+            lblHocPhiCon.Click += lblHocPhiCon_Click;
             // 
             // label6
             // 
@@ -230,21 +244,21 @@
             label11.TabIndex = 61;
             label11.Text = "Điểm các môn";
             // 
-            // chartHocVien
+            // chartDiem
             // 
-            chartArea4.Name = "ChartArea1";
-            chartHocVien.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            chartHocVien.Legends.Add(legend4);
-            chartHocVien.Location = new Point(16, 108);
-            chartHocVien.Name = "chartHocVien";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            chartHocVien.Series.Add(series4);
-            chartHocVien.Size = new Size(300, 212);
-            chartHocVien.TabIndex = 59;
-            chartHocVien.Text = "chart1";
+            chartArea1.Name = "ChartArea1";
+            chartDiem.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            chartDiem.Legends.Add(legend1);
+            chartDiem.Location = new Point(16, 108);
+            chartDiem.Name = "chartDiem";
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            chartDiem.Series.Add(series1);
+            chartDiem.Size = new Size(300, 212);
+            chartDiem.TabIndex = 59;
+            chartDiem.Text = "chart1";
             // 
             // lblTongKH
             // 
@@ -256,28 +270,31 @@
             lblTongKH.Size = new Size(146, 20);
             lblTongKH.TabIndex = 58;
             lblTongKH.Text = "Số khóa học của gv ";
+            lblTongKH.Click += lblTongKH_Click;
             // 
-            // lblTongBuoi
+            // lblDiemTB
             // 
-            lblTongBuoi.AutoSize = true;
-            lblTongBuoi.BackColor = Color.Transparent;
-            lblTongBuoi.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongBuoi.Location = new Point(506, 38);
-            lblTongBuoi.Name = "lblTongBuoi";
-            lblTongBuoi.Size = new Size(99, 20);
-            lblTongBuoi.TabIndex = 57;
-            lblTongBuoi.Text = "điểm tb môn";
+            lblDiemTB.AutoSize = true;
+            lblDiemTB.BackColor = Color.Transparent;
+            lblDiemTB.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblDiemTB.Location = new Point(506, 38);
+            lblDiemTB.Name = "lblDiemTB";
+            lblDiemTB.Size = new Size(99, 20);
+            lblDiemTB.TabIndex = 57;
+            lblDiemTB.Text = "điểm tb môn";
+            lblDiemTB.Click += lblDiemTB_Click;
             // 
-            // lblTongHV
+            // lblTongLop
             // 
-            lblTongHV.AutoSize = true;
-            lblTongHV.BackColor = Color.Transparent;
-            lblTongHV.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            lblTongHV.Location = new Point(308, 38);
-            lblTongHV.Name = "lblTongHV";
-            lblTongHV.Size = new Size(156, 20);
-            lblTongHV.TabIndex = 56;
-            lblTongHV.Text = "hiển thị lớp đang học";
+            lblTongLop.AutoSize = true;
+            lblTongLop.BackColor = Color.Transparent;
+            lblTongLop.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            lblTongLop.Location = new Point(308, 38);
+            lblTongLop.Name = "lblTongLop";
+            lblTongLop.Size = new Size(156, 20);
+            lblTongLop.TabIndex = 56;
+            lblTongLop.Text = "hiển thị lớp đang học";
+            lblTongLop.Click += lblTongHV_Click;
             // 
             // label4
             // 
@@ -309,7 +326,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.OrangeRed;
-            label1.Location = new Point(290, 10);
+            label1.Location = new Point(308, 10);
             label1.Name = "label1";
             label1.Size = new Size(141, 28);
             label1.TabIndex = 51;
@@ -341,6 +358,19 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(162, 315);
             panel1.TabIndex = 32;
+            // 
+            // btnHocPhi
+            // 
+            btnHocPhi.BackColor = Color.Orange;
+            btnHocPhi.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            btnHocPhi.Location = new Point(4, 215);
+            btnHocPhi.Name = "btnHocPhi";
+            btnHocPhi.Size = new Size(155, 47);
+            btnHocPhi.TabIndex = 11;
+            btnHocPhi.Text = "Học Phí";
+            btnHocPhi.TextAlign = ContentAlignment.MiddleLeft;
+            btnHocPhi.UseVisualStyleBackColor = false;
+            btnHocPhi.Click += btnHocPhi_Click;
             // 
             // panelGV
             // 
@@ -408,6 +438,7 @@
             btnKhoaHoc.Text = "Khóa Học";
             btnKhoaHoc.TextAlign = ContentAlignment.MiddleLeft;
             btnKhoaHoc.UseVisualStyleBackColor = false;
+            btnKhoaHoc.Click += btnKhoaHoc_Click;
             // 
             // btnDangXuat
             // 
@@ -420,6 +451,7 @@
             btnDangXuat.Text = "Đăng xuất";
             btnDangXuat.TextAlign = ContentAlignment.MiddleLeft;
             btnDangXuat.UseVisualStyleBackColor = false;
+            btnDangXuat.Click += btnDangXuat_Click;
             // 
             // btnLichHoc
             // 
@@ -432,6 +464,7 @@
             btnLichHoc.Text = "Lịch Học";
             btnLichHoc.TextAlign = ContentAlignment.MiddleLeft;
             btnLichHoc.UseVisualStyleBackColor = false;
+            btnLichHoc.Click += btnLichHoc_Click;
             // 
             // btnKetQuaThi
             // 
@@ -444,6 +477,7 @@
             btnKetQuaThi.Text = "Kết Quả Thi";
             btnKetQuaThi.TextAlign = ContentAlignment.MiddleLeft;
             btnKetQuaThi.UseVisualStyleBackColor = false;
+            btnKetQuaThi.Click += btnKetQuaThi_Click;
             // 
             // btnTrangChu
             // 
@@ -491,23 +525,11 @@
             button8.TextImageRelation = TextImageRelation.ImageBeforeText;
             button8.UseVisualStyleBackColor = true;
             // 
-            // btnHocPhi
-            // 
-            btnHocPhi.BackColor = Color.Orange;
-            btnHocPhi.Font = new Font("Verdana", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            btnHocPhi.Location = new Point(4, 215);
-            btnHocPhi.Name = "btnHocPhi";
-            btnHocPhi.Size = new Size(155, 47);
-            btnHocPhi.TabIndex = 11;
-            btnHocPhi.Text = "Học Phí";
-            btnHocPhi.TextAlign = ContentAlignment.MiddleLeft;
-            btnHocPhi.UseVisualStyleBackColor = false;
-            // 
             // FrmMainHV
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1348, 721);
+            ClientSize = new Size(1349, 721);
             Controls.Add(panel2);
             Controls.Add(pnlMain);
             Controls.Add(panel1);
@@ -516,14 +538,14 @@
             Controls.Add(button8);
             Name = "FrmMainHV";
             Text = "FrmMainHV";
+            Load += FrmMainHV_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             pnlMain.ResumeLayout(false);
             pnlHome.ResumeLayout(false);
             pnlHome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataLichHomNay).EndInit();
-            ((System.ComponentModel.ISupportInitialize)chartHocVien).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartDiem).EndInit();
             panel1.ResumeLayout(false);
             panelGV.ResumeLayout(false);
             panelHV.ResumeLayout(false);
@@ -537,21 +559,20 @@
         private Panel panel2;
         private Button button3;
         private Label lblSDT;
-        private Label lblDiaChi;
+        private Label lblNgheNghiep;
         private Label lblNgaySinh;
-        private Label lblMaGV;
-        private Label lblTenGV;
-        private PictureBox pictureBox1;
+        private Label lblMaHV;
+        private Label lblTenHV;
         private Panel pnlMain;
         private Panel pnlHome;
         private Label lblHocPhiCon;
         private Label label6;
         private DataGridView dataLichHomNay;
         private Label label11;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chartHocVien;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartDiem;
         private Label lblTongKH;
-        private Label lblTongBuoi;
-        private Label lblTongHV;
+        private Label lblDiemTB;
+        private Label lblTongLop;
         private Label label4;
         private Label label3;
         private Label label1;
@@ -572,5 +593,7 @@
         private Label lblXinChao;
         private Button button8;
         private Button btnHocPhi;
+        private Label lblCMND;
+        private Label lblEmail;
     }
 }

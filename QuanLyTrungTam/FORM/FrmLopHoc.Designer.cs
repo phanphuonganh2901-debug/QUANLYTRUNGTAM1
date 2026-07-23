@@ -31,8 +31,8 @@
             panel2 = new Panel();
             dataLopHoc = new DataGridView();
             panelTop = new Panel();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtMaGV = new TextBox();
+            txtSiSo = new TextBox();
             txtPhongHoc = new TextBox();
             txtMaKH = new TextBox();
             label8 = new Label();
@@ -77,11 +77,12 @@
             dataLopHoc.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataLopHoc.Size = new Size(1082, 373);
             dataLopHoc.TabIndex = 0;
+            dataLopHoc.CellContentClick += dataLopHoc_CellContentClick;
             // 
             // panelTop
             // 
-            panelTop.Controls.Add(textBox2);
-            panelTop.Controls.Add(textBox1);
+            panelTop.Controls.Add(txtMaGV);
+            panelTop.Controls.Add(txtSiSo);
             panelTop.Controls.Add(txtPhongHoc);
             panelTop.Controls.Add(txtMaKH);
             panelTop.Controls.Add(label8);
@@ -107,19 +108,19 @@
             panelTop.TabIndex = 2;
             panelTop.Paint += panelTop_Paint;
             // 
-            // textBox2
+            // txtMaGV
             // 
-            textBox2.Location = new Point(145, 111);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(181, 27);
-            textBox2.TabIndex = 40;
+            txtMaGV.Location = new Point(145, 111);
+            txtMaGV.Name = "txtMaGV";
+            txtMaGV.Size = new Size(181, 27);
+            txtMaGV.TabIndex = 40;
             // 
-            // textBox1
+            // txtSiSo
             // 
-            textBox1.Location = new Point(145, 78);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(181, 27);
-            textBox1.TabIndex = 39;
+            txtSiSo.Location = new Point(145, 78);
+            txtSiSo.Name = "txtSiSo";
+            txtSiSo.Size = new Size(181, 27);
+            txtSiSo.TabIndex = 39;
             // 
             // txtPhongHoc
             // 
@@ -164,6 +165,7 @@
             btnTimKiem.TabIndex = 34;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -174,6 +176,7 @@
             btnLoad.TabIndex = 33;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -184,6 +187,7 @@
             btnXoa.TabIndex = 32;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -194,6 +198,7 @@
             btnSua.TabIndex = 31;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -204,6 +209,7 @@
             btnThem.TabIndex = 30;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
             // txtTenLop
             // 
@@ -303,6 +309,7 @@
             Controls.Add(panelTop);
             Name = "FrmLopHoc";
             Text = "FrmLopHoc";
+            Load += FrmLopHoc_Load;
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataLopHoc).EndInit();
             panelTop.ResumeLayout(false);
@@ -336,7 +343,7 @@
         private Label label1;
         private TextBox txtPhongHoc;
         private TextBox txtMaKH;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtMaGV;
+        private TextBox txtSiSo;
     }
 }

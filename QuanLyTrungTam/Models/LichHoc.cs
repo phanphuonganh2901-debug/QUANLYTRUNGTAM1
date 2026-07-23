@@ -14,6 +14,7 @@ namespace QuanLyTrungTam.Models
         [Key]
         public string MaLich { get; set; }
         public string MaLop { get; set; }
+        public string MaGV { get; set; }
         public DateTime NgayHoc { get; set; }
         public string GioBatDau { get; set; }
         public string GioKetThuc { get; set; }

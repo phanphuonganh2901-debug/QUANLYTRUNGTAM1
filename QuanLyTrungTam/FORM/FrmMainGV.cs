@@ -16,32 +16,19 @@ namespace QuanLyTrungTam.FORM
 {
     public partial class FrmMainGV : Form
     {
-        private string maGV;
+        private string vaiTro;
+        private string maNguoiDung;
 
-        public FrmMainGV(string maGV)
+        public FrmMainGV(string vaiTro, string maNguoiDung)
         {
             InitializeComponent();
 
-            this.maGV = maGV;
+            this.vaiTro = vaiTro;
+            this.maNguoiDung = maNguoiDung;
         }
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            lblNgay.Text = DateTime.Now.ToString("dddd, dd/MM/yyyy");
-            pnlHome.Dock = DockStyle.Fill;
-
-            pnlMain.Controls.Add(pnlHome);
-
-            LoadThongTinGV();
-
-            LoadThongKe();
-
-            VeBieuDoHocVien();
-
-            VeBieuDoDiem();
-
-            LoadLichHomNay();
-
-            MessageBox.Show(maGV);
+            
 
         }
         DBContext db = new DBContext();
@@ -49,7 +36,7 @@ namespace QuanLyTrungTam.FORM
         private void LoadThongTinGV()
         {
             var gv = db.GiaoViens
-                       .FirstOrDefault(x => x.MaGV == maGV);
+                       .FirstOrDefault(x => x.MaGV == maNguoiDung);
 
             if (gv == null) return;
 
@@ -75,7 +62,7 @@ namespace QuanLyTrungTam.FORM
         {
             //Số lớp
 
-            int lop = db.LopHocs.Count(x => x.MaGV == maGV);
+            int lop = db.LopHocs.Count(x => x.MaGV == maNguoiDung);
 
             lblTongLop.Text = lop.ToString();
 
@@ -83,7 +70,7 @@ namespace QuanLyTrungTam.FORM
             //Tổng học viên
 
             int hocVien = db.BienLaiHocPhis
-                            .Where(x => x.LopHoc.MaGV == maGV)
+                            .Where(x => x.LopHoc.MaGV == maNguoiDung)
                             .Select(x => x.MaHV)
                             .Distinct()
                             .Count();
@@ -94,7 +81,7 @@ namespace QuanLyTrungTam.FORM
             //Số ca hôm nay
 
             int buoi = db.LichHocs
-                         .Count(x => x.LopHoc.MaGV == maGV
+                         .Count(x => x.LopHoc.MaGV == maNguoiDung
                          && x.NgayHoc.Date == DateTime.Today);
 
             lblTongBuoi.Text = buoi.ToString();
@@ -103,7 +90,7 @@ namespace QuanLyTrungTam.FORM
             //Khóa học
 
             int khoa = db.LopHocs
-                         .Where(x => x.MaGV == maGV)
+                         .Where(x => x.MaGV == maNguoiDung)
                          .Select(x => x.MaKH)
                          .Distinct()
                          .Count();
@@ -119,7 +106,7 @@ namespace QuanLyTrungTam.FORM
             s.ChartType = SeriesChartType.Column;
 
             var ds = db.LopHocs
-                .Where(x => x.MaGV == maGV)
+                .Where(x => x.MaGV == maNguoiDung)
                 .Select(x => new
                 {
                     x.TenLop,
@@ -143,7 +130,7 @@ namespace QuanLyTrungTam.FORM
             s.ChartType = SeriesChartType.Column;
 
             var ds = db.LopHocs
-                .Where(l => l.MaGV == maGV)
+                .Where(l => l.MaGV == maNguoiDung)
                 .ToList();
 
             foreach (var lop in ds)
@@ -161,7 +148,7 @@ namespace QuanLyTrungTam.FORM
         {
             dataLichHomNay.DataSource =
                 db.LichHocs
-                .Where(x => x.LopHoc.MaGV == maGV
+                .Where(x => x.LopHoc.MaGV == maNguoiDung
                          && x.NgayHoc.Date == DateTime.Today)
                 .Select(x => new
                 {
@@ -187,7 +174,19 @@ namespace QuanLyTrungTam.FORM
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
+            DialogResult rs = MessageBox.Show(
+            "Bạn có muốn đăng xuất không?",
+            "Đăng xuất",
+            MessageBoxButtons.YesNo,
+            MessageBoxIcon.Question);
 
+            if (rs == DialogResult.Yes)
+            {
+                FrmLoginChoose frm = new FrmLoginChoose();
+                frm.Show();
+
+                this.Hide();
+            }
         }
 
         private void chart2_Click(object sender, EventArgs e)
@@ -215,6 +214,26 @@ namespace QuanLyTrungTam.FORM
         private void lblTongLop_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void FrmMainGV_Load(object sender, EventArgs e)
+        {
+            lblNgay.Text = DateTime.Now.ToString("dddd, dd/MM/yyyy");
+            pnlHome.Dock = DockStyle.Fill;
+
+            pnlMain.Controls.Add(pnlHome);
+
+            LoadThongTinGV();
+
+            LoadThongKe();
+
+            VeBieuDoHocVien();
+
+            VeBieuDoDiem();
+
+            LoadLichHomNay();
+
+            
         }
     }
 }

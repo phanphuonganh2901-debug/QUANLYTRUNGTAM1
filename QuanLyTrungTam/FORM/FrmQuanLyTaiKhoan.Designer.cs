@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             panel2 = new Panel();
-            dataGridView1 = new DataGridView();
+            dataTaiKhoan = new DataGridView();
             panelTop = new Panel();
             cboVaiTro = new ComboBox();
             txtTimKiem = new TextBox();
@@ -47,31 +47,32 @@
             label4 = new Label();
             label2 = new Label();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataTaiKhoan).BeginInit();
             panelTop.SuspendLayout();
             SuspendLayout();
             // 
             // panel2
             // 
-            panel2.Controls.Add(dataGridView1);
+            panel2.Controls.Add(dataTaiKhoan);
             panel2.Dock = DockStyle.Fill;
             panel2.Location = new Point(0, 198);
             panel2.Name = "panel2";
             panel2.Size = new Size(1082, 355);
             panel2.TabIndex = 3;
             // 
-            // dataGridView1
+            // dataTaiKhoan
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(0, 3);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1082, 370);
-            dataGridView1.TabIndex = 0;
+            dataTaiKhoan.AllowUserToAddRows = false;
+            dataTaiKhoan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataTaiKhoan.Location = new Point(0, 3);
+            dataTaiKhoan.Name = "dataTaiKhoan";
+            dataTaiKhoan.ReadOnly = true;
+            dataTaiKhoan.RowHeadersWidth = 51;
+            dataTaiKhoan.RowTemplate.Height = 29;
+            dataTaiKhoan.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataTaiKhoan.Size = new Size(1082, 370);
+            dataTaiKhoan.TabIndex = 0;
+            dataTaiKhoan.CellContentClick += dataGridView1_CellContentClick;
             // 
             // panelTop
             // 
@@ -123,6 +124,7 @@
             btnTimKiem.TabIndex = 54;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -133,6 +135,7 @@
             btnLoad.TabIndex = 53;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -143,6 +146,7 @@
             btnXoa.TabIndex = 52;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -153,6 +157,7 @@
             btnSua.TabIndex = 51;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -163,6 +168,7 @@
             btnThem.TabIndex = 50;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
             // label3
             // 
@@ -250,8 +256,9 @@
             Controls.Add(panelTop);
             Name = "FrmQuanLyTaiKhoan";
             Text = "FrmQuanLyTaiKhoan";
+            Load += FrmQuanLyTaiKhoan_Load;
             panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataTaiKhoan).EndInit();
             panelTop.ResumeLayout(false);
             panelTop.PerformLayout();
             ResumeLayout(false);
@@ -260,7 +267,7 @@
         #endregion
 
         private Panel panel2;
-        private DataGridView dataGridView1;
+        private DataGridView dataTaiKhoan;
         private Panel panelTop;
         private TextBox txtMaNguoiDung;
         private TextBox txtMatKhau;

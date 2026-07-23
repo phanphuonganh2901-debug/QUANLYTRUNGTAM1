@@ -35,12 +35,12 @@
             btnXoa = new Button();
             btnSua = new Button();
             btnThem = new Button();
-            cboGioKT = new ComboBox();
-            cboGioBD = new ComboBox();
-            cboGiaoVien = new ComboBox();
+            cboGioKetThuc = new ComboBox();
+            cboGioBatDau = new ComboBox();
+            cboMaGV = new ComboBox();
             label10 = new Label();
-            cboLop = new ComboBox();
-            dtpNgayHoc = new DateTimePicker();
+            cboMaLop = new ComboBox();
+            dtNgayHoc = new DateTimePicker();
             txtNoiDung = new TextBox();
             label9 = new Label();
             txtPhongHoc = new TextBox();
@@ -68,12 +68,12 @@
             panelTop.Controls.Add(btnXoa);
             panelTop.Controls.Add(btnSua);
             panelTop.Controls.Add(btnThem);
-            panelTop.Controls.Add(cboGioKT);
-            panelTop.Controls.Add(cboGioBD);
-            panelTop.Controls.Add(cboGiaoVien);
+            panelTop.Controls.Add(cboGioKetThuc);
+            panelTop.Controls.Add(cboGioBatDau);
+            panelTop.Controls.Add(cboMaGV);
             panelTop.Controls.Add(label10);
-            panelTop.Controls.Add(cboLop);
-            panelTop.Controls.Add(dtpNgayHoc);
+            panelTop.Controls.Add(cboMaLop);
+            panelTop.Controls.Add(dtNgayHoc);
             panelTop.Controls.Add(txtNoiDung);
             panelTop.Controls.Add(label9);
             panelTop.Controls.Add(txtPhongHoc);
@@ -111,6 +111,7 @@
             btnTimKiem.TabIndex = 51;
             btnTimKiem.Text = "Tìm Kiếm";
             btnTimKiem.UseVisualStyleBackColor = false;
+            btnTimKiem.Click += btnTimKiem_Click;
             // 
             // btnLoad
             // 
@@ -121,6 +122,7 @@
             btnLoad.TabIndex = 50;
             btnLoad.Text = "Làm Mới";
             btnLoad.UseVisualStyleBackColor = false;
+            btnLoad.Click += btnLoad_Click;
             // 
             // btnXoa
             // 
@@ -131,6 +133,7 @@
             btnXoa.TabIndex = 49;
             btnXoa.Text = "Xóa";
             btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click;
             // 
             // btnSua
             // 
@@ -141,6 +144,7 @@
             btnSua.TabIndex = 48;
             btnSua.Text = "Sửa";
             btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click;
             // 
             // btnThem
             // 
@@ -151,30 +155,31 @@
             btnThem.TabIndex = 47;
             btnThem.Text = "Thêm";
             btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click;
             // 
-            // cboGioKT
+            // cboGioKetThuc
             // 
-            cboGioKT.FormattingEnabled = true;
-            cboGioKT.Location = new Point(828, 82);
-            cboGioKT.Name = "cboGioKT";
-            cboGioKT.Size = new Size(151, 28);
-            cboGioKT.TabIndex = 46;
+            cboGioKetThuc.FormattingEnabled = true;
+            cboGioKetThuc.Location = new Point(828, 82);
+            cboGioKetThuc.Name = "cboGioKetThuc";
+            cboGioKetThuc.Size = new Size(151, 28);
+            cboGioKetThuc.TabIndex = 46;
             // 
-            // cboGioBD
+            // cboGioBatDau
             // 
-            cboGioBD.FormattingEnabled = true;
-            cboGioBD.Location = new Point(466, 77);
-            cboGioBD.Name = "cboGioBD";
-            cboGioBD.Size = new Size(151, 28);
-            cboGioBD.TabIndex = 45;
+            cboGioBatDau.FormattingEnabled = true;
+            cboGioBatDau.Location = new Point(466, 77);
+            cboGioBatDau.Name = "cboGioBatDau";
+            cboGioBatDau.Size = new Size(151, 28);
+            cboGioBatDau.TabIndex = 45;
             // 
-            // cboGiaoVien
+            // cboMaGV
             // 
-            cboGiaoVien.FormattingEnabled = true;
-            cboGiaoVien.Location = new Point(156, 114);
-            cboGiaoVien.Name = "cboGiaoVien";
-            cboGiaoVien.Size = new Size(151, 28);
-            cboGiaoVien.TabIndex = 44;
+            cboMaGV.FormattingEnabled = true;
+            cboMaGV.Location = new Point(156, 114);
+            cboMaGV.Name = "cboMaGV";
+            cboMaGV.Size = new Size(151, 28);
+            cboMaGV.TabIndex = 44;
             // 
             // label10
             // 
@@ -183,25 +188,25 @@
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label10.Location = new Point(69, 117);
             label10.Name = "label10";
-            label10.Size = new Size(76, 20);
+            label10.Size = new Size(56, 20);
             label10.TabIndex = 43;
-            label10.Text = "Giáo Viên";
+            label10.Text = "Mã GV";
             label10.Click += label10_Click;
             // 
-            // cboLop
+            // cboMaLop
             // 
-            cboLop.FormattingEnabled = true;
-            cboLop.Location = new Point(156, 81);
-            cboLop.Name = "cboLop";
-            cboLop.Size = new Size(151, 28);
-            cboLop.TabIndex = 42;
+            cboMaLop.FormattingEnabled = true;
+            cboMaLop.Location = new Point(156, 81);
+            cboMaLop.Name = "cboMaLop";
+            cboMaLop.Size = new Size(151, 28);
+            cboMaLop.TabIndex = 42;
             // 
-            // dtpNgayHoc
+            // dtNgayHoc
             // 
-            dtpNgayHoc.Location = new Point(468, 46);
-            dtpNgayHoc.Name = "dtpNgayHoc";
-            dtpNgayHoc.Size = new Size(250, 27);
-            dtpNgayHoc.TabIndex = 41;
+            dtNgayHoc.Location = new Point(468, 46);
+            dtNgayHoc.Name = "dtNgayHoc";
+            dtNgayHoc.Size = new Size(250, 27);
+            dtNgayHoc.TabIndex = 41;
             // 
             // txtNoiDung
             // 
@@ -339,6 +344,7 @@
             dataLichHoc.RowTemplate.Height = 29;
             dataLichHoc.Size = new Size(1082, 330);
             dataLichHoc.TabIndex = 0;
+            dataLichHoc.CellContentClick += dataLichHoc_CellContentClick;
             // 
             // FrmLichHoc
             // 
@@ -371,13 +377,13 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private DateTimePicker dtpNgayHoc;
+        private DateTimePicker dtNgayHoc;
         private Panel panel4;
         private Label label10;
-        private ComboBox cboLop;
-        private ComboBox cboGioKT;
-        private ComboBox cboGioBD;
-        private ComboBox cboGiaoVien;
+        private ComboBox cboMaLop;
+        private ComboBox cboGioKetThuc;
+        private ComboBox cboGioBatDau;
+        private ComboBox cboMaGV;
         private DataGridView dataLichHoc;
         private TextBox txtTimKiem;
         private Button btnTimKiem;

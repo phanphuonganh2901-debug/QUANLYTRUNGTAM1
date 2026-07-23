@@ -20,6 +20,6 @@ namespace QuanLyTrungTam.Models
 
         public string MaNguoiDung { get; set; }
 
-        public bool TrangThai { get; set; } = true;
+        
     }
 }
